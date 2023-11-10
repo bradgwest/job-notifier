@@ -2,11 +2,10 @@
 
 ## Quick Start
 
-```
-dev
-```
-
 ## Development
 
-Prerequisites:
-* [`pkgx`](https://docs.pkgx.sh/)
+```sh
+make dev-deps
+# develop
+make qa
+```

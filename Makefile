@@ -9,25 +9,25 @@ venv:
 deps: venv
 	$(BIN)/pip install -r requirements.txt
 
-.PHONY: deps-dev
-deps-dev:
+.PHONY: dev-deps
+dev-deps:
 	$(BIN)/pip install -r requirements_dev.txt
 	$(MAKE) deps
 
 .PHONY: fmt
-fmt: deps-dev
+fmt: dev-deps
 	$(BIN)/black .
 	$(BIN)/isort .
 
 .PHONY: lint
-lint: deps-dev
+lint: dev-deps
 	$(BIN)/isort --check .
 	$(BIN)/black --check .
 	$(BIN)/flake8 .
 	$(BIN)/pyright .
 
 .PHONY: test
-test: deps-dev
+test: dev-deps
 	$(BIN)/pytest .
 
 .PHONY: qa
