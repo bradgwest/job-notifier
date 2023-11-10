@@ -2,6 +2,10 @@
 
 ## Quick Start
 
+```sh
+python src/main.py -h
+```
+
 ### Development
 
 ```sh
