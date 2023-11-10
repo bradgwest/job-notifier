@@ -2,10 +2,8 @@
 
 ## Quick Start
 
-## Development
+### Development
 
 ```sh
 make dev-deps
-# develop
-make qa
 ```
