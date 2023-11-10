@@ -1,5 +1,5 @@
-from src.parsers.parser import Job
-from src.parsers.stripe import StripeParser
+from src.parser.parser import Job
+from src.parser.stripe import StripeParser
 
 
 def test_stripe_parser(get_page):

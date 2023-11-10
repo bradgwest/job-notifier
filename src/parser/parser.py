@@ -1,12 +1,9 @@
-from typing import List, NamedTuple
+from typing import List
 
 import requests
 from bs4 import BeautifulSoup
 
-
-class Job(NamedTuple):
-    title: str
-    url: str
+from src.job import Job
 
 
 class Parser:

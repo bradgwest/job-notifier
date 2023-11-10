@@ -2,7 +2,8 @@ from typing import List
 
 from bs4 import BeautifulSoup
 
-from src.parsers.parser import Job, Parser
+from src.job import Job
+from src.parser.parser import Parser
 
 
 class StripeParser(Parser):
