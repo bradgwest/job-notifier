@@ -15,7 +15,7 @@ def test_stripe_parser(get_page):
     ]
 
     parser = StripeParser()
-    html = get_page(parser.COMPANY)
+    html = get_page(parser.ORG)
     jobs = parser.parse(html)
 
     for job in expected:

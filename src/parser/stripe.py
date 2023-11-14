@@ -7,7 +7,7 @@ from src.parser.parser import Parser
 
 
 class StripeParser(Parser):
-    COMPANY = "stripe"
+    ORG = "stripe"
 
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [

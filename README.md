@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```sh
-python src/main.py -h
+python src/notifier.py -h
 ```
 
 ### Development

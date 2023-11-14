@@ -2,3 +2,11 @@
 # pkgx:
 #   python@3.12
 #---
+
+[tool.pyright]
+include = ["src"]
+exclude = [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.venv"
+]

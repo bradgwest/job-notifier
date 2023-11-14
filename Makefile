@@ -24,7 +24,7 @@ lint: dev-deps
 	$(BIN)/isort --check .
 	$(BIN)/black --check .
 	$(BIN)/flake8 .
-	$(BIN)/pyright .
+	$(BIN)/pyright --project pyproject.toml .
 
 .PHONY: test
 test: dev-deps

@@ -8,8 +8,8 @@ PAGES_DIR = os.path.join(DATA_DIR, "pages")
 
 @pytest.fixture
 def get_page():
-    def _reader(company):
-        html_path = os.path.join(PAGES_DIR, f"{company}.html")
+    def _reader(org):
+        html_path = os.path.join(PAGES_DIR, f"{org}.html")
         with open(html_path) as f:
             return f.read()
 
