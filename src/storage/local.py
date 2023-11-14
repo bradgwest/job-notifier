@@ -1,6 +1,7 @@
 import datetime
 import io
 import os
+import uuid
 from typing import Generator, NamedTuple, Optional
 
 from src.storage.storage import Storage
@@ -22,8 +23,11 @@ class LocalStorage(Storage):
         if dt is None:
             dt = datetime.datetime.now(tz=datetime.timezone.utc)
 
+        def _uuid():
+            return uuid.uuid4().hex.upper()[0:8]
+
         directory = self.directory(org)
-        ts = dt.strftime("%y%m%dT%H%M%S")
+        ts = dt.strftime(f"%y%m%dT%H%M%S_{_uuid()}")
         return os.path.join(directory, f"{org}_{ts}.json")
 
     def _read(self, org: str) -> Generator[io.StringIO, None, None]:
@@ -34,7 +38,7 @@ class LocalStorage(Storage):
             reverse=True,
         )
         for file in files:
-            with open(file) as f:
+            with open(os.path.join(directory, file)) as f:
                 yield io.StringIO(f.read())
 
     def _write(self, buff: io.StringIO, org: str) -> None:
