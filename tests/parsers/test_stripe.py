@@ -1,8 +1,10 @@
+from typing import Callable
+
 from src.parser.parser import Job
 from src.parser.stripe import StripeParser
 
 
-def test_stripe_parser(get_page):
+def test_stripe_parser(get_page: Callable[[str], str]):
     expected = [
         Job(
             "Frontend Engineer, Growth",

@@ -5,8 +5,10 @@ from typing import Dict, Generator, List, NamedTuple, Optional, Type
 
 from src.job import Job
 
+Config = Type[NamedTuple]
 
-def config_from_env(cls: Type[NamedTuple]) -> NamedTuple:
+
+def config_from_env(cls: Config) -> NamedTuple:
     prefix = cls._field_defaults.get("env_var_prefix")
     if prefix is not None:
         kwargs: Dict[str, str] = {

@@ -38,11 +38,11 @@ def diff_org(store: Storage):
     pass
 
 
-def main(storage: Type[Storage]) -> None:
-    store = storage()
+def main(storage: Storage) -> None:
+    # cfg = config_from_env(config)
 
     for org in ORGANIZATIONS:
-        diff_org(store)
+        diff_org(storage)
 
 
 if __name__ == "__main__":

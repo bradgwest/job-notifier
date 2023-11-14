@@ -1,5 +1,5 @@
 import io
-from typing import NamedTuple, Optional, cast
+from typing import List, NamedTuple, Optional, cast
 
 import pytest
 
@@ -25,14 +25,15 @@ class TesterStorage(Storage):
         ],
     ]
 
-    def __init__(self, config: Optional[NamedTuple] = None):
-        self.buffers = []
+    def __init__(self, config: TesterConfig):
+        self.config = config
+        self.buffers: List[io.StringIO] = []
 
-    def _read(self, org):
+    def _read(self, org: str):
         for page in self.buffers:
             yield io.StringIO(page.getvalue())
 
-    def _write(self, buff, org):
+    def _write(self, buff: io.StringIO, org: str):
         self.buffers.append(io.StringIO(buff.getvalue()))
 
 
@@ -41,7 +42,7 @@ def test_config_from_env():
 
 
 def test_storage():
-    store = TesterStorage()
+    store = TesterStorage(TesterConfig(path="/test/path"))
     org = "org"
 
     for page in store.LISTINGS:
@@ -52,7 +53,7 @@ def test_storage():
     assert pages == TesterStorage.LISTINGS
 
 
-def test_config_from_env_creates_config(monkeypatch):
+def test_config_from_env_creates_config(monkeypatch: pytest.MonkeyPatch):
     test_path = "/test/path"
     test_optional_var = "updated_test_var"
     monkeypatch.setenv(
@@ -67,6 +68,6 @@ def test_config_from_env_creates_config(monkeypatch):
     assert config.optional_var == test_optional_var
 
 
-def test_config_from_env_raises_on_missing_env_var(monkeypatch):
+def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPatch):
     with pytest.raises(RuntimeError):
         config_from_env(TesterConfig)
