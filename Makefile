@@ -28,7 +28,7 @@ lint: dev-deps
 
 .PHONY: test
 test: dev-deps
-	$(BIN)/pytest .
+	$(BIN)/pytest --cov .
 
 .PHONY: qa
 qa: lint test
