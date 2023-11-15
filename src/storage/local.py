@@ -7,13 +7,13 @@ from typing import Generator, NamedTuple, Optional
 from src.storage.storage import Storage
 
 
-class LocalConfig(NamedTuple):
+class LocalStorageConfig(NamedTuple):
     path: str
     env_var_prefix: str = "LOCAL_STORAGE_"
 
 
 class LocalStorage(Storage):
-    def __init__(self, config: LocalConfig):
+    def __init__(self, config: LocalStorageConfig):
         self.config = config
 
     def directory(self, org: str) -> str:

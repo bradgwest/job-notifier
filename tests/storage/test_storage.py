@@ -1,13 +1,11 @@
 import io
-from typing import List, NamedTuple, Optional, cast
-
-import pytest
+from typing import List, NamedTuple, Optional
 
 from src.job import Job
-from src.storage.storage import Storage, config_from_env
+from src.storage.storage import Storage
 
 
-class TesterConfig(NamedTuple):
+class TesterStorageConfig(NamedTuple):
     path: str
     optional_var: Optional[str] = "test"
     env_var_prefix: str = "TESTER_BACKEND_"
@@ -25,7 +23,7 @@ class TesterStorage(Storage):
         ],
     ]
 
-    def __init__(self, config: TesterConfig):
+    def __init__(self, config: TesterStorageConfig):
         self.config = config
         self.buffers: List[io.StringIO] = []
 
@@ -42,32 +40,12 @@ def test_config_from_env():
 
 
 def test_storage():
-    store = TesterStorage(TesterConfig(path="/test/path"))
+    storage = TesterStorage(TesterStorageConfig(path="/test/path"))
     org = "org"
 
-    for page in store.LISTINGS:
+    for page in storage.LISTINGS:
         buff = io.StringIO()
-        store.write(org, page, buff)
+        storage.write(org, page, buff)
 
-    pages = list(store.read(org))
+    pages = list(storage.read(org))
     assert pages == TesterStorage.LISTINGS
-
-
-def test_config_from_env_creates_config(monkeypatch: pytest.MonkeyPatch):
-    test_path = "/test/path"
-    test_optional_var = "updated_test_var"
-    monkeypatch.setenv(
-        TesterConfig._field_defaults["env_var_prefix"] + "PATH", test_path
-    )
-    monkeypatch.setenv(
-        TesterConfig._field_defaults["env_var_prefix"] + "OPTIONAL_VAR",
-        test_optional_var,
-    )
-    config = cast(TesterConfig, config_from_env(TesterConfig))
-    assert config.path == test_path
-    assert config.optional_var == test_optional_var
-
-
-def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPatch):
-    with pytest.raises(RuntimeError):
-        config_from_env(TesterConfig)

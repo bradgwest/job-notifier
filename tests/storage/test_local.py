@@ -1,7 +1,7 @@
 import pathlib
 
 from src.job import Job
-from src.storage.local import LocalConfig, LocalStorage
+from src.storage.local import LocalStorage, LocalStorageConfig
 
 
 def test_local_storage(tmp_path: pathlib.Path):
@@ -23,7 +23,7 @@ def test_local_storage(tmp_path: pathlib.Path):
     directory = tmp_path / "test"
     directory.mkdir()
 
-    config = LocalConfig(path=str(directory))
+    config = LocalStorageConfig(path=str(directory))
     storage = LocalStorage(config)
 
     for page in LISTINGS:

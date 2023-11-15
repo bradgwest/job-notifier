@@ -1,28 +1,10 @@
 import io
 import json
-import os
-from typing import Dict, Generator, List, NamedTuple, Optional, Type
+from typing import Generator, List, NamedTuple, Optional, Type
 
 from src.job import Job
 
-Config = Type[NamedTuple]
-
-
-def config_from_env(cls: Config) -> NamedTuple:
-    prefix = cls._field_defaults.get("env_var_prefix")
-    if prefix is not None:
-        kwargs: Dict[str, str] = {
-            name[len(prefix) :].lower(): os.environ[name]
-            for name in os.environ
-            if name.startswith(prefix)
-        }
-    else:
-        kwargs: Dict[str, str] = {}
-
-    try:
-        return cls(**kwargs)  # type: ignore
-    except TypeError as e:
-        raise RuntimeError(f"Could not create {cls.__name__} from environment") from e
+StorageConfig = Type[NamedTuple]
 
 
 class Storage:
