@@ -8,6 +8,9 @@ StorageConfig = Type[NamedTuple]
 
 
 class Storage:
+    def __init__(self, config: StorageConfig) -> None:
+        self.config = config
+
     def read(self, org: str) -> Generator[List[Job], None, None]:
         """Generate job listings from storage.
 

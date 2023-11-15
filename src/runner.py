@@ -3,19 +3,22 @@
 import argparse
 import os
 import re
-from typing import Any, Dict, List, Mapping, NamedTuple, Optional, Tuple, Type
+from typing import Any, Dict, List, Mapping, Optional, Tuple, Type, cast
 
 import requests
 
 from src.job import Job
 from src.notifier.local import LocalNotifier, LocalNotifierConfig
-from src.notifier.notifier import Notifier
+from src.notifier.notifier import Notifier, NotifierConfig
 from src.org import Org
 from src.parser.stripe import StripeParser
 from src.storage.local import LocalStorage, LocalStorageConfig
-from src.storage.storage import Storage
+from src.storage.storage import Storage, StorageConfig
 
-Config = Type[NamedTuple]
+ConfigType = Type[NotifierConfig] | Type[StorageConfig]
+BackendType = Type[Storage] | Type[Notifier]
+Config = StorageConfig | NotifierConfig
+Backend = Storage | Notifier
 
 ORGANIZATIONS = [
     Org(
@@ -24,17 +27,17 @@ ORGANIZATIONS = [
         StripeParser,
     ),
 ]
-STORAGE_BACKENDS: Mapping[str | None, Tuple[Type[Storage], Type[Config]]] = {
+STORAGE_BACKENDS: Mapping[str | None, Tuple[Type[Storage], ConfigType]] = {
     None: (LocalStorage, LocalStorageConfig),
     "LocalStorage": (LocalStorage, LocalStorageConfig),
 }
-NOTIFIER_BACKENDS: Mapping[str | None, Tuple[Type[Notifier], Type[Config]]] = {
+NOTIFIER_BACKENDS: Mapping[str | None, Tuple[Type[Notifier], ConfigType]] = {
     None: (LocalNotifier, LocalNotifierConfig),
     "LocalNotifier": (LocalNotifier, LocalNotifierConfig),
 }
 
 
-def config_from_env(cls: Config) -> NamedTuple:
+def config_from_env(cls: Config) -> Config:
     prefix = cls._field_defaults.get("env_var_prefix")
     if prefix is not None:
         kwargs: Dict[str, str] = {
@@ -54,13 +57,18 @@ def config_from_env(cls: Config) -> NamedTuple:
 def parse_backend(
     val: Optional[str],
     allowed_values: Mapping[
-        str | None, Tuple[Type[Storage] | Type[Notifier], Type[Config]]
+        str | None, Tuple[Type[Storage] | Type[Notifier], ConfigType]
     ],
-) -> Tuple[Type[Any], Type[Config]]:
+) -> Tuple[Type[Any], ConfigType]:
     if val in allowed_values:
         return allowed_values[val]
 
     raise argparse.ArgumentTypeError(f"Unsupported backend: {val}")
+
+
+def setup_backend(backend_type: BackendType, config: Config) -> Backend:
+    cfg = config_from_env(config)
+    return backend_type(cfg)
 
 
 class Runner:
@@ -132,12 +140,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    storage_type, storage_config = args.storage_backend()
-    cfg = config_from_env(storage_config)
-    storage = storage_type(cfg)
-
-    notifier_type, notifier_config = args.notifier_backend()
-    cfg = config_from_env(notifier_config)
-    notifier = notifier_type(cfg)
+    storage = cast(Storage, setup_backend(*args.storage_backend()))
+    notifier = cast(Notifier, setup_backend(*args.notifier_backend()))
 
     main(storage, notifier, ORGANIZATIONS)

@@ -7,6 +7,9 @@ NotifierConfig = Type[NamedTuple]
 
 
 class Notifier:
+    def __init__(self, config: NotifierConfig) -> None:
+        self.config = config
+
     def _notify(self, org: Org, job: Job) -> None:
         raise NotImplementedError()
 
