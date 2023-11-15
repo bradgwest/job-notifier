@@ -5,6 +5,8 @@ import os
 import re
 from typing import Any, Dict, List, Mapping, NamedTuple, Optional, Tuple, Type
 
+import requests
+
 from src.job import Job
 from src.notifier.local import LocalNotifier, LocalNotifierConfig
 from src.notifier.notifier import Notifier
@@ -69,9 +71,16 @@ class Runner:
         self.orgs: List[Org] = orgs
         self.jobs: Dict[Org, List[Job]] = {}
 
+    @staticmethod
+    def _read(url: str) -> str:
+        r = requests.get(url)
+        r.raise_for_status()
+        return r.content.decode(r.encoding or "utf-8")
+
     def _update(self, org: Org) -> None:
         parser = org.parser()
-        jobs = parser.parse(org.job_url)
+        content = self._read(org.job_url)
+        jobs = parser.parse(content)
         self.storage.write(org.name, jobs)
 
     def update_storage(self) -> None:

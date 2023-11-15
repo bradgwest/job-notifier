@@ -7,8 +7,6 @@ from src.parser.parser import Parser
 
 
 class StripeParser(Parser):
-    ORG = "stripe"
-
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
             Job(title=listing.text.strip(), url=listing["href"])

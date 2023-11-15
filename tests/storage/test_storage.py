@@ -5,13 +5,13 @@ from src.job import Job
 from src.storage.storage import Storage
 
 
-class TesterStorageConfig(NamedTuple):
+class TestStorageConfig(NamedTuple):
     path: str
     optional_var: Optional[str] = "test"
     env_var_prefix: str = "TESTER_BACKEND_"
 
 
-class TesterStorage(Storage):
+class TestStorage(Storage):
     LISTINGS = [
         [
             Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
@@ -23,7 +23,7 @@ class TesterStorage(Storage):
         ],
     ]
 
-    def __init__(self, config: TesterStorageConfig):
+    def __init__(self, config: TestStorageConfig):
         self.config = config
         self.buffers: List[io.StringIO] = []
 
@@ -40,7 +40,7 @@ def test_config_from_env():
 
 
 def test_storage():
-    storage = TesterStorage(TesterStorageConfig(path="/test/path"))
+    storage = TestStorage(TestStorageConfig(path="/test/path"))
     org = "org"
 
     for page in storage.LISTINGS:
@@ -48,4 +48,4 @@ def test_storage():
         storage.write(org, page, buff)
 
     pages = list(storage.read(org))
-    assert pages == TesterStorage.LISTINGS
+    assert pages == TestStorage.LISTINGS
