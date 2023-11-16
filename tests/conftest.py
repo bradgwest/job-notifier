@@ -19,4 +19,4 @@ def page_reader() -> PageReader:
     return _reader
 
 
-# todo: Add TestNotifier, TestStorage
+# todo: Add NotifierTest, StorageTest

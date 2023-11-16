@@ -6,12 +6,12 @@ from src.org import Org
 from src.parser.parser import Parser
 
 
-class TestNotifierConfig(NamedTuple):
+class NotifierTestConfig(NamedTuple):
     pass
 
 
-class TestNotifier(Notifier):
-    def __init__(self, config: TestNotifierConfig):
+class NotifierTest(Notifier):
+    def __init__(self, config: NotifierTestConfig):
         self.notifications: List[Tuple[Org, Job]] = []
 
     def _notify(self, org: Org, job: Job) -> None:
@@ -31,6 +31,6 @@ def test_notifier():
         ],
     }
 
-    notifier = TestNotifier(TestNotifierConfig())
+    notifier = NotifierTest(NotifierTestConfig())
     notifier.notify(new_jobs)
     assert len(notifier.notifications) == 5
