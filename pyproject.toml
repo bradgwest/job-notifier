@@ -10,3 +10,6 @@ exclude = [
     "**/__pycache__",
     "**/.venv"
 ]
+
+[tool.isort]
+profile = "black"

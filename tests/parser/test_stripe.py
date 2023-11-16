@@ -1,10 +1,9 @@
-from typing import Callable
-
 from src.parser.parser import Job
 from src.parser.stripe import StripeParser
+from src.runner import ORGANIZATIONS, PageReader
 
 
-def test_stripe_parser(get_page: Callable[[str], str]):
+def test_stripe_parser(page_reader: PageReader):
     expected = [
         Job(
             "Frontend Engineer, Growth",
@@ -17,7 +16,7 @@ def test_stripe_parser(get_page: Callable[[str], str]):
     ]
 
     parser = StripeParser()
-    html = get_page("stripe")
+    html = page_reader(ORGANIZATIONS["stripe"])
     jobs = parser.parse(html)
 
     for job in expected:

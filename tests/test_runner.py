@@ -2,9 +2,21 @@ from typing import cast
 
 import pytest
 
-from src.runner import ORGANIZATIONS, config_from_env, main
+from src.notifier.notifier import Notifier
+from src.runner import ORGANIZATIONS, PageReader, Runner, config_from_env
+from src.storage.storage import Storage
 from tests.notifier.test_notifier import TestNotifier, TestNotifierConfig
 from tests.storage.test_storage import TestStorage, TestStorageConfig
+
+
+@pytest.fixture
+def storage() -> Storage:
+    return TestStorage(TestStorageConfig(path="/test/path"))
+
+
+@pytest.fixture
+def notifier() -> Notifier:
+    return TestNotifier(TestNotifierConfig())
 
 
 def test_config_from_env_creates_config(monkeypatch: pytest.MonkeyPatch):
@@ -27,9 +39,11 @@ def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPat
         config_from_env(TestStorageConfig)
 
 
-def test_main():
-    cfg = TestStorageConfig(path="/test/path")
-    storage = TestStorage(cfg)
-    notifier = TestNotifier(TestNotifierConfig())
-    with pytest.raises(RuntimeError):
-        main(storage, notifier, ORGANIZATIONS)
+def test_runner(storage: Storage, notifier: Notifier, page_reader: PageReader):
+    runner = Runner(storage, notifier, page_reader, ORGANIZATIONS)
+    runner.run()
+    assert len(runner.notifier.notifications) == 22  # type: ignore
+
+
+def test_diff_raises_with_no_storage(page_reader: PageReader):
+    pass
