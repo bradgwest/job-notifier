@@ -138,6 +138,7 @@ class Runner:
         self.notifier.notify(new_jobs)
 
 
+# todo: add config for storage and notifier
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
