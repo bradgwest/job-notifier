@@ -12,7 +12,7 @@ class StorageTestConfig(NamedTuple):
 
 
 class StorageTest(Storage):
-    LISTINGS = [
+    LISTINGS: List[List[Job]] = [
         [
             Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
             Job("GPS Engineer", "https://gps-engineers.com/jobs"),

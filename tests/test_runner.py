@@ -1,12 +1,34 @@
-from typing import cast
+from typing import List, cast
 
 import pytest
 
+from src.job import Job
 from src.notifier.notifier import Notifier
+from src.org import Org
+from src.parser.parser import Parser
 from src.runner import ORGANIZATIONS, PageReader, Runner, config_from_env
 from src.storage.storage import Storage
 from tests.notifier.test_notifier import NotifierTest, NotifierTestConfig
 from tests.storage.test_storage import StorageTest, StorageTestConfig
+
+
+@pytest.fixture
+def listings() -> List[List[Job]]:
+    return [
+        [
+            Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
+            Job("GPS Engineer", "https://gps-engineers.com/jobs"),
+        ],
+        [
+            Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
+            Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs"),
+        ],
+    ]
+
+
+@pytest.fixture
+def org_map() -> dict[str, Org]:
+    return {"org": Org("org", "url", Parser)}
 
 
 @pytest.fixture
@@ -45,5 +67,47 @@ def test_runner(storage: Storage, notifier: Notifier, page_reader: PageReader):
     assert len(runner.notifier.notifications) == 22  # type: ignore
 
 
-def test_diff_raises_with_no_storage(page_reader: PageReader):
-    pass
+def test_diff_raises_with_no_storage(
+    storage: Storage,
+    notifier: Notifier,
+    page_reader: PageReader,
+    org_map: dict[str, Org],
+):
+    runner = Runner(storage, notifier, page_reader, org_map)
+    with pytest.raises(RuntimeError):
+        runner.diff()
+
+
+def test_diff_returns_only_new_jobs(
+    storage: Storage,
+    notifier: Notifier,
+    page_reader: PageReader,
+    listings: List[List[Job]],
+    org_map: dict[str, Org],
+):
+    runner = Runner(storage, notifier, page_reader, org_map)
+    storage.write("org", listings[0])
+    storage.write("org", listings[1])
+    new_jobs = runner.diff()
+
+    assert new_jobs == {
+        org_map["org"]: [
+            Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs")
+        ]
+    }
+
+
+def test_diff_returns_all_jobs_when_no_previous_jobs(
+    storage: Storage,
+    notifier: Notifier,
+    page_reader: PageReader,
+    listings: List[List[Job]],
+    org_map: dict[str, Org],
+):
+    org_map = {"org": Org("org", "url", Parser)}
+
+    runner = Runner(storage, notifier, page_reader, org_map)
+    storage.write("org", listings[0])
+    new_jobs = runner.diff()
+
+    assert new_jobs == {org_map["org"]: listings[0]}
