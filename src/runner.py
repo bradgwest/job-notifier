@@ -20,7 +20,7 @@ BackendType = Type[Storage] | Type[Notifier]
 Config = StorageConfig | NotifierConfig
 Backend = Storage | Notifier
 PageReader = Callable[[Org], str]
-OrgList = Dict[str, Org]
+OrgMap = Dict[str, Org]
 
 ORGANIZATIONS = {
     "stripe": Org(
@@ -87,12 +87,12 @@ class Runner:
         storage: Storage,
         notifer: Notifier,
         reader: PageReader,
-        orgs: OrgList,
+        orgs: OrgMap,
     ) -> None:
         self.storage = storage
         self.notifier = notifer
         self.reader = reader
-        self.orgs: OrgList = orgs
+        self.orgs: OrgMap = orgs
         self.jobs: Dict[Org, List[Job]] = {}
 
     def _update(self, org: Org) -> None:
