@@ -1,4 +1,5 @@
-from typing import NamedTuple
+import sys
+from typing import NamedTuple, TextIO
 
 from src.job import Job
 from src.notifier.notifier import Notifier
@@ -22,10 +23,14 @@ class Colors:
 
 
 class LocalNotifier(Notifier):
+    def __init__(self, _: LocalNotifierConfig, file: TextIO = sys.stdout) -> None:
+        self.file = file
+
     def _notify(self, org: Org, job: Job) -> None:
         print(
             "New job:"
             f"{Colors.BOLD}{Colors.OKBLUE}{job.title}{Colors.ENDC}{Colors.ENDC}"
             " at "
-            f"{Colors.OKCYAN}{org.name}{Colors.ENDC}"
+            f"{Colors.OKCYAN}{org.name}{Colors.ENDC}",
+            file=self.file,
         )

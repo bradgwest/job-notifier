@@ -35,17 +35,12 @@ class TestStorage(Storage):
         self.buffers.append(io.StringIO(buff.getvalue()))
 
 
-def test_config_from_env():
-    pass
-
-
 def test_storage():
     storage = TestStorage(TestStorageConfig(path="/test/path"))
     org = "org"
 
     for page in storage.LISTINGS:
-        buff = io.StringIO()
-        storage.write(org, page, buff)
+        storage.write(org, page)
 
     pages = list(storage.read(org))
     assert pages == TestStorage.LISTINGS

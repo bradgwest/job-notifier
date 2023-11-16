@@ -1,6 +1,6 @@
 import io
 import json
-from typing import Generator, List, NamedTuple, Optional, Type
+from typing import Generator, List, NamedTuple, Type
 
 from src.job import Job
 
@@ -19,11 +19,8 @@ class Storage:
         for buff in self._read(org):
             yield [Job(**d) for d in json.load(buff)]
 
-    def write(
-        self, org: str, jobs: List[Job], buff: Optional[io.StringIO] = None
-    ) -> None:
-        if buff is None:
-            buff = io.StringIO()
+    def write(self, org: str, jobs: List[Job]) -> None:
+        buff = io.StringIO()
         json.dump([job.to_dict() for job in jobs], buff)
         self._write(buff, org)
         buff.close()
