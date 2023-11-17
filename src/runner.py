@@ -3,7 +3,7 @@
 import argparse
 import os
 import re
-from typing import Any, Callable, Dict, List, Mapping, Optional, Tuple, Type, cast
+from typing import Any, Callable, Dict, List, Mapping, Tuple, Type, cast
 
 import requests
 
@@ -29,12 +29,10 @@ ORGANIZATIONS = {
         StripeParser,
     ),
 }
-STORAGE_BACKENDS: Mapping[str | None, Tuple[Type[Storage], ConfigType]] = {
-    None: (LocalStorage, LocalStorageConfig),
+STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
     "LocalStorage": (LocalStorage, LocalStorageConfig),
 }
-NOTIFIER_BACKENDS: Mapping[str | None, Tuple[Type[Notifier], ConfigType]] = {
-    None: (LocalNotifier, LocalNotifierConfig),
+NOTIFIER_BACKENDS: Mapping[str, Tuple[Type[Notifier], ConfigType]] = {
     "LocalNotifier": (LocalNotifier, LocalNotifierConfig),
 }
 
@@ -57,10 +55,8 @@ def config_from_env(cls: Config) -> Config:
 
 
 def parse_backend(
-    val: Optional[str],
-    allowed_values: Mapping[
-        str | None, Tuple[Type[Storage] | Type[Notifier], ConfigType]
-    ],
+    val: str,
+    allowed_values: Mapping[str, Tuple[Type[Storage] | Type[Notifier], ConfigType]],
 ) -> Tuple[Type[Any], ConfigType]:
     try:
         return allowed_values[val]
@@ -142,15 +138,19 @@ class Runner:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--storage-backend", type=lambda x: parse_backend(x, STORAGE_BACKENDS)
+        "--storage-backend",
+        type=lambda x: parse_backend(x, STORAGE_BACKENDS),
+        default="LocalStorage",
     )
     parser.add_argument(
-        "--notifier-backend", type=lambda x: parse_backend(x, NOTIFIER_BACKENDS)
+        "--notifier-backend",
+        type=lambda x: parse_backend(x, NOTIFIER_BACKENDS),
+        default="LocalNotifier",
     )
     args = parser.parse_args()
 
-    storage = cast(Storage, setup_backend(*args.storage_backend()))
-    notifier = cast(Notifier, setup_backend(*args.notifier_backend()))
+    storage = cast(Storage, setup_backend(*args.storage_backend))
+    notifier = cast(Notifier, setup_backend(*args.notifier_backend))
 
     runner = Runner(storage, notifier, page_reader, ORGANIZATIONS)
     runner.run()

@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```sh
-python src/runner.py -h
+python -m src.runner -h
 ```
 
 ### Development

@@ -11,12 +11,10 @@ class LocalNotifierConfig(NamedTuple):
 
 
 class Colors:
-    HEADER = "\033[95m"
-    OKBLUE = "\033[94m"
-    OKCYAN = "\033[96m"
-    OKGREEN = "\033[92m"
-    WARNING = "\033[93m"
-    FAIL = "\033[91m"
+    # ANSI escape codes
+    BLUE = "\033[94m"
+    CYAN = "\033[96m"
+    GREEN = "\033[92m"
     ENDC = "\033[0m"
     BOLD = "\033[1m"
     UNDERLINE = "\033[4m"
@@ -28,9 +26,8 @@ class LocalNotifier(Notifier):
 
     def _notify(self, org: Org, job: Job) -> None:
         print(
-            "New job:"
-            f"{Colors.BOLD}{Colors.OKBLUE}{job.title}{Colors.ENDC}{Colors.ENDC}"
-            " at "
-            f"{Colors.OKCYAN}{org.name}{Colors.ENDC}",
+            f"{Colors.BOLD}{Colors.CYAN}{org.name}{Colors.ENDC}{Colors.ENDC}: "
+            f"{Colors.BLUE}{job.title}{Colors.ENDC} - "
+            f"{Colors.GREEN}{job.url}{Colors.ENDC}",
             file=self.file,
         )
