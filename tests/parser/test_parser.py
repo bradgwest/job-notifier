@@ -67,6 +67,21 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
+        "cloudflare": Test(
+            parser.CloudflareParser(),
+            [
+                Job(
+                    "Global Commissions Lead",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
+                    "gh_jid=5479964",
+                ),
+                Job(
+                    "Senior Billing Systems Engineer",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
+                    "gh_jid=5383305",
+                ),
+            ],
+        ),
         "stripe": Test(
             parser.StripeParser(),
             [
@@ -76,11 +91,18 @@ def test_org_parsers(page_reader: PageReader):
                 ),
                 Job(
                     "Financial Crimes Risk Assessment Lead",
-                    "https://stripe.com/jobs/listing/financial-crimes-risk-assessment-lead/5466374",  # noqa: E501
+                    "https://stripe.com/jobs/listing/financial-crimes-risk-"
+                    "assessment-lead/5466374",
                 ),
             ],
         ),
     }
+
+    # todo
+    # missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())
+    # assert (
+    #     not missing_parser_tests
+    # ), f"missing parser test(s) {sorted(missing_parser_tests)}"
 
     for org, test in cases.items():
         html = page_reader(ORGANIZATIONS[org])

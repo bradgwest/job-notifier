@@ -25,11 +25,17 @@ OrgMap = Dict[str, Org]
 ORGANIZATIONS = {
     "airbnb": Org("airbnb", "", parser.AirbnbParser),  # todo
     "airtable": Org("airtable", "", parser.AirtableParser),
+    "cloudflare": Org("cloudflare", "", parser.CloudflareParser),
+    "mongodb": Org("mongodb", "", parser.MongoDBParser),
+    "pintrest": Org("pintrest", "", parser.PintrestParser),
+    "plaid": Org("plaid", "", parser.PlaidParser),
+    "square": Org("square", "", parser.SquareParser),
     "stripe": Org(
         "stripe",
         "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
         parser.StripeParser,
     ),
+    "zscaler": Org("zscaler", "", parser.ZscalerParser),
 }
 STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
     "LocalStorage": (LocalStorage, LocalStorageConfig),
