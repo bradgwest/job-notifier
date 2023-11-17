@@ -1,4 +1,5 @@
-from typing import List, NamedTuple, Tuple
+from collections import defaultdict
+from typing import Dict, List, NamedTuple
 
 from src.job import Job
 from src.notifier.notifier import Notifier
@@ -12,10 +13,10 @@ class NotifierTestConfig(NamedTuple):
 
 class NotifierTest(Notifier):
     def __init__(self, config: NotifierTestConfig):
-        self.notifications: List[Tuple[Org, Job]] = []
+        self.notifications: Dict[str, List[Job]] = defaultdict(list)
 
     def _notify(self, org: Org, job: Job) -> None:
-        self.notifications.append((org, job))
+        self.notifications[org.name].append(job)
 
 
 def test_notifier():
@@ -33,4 +34,6 @@ def test_notifier():
 
     notifier = NotifierTest(NotifierTestConfig())
     notifier.notify(new_jobs)
-    assert len(notifier.notifications) == 5
+    assert len(notifier.notifications) == 2
+    assert len(notifier.notifications["company_1"]) == 2
+    assert len(notifier.notifications["company_2"]) == 3

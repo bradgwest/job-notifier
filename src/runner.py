@@ -11,7 +11,7 @@ from src.job import Job
 from src.notifier.local import LocalNotifier, LocalNotifierConfig
 from src.notifier.notifier import Notifier, NotifierConfig
 from src.org import Org
-from src.parser.stripe import StripeParser
+from src.parser import parser
 from src.storage.local import LocalStorage, LocalStorageConfig
 from src.storage.storage import Storage, StorageConfig
 
@@ -23,10 +23,12 @@ PageReader = Callable[[Org], str]
 OrgMap = Dict[str, Org]
 
 ORGANIZATIONS = {
+    "airbnb": Org("airbnb", "", parser.AirbnbParser),  # todo
+    "airtable": Org("airtable", "", parser.AirtableParser),
     "stripe": Org(
         "stripe",
         "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
-        StripeParser,
+        parser.StripeParser,
     ),
 }
 STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {

@@ -64,7 +64,7 @@ def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPat
 def test_runner(storage: Storage, notifier: Notifier, page_reader: PageReader):
     runner = Runner(storage, notifier, page_reader, ORGANIZATIONS)
     runner.run()
-    assert len(runner.notifier.notifications) == 22  # type: ignore
+    assert len(runner.notifier.notifications) == len(ORGANIZATIONS)  # type: ignore
 
 
 def test_diff_raises_with_no_storage(
