@@ -103,6 +103,9 @@ class Runner:
         parser = org.parser()
         content = self.reader(org)
         jobs = parser.parse(content)
+        # todo: make me a log?
+        if not jobs:
+            raise RuntimeError(f"No jobs found for {org.name}")
         self.storage.write(org.name, jobs)
 
     def update_storage(self) -> None:

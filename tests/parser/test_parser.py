@@ -82,6 +82,63 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
+        "mongodb": Test(
+            parser.MongoDBParser(),
+            [
+                Job(
+                    "Senior Software Engineer, AI Code Modernisation",
+                    "https://www.mongodb.com/careers/job/?gh_jid=5382195",
+                ),
+                Job(
+                    "Senior Site Reliability Engineer",
+                    "https://www.mongodb.com/careers/job/?gh_jid=5403134",
+                ),
+            ],
+        ),
+        "pintrest": Test(
+            parser.PintrestParser(),
+            [
+                Job(
+                    "Engineering Manager, SDET",
+                    "https://www.pinterestcareers.com/en/jobs/4997045/"
+                    "engineering-manager-sdet/?gh_jid=4997045",
+                ),
+                Job(
+                    "Staff iOS Software Engineer, Advanced Technologies Group",
+                    "https://www.pinterestcareers.com/en/jobs/5426324/"
+                    "staff-ios-software-engineer-advanced-technologies-group/"
+                    "?gh_jid=5426324",
+                ),
+            ],
+        ),
+        "plaid": Test(
+            parser.PlaidParser(),
+            [
+                Job(
+                    "Experienced Software Engineer - Developer Efficiency",
+                    "https://plaid.com/careers/openings/engineering/"
+                    "united-states/experienced-software-engineer-developer-efficiency",
+                ),
+                Job(
+                    "Software Engineer - Full Stack (Credit)",
+                    "https://plaid.com/careers/openings/engineering/"
+                    "san-francisco/software-engineer-full-stack-credit",
+                ),
+            ],
+        ),
+        "square": Test(
+            parser.SquareParser(),
+            [
+                Job(
+                    "Machine Learning Engineer (Modeling) - Customer Support",
+                    "https://www.smartrecruiters.com/Square/743999940906343",
+                ),
+                Job(
+                    "Fraud Risk Manager- Decision Science",
+                    "https://www.smartrecruiters.com/Square/743999943597619",
+                ),
+            ],
+        ),
         "stripe": Test(
             parser.StripeParser(),
             [
@@ -96,13 +153,25 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
+        "zscaler": Test(
+            parser.ZscalerParser(),
+            [
+                Job(
+                    "Android Networking, Staff Software Engineer",
+                    "https://boards.greenhouse.io/zscaler/jobs/4090297007",
+                ),
+                Job(
+                    "Account Executive, Enterprise",
+                    "https://boards.greenhouse.io/zscaler/jobs/4089921007",
+                ),
+            ],
+        ),
     }
 
-    # todo
-    # missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())
-    # assert (
-    #     not missing_parser_tests
-    # ), f"missing parser test(s) {sorted(missing_parser_tests)}"
+    missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())
+    assert (
+        not missing_parser_tests
+    ), f"missing parser test(s) {sorted(missing_parser_tests)}"
 
     for org, test in cases.items():
         html = page_reader(ORGANIZATIONS[org])

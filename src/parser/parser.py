@@ -18,8 +18,9 @@ class AirbnbParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
             Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all(
-                "a", class_="jobs-board__positions__list__item__link"
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://careers.airbnb.com/positions/"
             )
         ]
 
@@ -27,19 +28,22 @@ class AirbnbParser(Parser):
 class AirtableParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
-            Job(title=listing.find("p").text.strip(), url=listing.a["href"])
-            for listing in soup.find_all("div", class_="css-1tqfbpm")
+            Job(title=listing.p.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://boards.greenhouse.io/airtable/jobs/"
+            )
         ]
 
 
 class CloudflareParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
-            Job(title=listing.a.text.strip(), url=listing.a["href"])
-            for listing in soup.find_all(
-                "div",
-                class_="w-100 flex flex-row flex-wrap bb b--gray0 "
-                "justify-center js-job-entry pt2",
+            Job(title=listing.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing
+            and listing.get("href", "").startswith(
+                "https://boards.greenhouse.io/cloudflare/jobs/"
             )
         ]
 
@@ -47,8 +51,11 @@ class CloudflareParser(Parser):
 class MongoDBParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("", class_="")
+            Job(title=listing.div.span.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://www.mongodb.com/careers/job/?"
+            )
         ]
 
 
@@ -56,15 +63,19 @@ class PintrestParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
             Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("", class_="")
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://www.pinterestcareers.com/en/jobs/"
+            )
         ]
 
 
 class PlaidParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("", class_="")
+            Job(title=listing.p.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith("https://plaid.com/careers/openings/")
         ]
 
 
@@ -72,26 +83,29 @@ class SquareParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
             Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("", class_="")
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://www.smartrecruiters.com/Square/"
+            )
         ]
 
 
 class StripeParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
-        def _add_domain(url: str) -> str:
-            if url.startswith("http"):
-                return url
-            return "https://stripe.com" + url
-
         return [
-            Job(title=listing.text.strip(), url=_add_domain(listing["href"]))
-            for listing in soup.find_all("a", class_="Link JobsListings__link")
+            Job(title=listing.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith("https://stripe.com/jobs/listing")
+            or listing.get("href", "").startswith("jobs/listing")
         ]
 
 
 class ZscalerParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("", class_="")
+            Job(title=listing.div.div.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a")
+            if listing.get("href", "").startswith(
+                "https://boards.greenhouse.io/zscaler/jobs/"
+            )
         ]
