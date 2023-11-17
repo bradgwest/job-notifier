@@ -10,24 +10,31 @@ class LocalNotifierConfig(NamedTuple):
     pass
 
 
-class Colors:
-    # ANSI escape codes
-    BLUE = "\033[94m"
-    CYAN = "\033[96m"
-    GREEN = "\033[92m"
-    ENDC = "\033[0m"
-    BOLD = "\033[1m"
-    UNDERLINE = "\033[4m"
-
-
 class LocalNotifier(Notifier):
+    BASE_COLOR = 91
+    DISTINCT_COLORS = 6
+    BOLD = "\033[1m"
+    END_BOLD = "\033[22m"
+    END_COLOR = "\033[0m"
+    ITALIC = "\033[3m"
+    END_ITALIC = "\033[23m"
+
     def __init__(self, _: LocalNotifierConfig, file: TextIO = sys.stdout) -> None:
         self.file = file
+        self._org: str = ""
+        self.seq = 0
+
+    def _color(self, org: Org) -> str:
+        self.seq += int(org.name != self._org)
+        self._org = org.name
+        return str(self.BASE_COLOR + self.seq % self.DISTINCT_COLORS)
 
     def _notify(self, org: Org, job: Job) -> None:
+        color = f"\033[{self._color(org)}m"
+
         print(
-            f"{Colors.BOLD}{Colors.CYAN}{org.name}{Colors.ENDC}{Colors.ENDC}: "
-            f"{Colors.BLUE}{job.title}{Colors.ENDC} - "
-            f"{Colors.GREEN}{job.url}{Colors.ENDC}",
+            f"{color}{org.name}{self.END_COLOR}: "
+            f"{self.BOLD}{job.title}{self.END_BOLD} - "
+            f"{self.ITALIC}{job.url}{self.END_ITALIC}",
             file=self.file,
         )
