@@ -1,25 +1,10 @@
-from collections import defaultdict
-from typing import Dict, List, NamedTuple
-
 from src.job import Job
 from src.notifier.notifier import Notifier
 from src.org import Org
 from src.parser.parser import Parser
 
 
-class NotifierTestConfig(NamedTuple):
-    pass
-
-
-class NotifierTest(Notifier):
-    def __init__(self, config: NotifierTestConfig):
-        self.notifications: Dict[str, List[Job]] = defaultdict(list)
-
-    def _notify(self, org: Org, job: Job) -> None:
-        self.notifications[org.name].append(job)
-
-
-def test_notifier():
+def test_notifier(notifier: Notifier):
     new_jobs = {
         Org("company_1", "https://company_1.com/jobs", Parser): [
             Job("Engineer of Chairs", "https://company_1.com/jobs/1"),
@@ -32,8 +17,7 @@ def test_notifier():
         ],
     }
 
-    notifier = NotifierTest(NotifierTestConfig())
     notifier.notify(new_jobs)
-    assert len(notifier.notifications) == 2
-    assert len(notifier.notifications["company_1"]) == 2
-    assert len(notifier.notifications["company_2"]) == 3
+    assert len(notifier.notifications) == 2  # type: ignore
+    assert len(notifier.notifications["company_1"]) == 2  # type: ignore
+    assert len(notifier.notifications["company_2"]) == 3  # type: ignore
