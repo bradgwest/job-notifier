@@ -1,6 +1,8 @@
 """Job Notifier"""
 
 import argparse
+import json
+import logging
 import os
 import re
 from typing import Any, Callable, Dict, List, Mapping, Tuple, Type, cast
@@ -14,6 +16,8 @@ from src.org import Org
 from src.parser import parser
 from src.storage.local import LocalStorage, LocalStorageConfig
 from src.storage.storage import Storage, StorageConfig
+
+_logger = logging.getLogger(__name__)
 
 ConfigType = Type[NotifierConfig] | Type[StorageConfig]
 BackendType = Type[Storage] | Type[Notifier]
@@ -63,6 +67,22 @@ NOTIFIER_BACKENDS: Mapping[str, Tuple[Type[Notifier], ConfigType]] = {
 }
 
 
+def _log_level(val: str) -> int:
+    levels = {
+        "critical": logging.CRITICAL,
+        "error": logging.ERROR,
+        "warn": logging.WARNING,
+        "warning": logging.WARNING,
+        "info": logging.INFO,
+        "debug": logging.DEBUG,
+    }
+
+    try:
+        return int(val)
+    except ValueError:
+        return levels[val.lower()]
+
+
 def config_from_env(cls: Config) -> Config:
     prefix = cls._field_defaults.get("env_var_prefix")
     if prefix is not None:
@@ -98,7 +118,7 @@ def setup_backend(backend_type: BackendType, config: Config) -> Backend:
 def reader(org: Org) -> str:
     r = requests.get(org.job_url)
     r.raise_for_status()
-    print(f"Read {len(r.content)} bytes from {org.name}")
+    _logger.debug(f"Read {len(r.content)} bytes from {org.name}")
     return r.content.decode(r.encoding or "utf-8")
 
 
@@ -122,8 +142,7 @@ class Runner:
         parser = org.parser()
         content = self.reader(org)
         jobs = parser.parse(content)
-        print(f"Found {len(jobs)} jobs for {org.name}")
-        print(jobs)
+        _logger.debug(f"Found {len(jobs)} jobs for {org.name}: {json.dumps(jobs)}")
         with open(f"/tmp/job-notifier/{org.name}.html", "w") as f:
             f.write(content)
         # todo: make me a log?
@@ -171,6 +190,7 @@ class Runner:
 # todo: add config for storage and notifier
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--log-level", type=_log_level, default="WARNING")
     parser.add_argument(
         "--storage-backend",
         type=lambda x: parse_backend(x, STORAGE_BACKENDS),
@@ -182,6 +202,9 @@ if __name__ == "__main__":
         default="LocalNotifier",
     )
     args = parser.parse_args()
+
+    logging.basicConfig()
+    _logger.setLevel(args.log_level)
 
     storage = cast(Storage, setup_backend(*args.storage_backend))
     notifier = cast(Notifier, setup_backend(*args.notifier_backend))
