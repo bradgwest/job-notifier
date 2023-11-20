@@ -27,7 +27,12 @@ PageReader = Callable[[Org], str]
 OrgMap = Dict[str, Org]
 
 ORGANIZATIONS = {
-    # "airbnb": Org("airbnb", "https://careers.airbnb.com/", parser.AirbnbParser),
+    "airbnb": Org(
+        "airbnb",
+        "https://careers.airbnb.com/wp-admin/admin-ajax.php?"
+        "action=fetch_greenhouse_jobs&which-board=airbnb&strip-empty=true",
+        parser.AirbnbParser,
+    ),
     "airtable": Org(
         "airtable", "https://boards.greenhouse.io/airtable", parser.AirtableParser
     ),
@@ -36,11 +41,11 @@ ORGANIZATIONS = {
         "https://boards-api.greenhouse.io/v1/boards/cloudflare/offices/",
         parser.CloudflareParser,
     ),
-    # "mongodb": Org(
-    #    "mongodb",
-    #    "https://www.mongodb.com/company/careers/teams/engineering",
-    #    parser.MongoDBParser,
-    # ),
+    "mongodb": Org(
+        "mongodb",
+        "https://www.mongodb.com/company/careers/teams/engineering",
+        parser.MongoDBParser,
+    ),
     # "pintrest": Org(
     #    "pintrest", "https://www.pinterestcareers.com/en/jobs/", parser.PintrestParser
     # ),

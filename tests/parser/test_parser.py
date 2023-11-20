@@ -42,19 +42,19 @@ def test_org_parsers(page_reader: PageReader):
         expected: List[Job]
 
     cases = {
-        # "airbnb": Test(
-        #     parser.AirbnbParser(),
-        #     [
-        #         Job(
-        #             "Senior Software Engineer, Trust Platform",
-        #             "https://careers.airbnb.com/positions/5491458",
-        #         ),
-        #         Job(
-        #             "Staff Software Engineer, Hosting Services",
-        #             "https://careers.airbnb.com/positions/5141000",
-        #         ),
-        #     ],
-        # ),
+        "airbnb": Test(
+            parser.AirbnbParser(),
+            [
+                Job(
+                    "Senior Lead, Channel Communications",
+                    "https://careers.airbnb.com/positions/5505094",
+                ),
+                Job(
+                    "Senior Systems Engineer",
+                    "https://careers.airbnb.com/positions/5304422",
+                ),
+            ],
+        ),
         "airtable": Test(
             parser.AirtableParser(),
             [
@@ -83,19 +83,19 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
-        # "mongodb": Test(
-        #     parser.MongoDBParser(),
-        #     [
-        #         Job(
-        #             "Senior Software Engineer, AI Code Modernisation",
-        #             "https://www.mongodb.com/careers/job/?gh_jid=5382195",
-        #         ),
-        #         Job(
-        #             "Senior Site Reliability Engineer",
-        #             "https://www.mongodb.com/careers/job/?gh_jid=5403134",
-        #         ),
-        #     ],
-        # ),
+        "mongodb": Test(
+            parser.MongoDBParser(),
+            [
+                Job(
+                    "Senior Product Performance Engineer",
+                    "https://www.mongodb.com/careers/job/?gh_jid=5377363",
+                ),
+                Job(
+                    "Senior Site Reliability Engineer",
+                    "https://www.mongodb.com/careers/job/?gh_jid=5403134",
+                ),
+            ],
+        ),
         # "pintrest": Test(
         #     parser.PintrestParser(),
         #     [

@@ -13,13 +13,14 @@ class Parser:
 
 class AirbnbParser(Parser):
     def parse(self, content: str) -> List[Job]:
-        soup = BeautifulSoup(content, "lxml")
+        d = json.loads(content)
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://careers.airbnb.com/positions/"
+            Job(
+                title=job["title"].strip(),
+                url=f"https://careers.airbnb.com/positions/{job['id']}",
             )
+            for job in d["jobs"]
+            if job["location"] == "United States"
         ]
 
 
@@ -44,7 +45,7 @@ class CloudflareParser(Parser):
                 jobs.extend(
                     [
                         Job(
-                            title=job["title"],
+                            title=job["title"].strip(),
                             url=job["absolute_url"],
                         )
                         for job in department["jobs"]
@@ -55,13 +56,11 @@ class CloudflareParser(Parser):
 
 class MongoDBParser(Parser):
     def parse(self, content: str) -> List[Job]:
-        soup = BeautifulSoup(content, "lxml")
+        d = json.loads(content)
         return [
-            Job(title=listing.div.span.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://www.mongodb.com/careers/job/?"
-            )
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if "Remote North America" in job["location"]["name"]
         ]
 
 
