@@ -68,21 +68,11 @@ class PintrestParser(Parser):
     def parse(self, content: str) -> List[Job]:
         soup = BeautifulSoup(content, "lxml")
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://www.pinterestcareers.com/en/jobs/"
+            Job(
+                title=listing.a.text.strip(),
+                url=f'https://www.pinterestcareers.com{listing.a["href"]}',
             )
-        ]
-
-
-class PlaidParser(Parser):
-    def parse(self, content: str) -> List[Job]:
-        soup = BeautifulSoup(content, "lxml")
-        return [
-            Job(title=listing.p.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith("https://plaid.com/careers/openings/")
+            for listing in soup.find_all("div", class_="card card-job")
         ]
 
 
@@ -90,11 +80,8 @@ class SquareParser(Parser):
     def parse(self, content: str) -> List[Job]:
         soup = BeautifulSoup(content, "lxml")
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://www.smartrecruiters.com/Square/"
-            )
+            Job(title=listing.h4.text.strip(), url=listing["href"])
+            for listing in soup.find_all("a", class_="link--block details")
         ]
 
 
@@ -102,10 +89,9 @@ class StripeParser(Parser):
     def parse(self, content: str) -> List[Job]:
         soup = BeautifulSoup(content, "lxml")
         return [
-            Job(title=listing.text.strip(), url=listing["href"])
+            Job(title=listing.text.strip(), url=f'https://stripe.com{listing["href"]}')
             for listing in soup.find_all("a")
-            if listing.get("href", "").startswith("https://stripe.com/jobs/listing")
-            or listing.get("href", "").startswith("jobs/listing")
+            if listing.get("data-js-target-list") == "JobsListings.listingLinks"
         ]
 
 
@@ -113,9 +99,11 @@ class ZscalerParser(Parser):
     def parse(self, content: str) -> List[Job]:
         soup = BeautifulSoup(content, "lxml")
         return [
-            Job(title=listing.div.div.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://boards.greenhouse.io/zscaler/jobs/"
+            Job(
+                title=listing.a.text.strip(),
+                url=f'https://boards.greenhouse.io{listing.a["href"]}',
             )
+            for listing in soup.find_all("div", class_="opening")
+            if "Remote" in listing.span.text.strip()
+            or "AMS" in listing.span.text.strip()
         ]

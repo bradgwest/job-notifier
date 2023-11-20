@@ -96,77 +96,63 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
-        # "pintrest": Test(
-        #     parser.PintrestParser(),
-        #     [
-        #         Job(
-        #             "Engineering Manager, SDET",
-        #             "https://www.pinterestcareers.com/en/jobs/4997045/"
-        #             "engineering-manager-sdet/?gh_jid=4997045",
-        #         ),
-        #         Job(
-        #             "Staff iOS Software Engineer, Advanced Technologies Group",
-        #             "https://www.pinterestcareers.com/en/jobs/5426324/"
-        #             "staff-ios-software-engineer-advanced-technologies-group/"
-        #             "?gh_jid=5426324",
-        #         ),
-        #     ],
-        # ),
-        # "plaid": Test(
-        #     parser.PlaidParser(),
-        #     [
-        #         Job(
-        #             "Experienced Software Engineer - Developer Efficiency",
-        #             "https://plaid.com/careers/openings/engineering/"
-        #             "united-states/experienced-software-engineer-developer-efficiency",
-        #         ),
-        #         Job(
-        #             "Software Engineer - Full Stack (Credit)",
-        #             "https://plaid.com/careers/openings/engineering/"
-        #             "san-francisco/software-engineer-full-stack-credit",
-        #         ),
-        #     ],
-        # ),
-        # "square": Test(
-        #     parser.SquareParser(),
-        #     [
-        #         Job(
-        #             "Machine Learning Engineer (Modeling) - Customer Support",
-        #             "https://www.smartrecruiters.com/Square/743999940906343",
-        #         ),
-        #         Job(
-        #             "Fraud Risk Manager- Decision Science",
-        #             "https://www.smartrecruiters.com/Square/743999943597619",
-        #         ),
-        #     ],
-        # ),
-        # "stripe": Test(
-        #     parser.StripeParser(),
-        #     [
-        #         Job(
-        #             "Frontend Engineer, Growth",
-        #             "https://stripe.com/jobs/listing/frontend-engineer-growth/5358773",
-        #         ),
-        #         Job(
-        #             "Financial Crimes Risk Assessment Lead",
-        #             "https://stripe.com/jobs/listing/financial-crimes-risk-"
-        #             "assessment-lead/5466374",
-        #         ),
-        #     ],
-        # ),
-        # "zscaler": Test(
-        #     parser.ZscalerParser(),
-        #     [
-        #         Job(
-        #             "Android Networking, Staff Software Engineer",
-        #             "https://boards.greenhouse.io/zscaler/jobs/4090297007",
-        #         ),
-        #         Job(
-        #             "Account Executive, Enterprise",
-        #             "https://boards.greenhouse.io/zscaler/jobs/4089921007",
-        #         ),
-        #     ],
-        # ),
+        "pintrest": Test(
+            parser.PintrestParser(),
+            [
+                Job(
+                    "Senior Software Engineer, Backend",
+                    "https://www.pinterestcareers.com/en/jobs/5448390/"
+                    "senior-software-engineer-backend/?gh_jid=5448390",
+                ),
+                Job(
+                    "Senior Software Engineer, Backend",
+                    "https://www.pinterestcareers.com/en/jobs/5448390/"
+                    "senior-software-engineer-backend/?gh_jid=5448390",
+                ),
+            ],
+        ),
+        "square": Test(
+            parser.SquareParser(),
+            [
+                Job(
+                    "Senior Software Engineer, Orders Data Platform",
+                    "https://jobs.smartrecruiters.com/Square/743999944959483-"
+                    "senior-software-engineer-orders-data-platform",
+                ),
+                Job(
+                    "Machine Learning Engineer, Commerce Fraud Risk (Modeling)",
+                    "https://jobs.smartrecruiters.com/Square/743999944256943-"
+                    "machine-learning-engineer-commerce-fraud-risk-modeling-",
+                ),
+            ],
+        ),
+        "stripe": Test(
+            parser.StripeParser(),
+            [
+                Job(
+                    "Data Engineer",
+                    "https://stripe.com/jobs/listing/data-engineer/4901909",
+                ),
+                Job(
+                    "Financial Crimes Risk Assessment Lead",
+                    "https://stripe.com/jobs/listing/financial-crimes-risk-"
+                    "assessment-lead/5466374",
+                ),
+            ],
+        ),
+        "zscaler": Test(
+            parser.ZscalerParser(),
+            [
+                Job(
+                    "Android Networking, Staff Software Engineer",
+                    "https://boards.greenhouse.io/zscaler/jobs/4090297007",
+                ),
+                Job(
+                    "Account Executive, Enterprise",
+                    "https://boards.greenhouse.io/zscaler/jobs/4089921007",
+                ),
+            ],
+        ),
     }
 
     missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())

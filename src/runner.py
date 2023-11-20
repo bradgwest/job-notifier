@@ -46,23 +46,22 @@ ORGANIZATIONS = {
         "https://www.mongodb.com/company/careers/teams/engineering",
         parser.MongoDBParser,
     ),
-    # "pintrest": Org(
-    #    "pintrest", "https://www.pinterestcareers.com/en/jobs/", parser.PintrestParser
-    # ),
-    # "plaid": Org("plaid", "https://plaid.com/careers/", parser.PlaidParser),
-    # "square": Org(
-    #    "square",
-    #    "https://careers.squareup.com/us/en/jobs?location%5B%5D=Remote",
-    #    parser.SquareParser,
-    # ),
-    # "stripe": Org(
-    #    "stripe",
-    #    "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
-    #    parser.StripeParser,
-    # ),
-    # "zscaler": Org(
-    #    "zscaler", "https://www.zscaler.com/careers#positions", parser.ZscalerParser
-    # ),
+    "pintrest": Org(
+        "pintrest", "https://www.pinterestcareers.com/en/jobs/", parser.PintrestParser
+    ),
+    "square": Org(
+        "square",
+        "https://careers.smartrecruiters.com/Square?remoteLocation=true",
+        parser.SquareParser,
+    ),
+    "stripe": Org(
+        "stripe",
+        "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
+        parser.StripeParser,
+    ),
+    "zscaler": Org(
+        "zscaler", "https://www.zscaler.com/careers#positions", parser.ZscalerParser
+    ),
 }
 STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
     "LocalStorage": (LocalStorage, LocalStorageConfig),
