@@ -27,12 +27,10 @@ class AirbnbParser(Parser):
 
 class AirtableParser(Parser):
     def _parse(self, soup: BeautifulSoup) -> List[Job]:
+        domain = "https://boards.greenhouse.io"
         return [
-            Job(title=listing.p.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing.get("href", "").startswith(
-                "https://boards.greenhouse.io/airtable/jobs/"
-            )
+            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
+            for listing in soup.find_all("div", class_="opening")
         ]
 
 

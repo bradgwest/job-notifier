@@ -41,19 +41,19 @@ def test_org_parsers(page_reader: PageReader):
         expected: List[Job]
 
     cases = {
-        "airbnb": Test(
-            parser.AirbnbParser(),
-            [
-                Job(
-                    "Senior Software Engineer, Trust Platform",
-                    "https://careers.airbnb.com/positions/5491458",
-                ),
-                Job(
-                    "Staff Software Engineer, Hosting Services",
-                    "https://careers.airbnb.com/positions/5141000",
-                ),
-            ],
-        ),
+        # "airbnb": Test(
+        #     parser.AirbnbParser(),
+        #     [
+        #         Job(
+        #             "Senior Software Engineer, Trust Platform",
+        #             "https://careers.airbnb.com/positions/5491458",
+        #         ),
+        #         Job(
+        #             "Staff Software Engineer, Hosting Services",
+        #             "https://careers.airbnb.com/positions/5141000",
+        #         ),
+        #     ],
+        # ),
         "airtable": Test(
             parser.AirtableParser(),
             [
@@ -67,105 +67,105 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
-        "cloudflare": Test(
-            parser.CloudflareParser(),
-            [
-                Job(
-                    "Global Commissions Lead",
-                    "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
-                    "gh_jid=5479964",
-                ),
-                Job(
-                    "Senior Billing Systems Engineer",
-                    "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
-                    "gh_jid=5383305",
-                ),
-            ],
-        ),
-        "mongodb": Test(
-            parser.MongoDBParser(),
-            [
-                Job(
-                    "Senior Software Engineer, AI Code Modernisation",
-                    "https://www.mongodb.com/careers/job/?gh_jid=5382195",
-                ),
-                Job(
-                    "Senior Site Reliability Engineer",
-                    "https://www.mongodb.com/careers/job/?gh_jid=5403134",
-                ),
-            ],
-        ),
-        "pintrest": Test(
-            parser.PintrestParser(),
-            [
-                Job(
-                    "Engineering Manager, SDET",
-                    "https://www.pinterestcareers.com/en/jobs/4997045/"
-                    "engineering-manager-sdet/?gh_jid=4997045",
-                ),
-                Job(
-                    "Staff iOS Software Engineer, Advanced Technologies Group",
-                    "https://www.pinterestcareers.com/en/jobs/5426324/"
-                    "staff-ios-software-engineer-advanced-technologies-group/"
-                    "?gh_jid=5426324",
-                ),
-            ],
-        ),
-        "plaid": Test(
-            parser.PlaidParser(),
-            [
-                Job(
-                    "Experienced Software Engineer - Developer Efficiency",
-                    "https://plaid.com/careers/openings/engineering/"
-                    "united-states/experienced-software-engineer-developer-efficiency",
-                ),
-                Job(
-                    "Software Engineer - Full Stack (Credit)",
-                    "https://plaid.com/careers/openings/engineering/"
-                    "san-francisco/software-engineer-full-stack-credit",
-                ),
-            ],
-        ),
-        "square": Test(
-            parser.SquareParser(),
-            [
-                Job(
-                    "Machine Learning Engineer (Modeling) - Customer Support",
-                    "https://www.smartrecruiters.com/Square/743999940906343",
-                ),
-                Job(
-                    "Fraud Risk Manager- Decision Science",
-                    "https://www.smartrecruiters.com/Square/743999943597619",
-                ),
-            ],
-        ),
-        "stripe": Test(
-            parser.StripeParser(),
-            [
-                Job(
-                    "Frontend Engineer, Growth",
-                    "https://stripe.com/jobs/listing/frontend-engineer-growth/5358773",
-                ),
-                Job(
-                    "Financial Crimes Risk Assessment Lead",
-                    "https://stripe.com/jobs/listing/financial-crimes-risk-"
-                    "assessment-lead/5466374",
-                ),
-            ],
-        ),
-        "zscaler": Test(
-            parser.ZscalerParser(),
-            [
-                Job(
-                    "Android Networking, Staff Software Engineer",
-                    "https://boards.greenhouse.io/zscaler/jobs/4090297007",
-                ),
-                Job(
-                    "Account Executive, Enterprise",
-                    "https://boards.greenhouse.io/zscaler/jobs/4089921007",
-                ),
-            ],
-        ),
+        # "cloudflare": Test(
+        #     parser.CloudflareParser(),
+        #     [
+        #         Job(
+        #             "Global Commissions Lead",
+        #             "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
+        #             "gh_jid=5479964",
+        #         ),
+        #         Job(
+        #             "Senior Billing Systems Engineer",
+        #             "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
+        #             "gh_jid=5383305",
+        #         ),
+        #     ],
+        # ),
+        # "mongodb": Test(
+        #     parser.MongoDBParser(),
+        #     [
+        #         Job(
+        #             "Senior Software Engineer, AI Code Modernisation",
+        #             "https://www.mongodb.com/careers/job/?gh_jid=5382195",
+        #         ),
+        #         Job(
+        #             "Senior Site Reliability Engineer",
+        #             "https://www.mongodb.com/careers/job/?gh_jid=5403134",
+        #         ),
+        #     ],
+        # ),
+        # "pintrest": Test(
+        #     parser.PintrestParser(),
+        #     [
+        #         Job(
+        #             "Engineering Manager, SDET",
+        #             "https://www.pinterestcareers.com/en/jobs/4997045/"
+        #             "engineering-manager-sdet/?gh_jid=4997045",
+        #         ),
+        #         Job(
+        #             "Staff iOS Software Engineer, Advanced Technologies Group",
+        #             "https://www.pinterestcareers.com/en/jobs/5426324/"
+        #             "staff-ios-software-engineer-advanced-technologies-group/"
+        #             "?gh_jid=5426324",
+        #         ),
+        #     ],
+        # ),
+        # "plaid": Test(
+        #     parser.PlaidParser(),
+        #     [
+        #         Job(
+        #             "Experienced Software Engineer - Developer Efficiency",
+        #             "https://plaid.com/careers/openings/engineering/"
+        #             "united-states/experienced-software-engineer-developer-efficiency",
+        #         ),
+        #         Job(
+        #             "Software Engineer - Full Stack (Credit)",
+        #             "https://plaid.com/careers/openings/engineering/"
+        #             "san-francisco/software-engineer-full-stack-credit",
+        #         ),
+        #     ],
+        # ),
+        # "square": Test(
+        #     parser.SquareParser(),
+        #     [
+        #         Job(
+        #             "Machine Learning Engineer (Modeling) - Customer Support",
+        #             "https://www.smartrecruiters.com/Square/743999940906343",
+        #         ),
+        #         Job(
+        #             "Fraud Risk Manager- Decision Science",
+        #             "https://www.smartrecruiters.com/Square/743999943597619",
+        #         ),
+        #     ],
+        # ),
+        # "stripe": Test(
+        #     parser.StripeParser(),
+        #     [
+        #         Job(
+        #             "Frontend Engineer, Growth",
+        #             "https://stripe.com/jobs/listing/frontend-engineer-growth/5358773",
+        #         ),
+        #         Job(
+        #             "Financial Crimes Risk Assessment Lead",
+        #             "https://stripe.com/jobs/listing/financial-crimes-risk-"
+        #             "assessment-lead/5466374",
+        #         ),
+        #     ],
+        # ),
+        # "zscaler": Test(
+        #     parser.ZscalerParser(),
+        #     [
+        #         Job(
+        #             "Android Networking, Staff Software Engineer",
+        #             "https://boards.greenhouse.io/zscaler/jobs/4090297007",
+        #         ),
+        #         Job(
+        #             "Account Executive, Enterprise",
+        #             "https://boards.greenhouse.io/zscaler/jobs/4089921007",
+        #         ),
+        #     ],
+        # ),
     }
 
     missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())

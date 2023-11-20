@@ -23,19 +23,37 @@ PageReader = Callable[[Org], str]
 OrgMap = Dict[str, Org]
 
 ORGANIZATIONS = {
-    "airbnb": Org("airbnb", "", parser.AirbnbParser),  # todo
-    "airtable": Org("airtable", "", parser.AirtableParser),
-    "cloudflare": Org("cloudflare", "", parser.CloudflareParser),
-    "mongodb": Org("mongodb", "", parser.MongoDBParser),
-    "pintrest": Org("pintrest", "", parser.PintrestParser),
-    "plaid": Org("plaid", "", parser.PlaidParser),
-    "square": Org("square", "", parser.SquareParser),
-    "stripe": Org(
-        "stripe",
-        "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
-        parser.StripeParser,
+    # "airbnb": Org("airbnb", "https://careers.airbnb.com/", parser.AirbnbParser),
+    "airtable": Org(
+        "airtable", "https://boards.greenhouse.io/airtable", parser.AirtableParser
     ),
-    "zscaler": Org("zscaler", "", parser.ZscalerParser),
+    # "cloudflare": Org(
+    #    "cloudflare",
+    #    "https://www.cloudflare.com/careers/jobs/?location=Remote+US",
+    #    parser.CloudflareParser,
+    # ),
+    # "mongodb": Org(
+    #    "mongodb",
+    #    "https://www.mongodb.com/company/careers/teams/engineering",
+    #    parser.MongoDBParser,
+    # ),
+    # "pintrest": Org(
+    #    "pintrest", "https://www.pinterestcareers.com/en/jobs/", parser.PintrestParser
+    # ),
+    # "plaid": Org("plaid", "https://plaid.com/careers/", parser.PlaidParser),
+    # "square": Org(
+    #    "square",
+    #    "https://careers.squareup.com/us/en/jobs?location%5B%5D=Remote",
+    #    parser.SquareParser,
+    # ),
+    # "stripe": Org(
+    #    "stripe",
+    #    "https://stripe.com/jobs/search?remote_locations=North+America--US+Remote",
+    #    parser.StripeParser,
+    # ),
+    # "zscaler": Org(
+    #    "zscaler", "https://www.zscaler.com/careers#positions", parser.ZscalerParser
+    # ),
 }
 STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
     "LocalStorage": (LocalStorage, LocalStorageConfig),
@@ -77,9 +95,10 @@ def setup_backend(backend_type: BackendType, config: Config) -> Backend:
     return backend_type(cfg)
 
 
-def page_reader(org: Org) -> str:
+def reader(org: Org) -> str:
     r = requests.get(org.job_url)
     r.raise_for_status()
+    print(f"Read {len(r.content)} bytes from {org.name}")
     return r.content.decode(r.encoding or "utf-8")
 
 
@@ -89,12 +108,12 @@ class Runner:
     def __init__(
         self,
         storage: Storage,
-        notifer: Notifier,
+        notifier: Notifier,
         reader: PageReader,
         orgs: OrgMap,
     ) -> None:
         self.storage = storage
-        self.notifier = notifer
+        self.notifier = notifier
         self.reader = reader
         self.orgs: OrgMap = orgs
         self.jobs: Dict[Org, List[Job]] = {}
@@ -103,6 +122,10 @@ class Runner:
         parser = org.parser()
         content = self.reader(org)
         jobs = parser.parse(content)
+        print(f"Found {len(jobs)} jobs for {org.name}")
+        print(jobs)
+        with open(f"/tmp/job-notifier/{org.name}.html", "w") as f:
+            f.write(content)
         # todo: make me a log?
         if not jobs:
             raise RuntimeError(f"No jobs found for {org.name}")
@@ -163,5 +186,5 @@ if __name__ == "__main__":
     storage = cast(Storage, setup_backend(*args.storage_backend))
     notifier = cast(Notifier, setup_backend(*args.notifier_backend))
 
-    runner = Runner(storage, notifier, page_reader, ORGANIZATIONS)
+    runner = Runner(storage, notifier, reader, ORGANIZATIONS)
     runner.run()
