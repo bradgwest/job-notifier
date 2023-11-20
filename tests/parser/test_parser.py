@@ -8,7 +8,8 @@ from src.runner import ORGANIZATIONS, PageReader
 
 
 class TestParser(parser.Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=job.text.strip(), url=job["href"]) for job in soup.find_all("job")
         ]
@@ -67,21 +68,21 @@ def test_org_parsers(page_reader: PageReader):
                 ),
             ],
         ),
-        # "cloudflare": Test(
-        #     parser.CloudflareParser(),
-        #     [
-        #         Job(
-        #             "Global Commissions Lead",
-        #             "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
-        #             "gh_jid=5479964",
-        #         ),
-        #         Job(
-        #             "Senior Billing Systems Engineer",
-        #             "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
-        #             "gh_jid=5383305",
-        #         ),
-        #     ],
-        # ),
+        "cloudflare": Test(
+            parser.CloudflareParser(),
+            [
+                Job(
+                    "Global Commissions Lead",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
+                    "gh_jid=5479964",
+                ),
+                Job(
+                    "Senior Billing Systems Engineer",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
+                    "gh_jid=5383305",
+                ),
+            ],
+        ),
         # "mongodb": Test(
         #     parser.MongoDBParser(),
         #     [

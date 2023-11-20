@@ -31,11 +31,11 @@ ORGANIZATIONS = {
     "airtable": Org(
         "airtable", "https://boards.greenhouse.io/airtable", parser.AirtableParser
     ),
-    # "cloudflare": Org(
-    #    "cloudflare",
-    #    "https://www.cloudflare.com/careers/jobs/?location=Remote+US",
-    #    parser.CloudflareParser,
-    # ),
+    "cloudflare": Org(
+        "cloudflare",
+        "https://boards-api.greenhouse.io/v1/boards/cloudflare/offices/",
+        parser.CloudflareParser,
+    ),
     # "mongodb": Org(
     #    "mongodb",
     #    "https://www.mongodb.com/company/careers/teams/engineering",
@@ -68,19 +68,10 @@ NOTIFIER_BACKENDS: Mapping[str, Tuple[Type[Notifier], ConfigType]] = {
 
 
 def _log_level(val: str) -> int:
-    levels = {
-        "critical": logging.CRITICAL,
-        "error": logging.ERROR,
-        "warn": logging.WARNING,
-        "warning": logging.WARNING,
-        "info": logging.INFO,
-        "debug": logging.DEBUG,
-    }
-
     try:
         return int(val)
     except ValueError:
-        return levels[val.lower()]
+        return getattr(logging, val.upper())
 
 
 def config_from_env(cls: Config) -> Config:
@@ -143,9 +134,6 @@ class Runner:
         content = self.reader(org)
         jobs = parser.parse(content)
         _logger.debug(f"Found {len(jobs)} jobs for {org.name}: {json.dumps(jobs)}")
-        with open(f"/tmp/job-notifier/{org.name}.html", "w") as f:
-            f.write(content)
-        # todo: make me a log?
         if not jobs:
             raise RuntimeError(f"No jobs found for {org.name}")
         self.storage.write(org.name, jobs)

@@ -1,3 +1,4 @@
+import json
 from typing import List
 
 from bs4 import BeautifulSoup
@@ -7,15 +8,12 @@ from src.job import Job
 
 class Parser:
     def parse(self, content: str) -> List[Job]:
-        soup = BeautifulSoup(content, "lxml")
-        return self._parse(soup)
-
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
         raise NotImplementedError
 
 
 class AirbnbParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -26,7 +24,8 @@ class AirbnbParser(Parser):
 
 
 class AirtableParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         domain = "https://boards.greenhouse.io"
         return [
             Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
@@ -35,19 +34,28 @@ class AirtableParser(Parser):
 
 
 class CloudflareParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
-        return [
-            Job(title=listing.text.strip(), url=listing["href"])
-            for listing in soup.find_all("a")
-            if listing
-            and listing.get("href", "").startswith(
-                "https://boards.greenhouse.io/cloudflare/jobs/"
-            )
-        ]
+    def parse(self, content: str) -> List[Job]:
+        d = json.loads(content)
+        jobs: List[Job] = []
+        for office in d["offices"]:
+            if office["name"] != "Remote US":
+                continue
+            for department in office["departments"]:
+                jobs.extend(
+                    [
+                        Job(
+                            title=job["title"],
+                            url=job["absolute_url"],
+                        )
+                        for job in department["jobs"]
+                    ]
+                )
+        return jobs
 
 
 class MongoDBParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.div.span.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -58,7 +66,8 @@ class MongoDBParser(Parser):
 
 
 class PintrestParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -69,7 +78,8 @@ class PintrestParser(Parser):
 
 
 class PlaidParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.p.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -78,7 +88,8 @@ class PlaidParser(Parser):
 
 
 class SquareParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -89,7 +100,8 @@ class SquareParser(Parser):
 
 
 class StripeParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")
@@ -99,7 +111,8 @@ class StripeParser(Parser):
 
 
 class ZscalerParser(Parser):
-    def _parse(self, soup: BeautifulSoup) -> List[Job]:
+    def parse(self, content: str) -> List[Job]:
+        soup = BeautifulSoup(content, "lxml")
         return [
             Job(title=listing.div.div.text.strip(), url=listing["href"])
             for listing in soup.find_all("a")

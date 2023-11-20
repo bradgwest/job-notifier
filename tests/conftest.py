@@ -12,7 +12,7 @@ from src.runner import PageReader
 from src.storage.storage import Storage
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-PAGES_DIR = os.path.join(DATA_DIR, "pages")
+LISTINGS_DIR = os.path.join(DATA_DIR, "listings")
 
 
 class NotifierTestConfig(NamedTuple):
@@ -60,7 +60,7 @@ class StorageTest(Storage):
 @pytest.fixture
 def page_reader() -> PageReader:
     def _reader(org: Org) -> str:
-        html_path = os.path.join(PAGES_DIR, f"{org.name}.html")
+        html_path = os.path.join(LISTINGS_DIR, f"{org.name}.txt")
         with open(html_path) as f:
             return f.read()
 
