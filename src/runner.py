@@ -43,7 +43,7 @@ ORGANIZATIONS = {
     ),
     "mongodb": Org(
         "mongodb",
-        "https://www.mongodb.com/company/careers/teams/engineering",
+        "https://api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
         parser.MongoDBParser,
     ),
     "pintrest": Org(
@@ -60,7 +60,7 @@ ORGANIZATIONS = {
         parser.StripeParser,
     ),
     "zscaler": Org(
-        "zscaler", "https://www.zscaler.com/careers#positions", parser.ZscalerParser
+        "zscaler", "https://boards.greenhouse.io/zscaler", parser.ZscalerParser
     ),
 }
 STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
