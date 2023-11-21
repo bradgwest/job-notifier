@@ -4,13 +4,21 @@ from bs4 import BeautifulSoup
 
 from src.job import Job
 from src.parser import parser
-from src.runner import ORGANIZATIONS, PageReader
+from src.runner import PARSERS
 
 
 class TestParser(parser.Parser):
-    def parse(self, content: str) -> List[Job]:
+    @property
+    def org(self) -> str:
+        return "test"
+
+    @property
+    def url(self) -> str:
+        return "url"
+
+    def _parse(self, content: str) -> parser.PageData:
         soup = BeautifulSoup(content, "lxml")
-        return [
+        return False, [
             Job(title=job.text.strip(), url=job["href"]) for job in soup.find_all("job")
         ]
 
@@ -26,7 +34,7 @@ def test_parser():
 """.strip()
 
     parser = TestParser()
-    jobs = parser.parse(content)
+    jobs = parser.parse(lambda _, __: content)
     assert len(jobs) == 2
     assert jobs[0] == Job(
         title="Engineer of Chairs", url="https://company_1.com/jobs/1"
@@ -36,7 +44,7 @@ def test_parser():
     )
 
 
-def test_org_parsers(page_reader: PageReader):
+def test_org_parsers(page_reader: parser.PageReader):
     class Test(NamedTuple):
         parser: parser.Parser
         expected: List[Job]
@@ -94,6 +102,16 @@ def test_org_parsers(page_reader: PageReader):
                     "Senior Site Reliability Engineer",
                     "https://www.mongodb.com/careers/job/?gh_jid=5403134",
                 ),
+            ],
+        ),
+        "netflix": Test(
+            parser.NetflixParser(),
+            [
+                Job(
+                    "Engineering Manager - Compute Runtime",
+                    "https://jobs.netflix.com/jobs/303524654",
+                ),
+                Job("Art Director", "https://jobs.netflix.com/jobs/302748851"),
             ],
         ),
         "pintrest": Test(
@@ -155,14 +173,13 @@ def test_org_parsers(page_reader: PageReader):
         ),
     }
 
-    missing_parser_tests = set(ORGANIZATIONS.keys()) - set(cases.keys())
+    missing_parser_tests = set(PARSERS.keys()) - set(cases.keys())
     assert (
         not missing_parser_tests
     ), f"missing parser test(s) {sorted(missing_parser_tests)}"
 
     for org, test in cases.items():
-        html = page_reader(ORGANIZATIONS[org])
-        jobs = test.parser.parse(html)
+        jobs = test.parser.parse(page_reader)
 
         for job in test.expected:
             assert job in jobs, f"{job} missing from result set for {org}"

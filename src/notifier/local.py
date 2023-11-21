@@ -3,7 +3,6 @@ from typing import NamedTuple, TextIO
 
 from src.job import Job
 from src.notifier.notifier import Notifier
-from src.org import Org
 
 
 class LocalNotifierConfig(NamedTuple):
@@ -24,16 +23,16 @@ class LocalNotifier(Notifier):
         self._org: str = ""
         self.seq = 0
 
-    def _color(self, org: Org) -> str:
-        self.seq += int(org.name != self._org)
-        self._org = org.name
+    def _color(self, org: str) -> str:
+        self.seq += int(org != self._org)
+        self._org = org
         return str(self.BASE_COLOR + self.seq % self.DISTINCT_COLORS)
 
-    def _notify(self, org: Org, job: Job) -> None:
+    def _notify(self, org: str, job: Job) -> None:
         color = f"\033[{self._color(org)}m"
 
         print(
-            f"{color}{org.name}{self.END_COLOR}: "
+            f"{color}{org}{self.END_COLOR}: "
             f"{self.BOLD}{job.title}{self.END_BOLD} - "
             f"{self.ITALIC}{job.url}{self.END_ITALIC}",
             file=self.file,

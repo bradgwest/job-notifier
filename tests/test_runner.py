@@ -4,9 +4,8 @@ import pytest
 
 from src.job import Job
 from src.notifier.notifier import Notifier
-from src.org import Org
-from src.parser.parser import Parser
-from src.runner import ORGANIZATIONS, PageReader, Runner, config_from_env
+from src.parser import parser
+from src.runner import PARSERS, Runner, config_from_env
 from src.storage.storage import Storage
 
 
@@ -30,11 +29,6 @@ def listings() -> List[List[Job]]:
     ]
 
 
-@pytest.fixture
-def org_map() -> dict[str, Org]:
-    return {"org": Org("org", "url", Parser)}
-
-
 def test_config_from_env_creates_config(monkeypatch: pytest.MonkeyPatch):
     test_path = "/test/path"
     test_optional_var = "updated_test_var"
@@ -53,19 +47,16 @@ def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPat
         config_from_env(ConfigTest)
 
 
-def test_runner(storage: Storage, notifier: Notifier, page_reader: PageReader):
-    runner = Runner(storage, notifier, page_reader, ORGANIZATIONS)
+def test_runner(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
+    runner = Runner(storage, notifier, page_reader, PARSERS)
     runner.run()
-    assert len(runner.notifier.notifications) == len(ORGANIZATIONS)  # type: ignore
+    assert len(runner.notifier.notifications) == len(PARSERS)  # type: ignore
 
 
 def test_diff_raises_with_no_storage(
-    storage: Storage,
-    notifier: Notifier,
-    page_reader: PageReader,
-    org_map: dict[str, Org],
+    storage: Storage, notifier: Notifier, page_reader: parser.PageReader
 ):
-    runner = Runner(storage, notifier, page_reader, org_map)
+    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
     with pytest.raises(RuntimeError):
         runner.diff()
 
@@ -73,33 +64,27 @@ def test_diff_raises_with_no_storage(
 def test_diff_returns_only_new_jobs(
     storage: Storage,
     notifier: Notifier,
-    page_reader: PageReader,
+    page_reader: parser.PageReader,
     listings: List[List[Job]],
-    org_map: dict[str, Org],
 ):
-    runner = Runner(storage, notifier, page_reader, org_map)
+    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
     storage.write("org", listings[0])
     storage.write("org", listings[1])
     new_jobs = runner.diff()
 
     assert new_jobs == {
-        org_map["org"]: [
-            Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs")
-        ]
+        "org": [Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs")]
     }
 
 
 def test_diff_returns_all_jobs_when_no_previous_jobs(
     storage: Storage,
     notifier: Notifier,
-    page_reader: PageReader,
+    page_reader: parser.PageReader,
     listings: List[List[Job]],
-    org_map: dict[str, Org],
 ):
-    org_map = {"org": Org("org", "url", Parser)}
-
-    runner = Runner(storage, notifier, page_reader, org_map)
+    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
     storage.write("org", listings[0])
     new_jobs = runner.diff()
 
-    assert new_jobs == {org_map["org"]: listings[0]}
+    assert new_jobs == {"org": listings[0]}

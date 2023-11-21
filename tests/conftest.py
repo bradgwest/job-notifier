@@ -1,14 +1,12 @@
 import io
 import os
 from collections import defaultdict
-from typing import Dict, List, NamedTuple, Optional
+from typing import Callable, Dict, List, NamedTuple, Optional
 
 import pytest
 
 from src.job import Job
 from src.notifier.notifier import Notifier
-from src.org import Org
-from src.runner import PageReader
 from src.storage.storage import Storage
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -23,8 +21,8 @@ class NotifierTest(Notifier):
     def __init__(self, config: NotifierTestConfig):
         self.notifications: Dict[str, List[Job]] = defaultdict(list)
 
-    def _notify(self, org: Org, job: Job) -> None:
-        self.notifications[org.name].append(job)
+    def _notify(self, org: str, job: Job) -> None:
+        self.notifications[org].append(job)
 
 
 class StorageTestConfig(NamedTuple):
@@ -58,9 +56,9 @@ class StorageTest(Storage):
 
 
 @pytest.fixture
-def page_reader() -> PageReader:
-    def _reader(org: Org) -> str:
-        html_path = os.path.join(LISTINGS_DIR, f"{org.name}.txt")
+def page_reader() -> Callable[[str, str], str]:
+    def _reader(org: str, url: str) -> str:
+        html_path = os.path.join(LISTINGS_DIR, f"{org}.txt")
         with open(html_path) as f:
             return f.read()
 
