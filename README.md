@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/github/docs/actions/workflows/cicd.yml/badge.svg?event=push)
+
 # Job Notifier
 
 ## Quick Start
