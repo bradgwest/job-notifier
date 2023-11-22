@@ -38,7 +38,6 @@ class LocalStorage(Storage):
             reverse=True,
         )
         for file in files:
-            print(f"reading {file}")
             with open(os.path.join(directory, file)) as f:
                 yield io.StringIO(f.read())
 
