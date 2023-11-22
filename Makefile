@@ -10,8 +10,8 @@ deps: venv
 	$(BIN)/pip install -r requirements.txt
 
 .PHONY: dev-deps
-dev-deps:
-	$(BIN)/pip install -r requirements_dev.txt
+dev-deps: venv
+	$(BIN)/pip install -r requirements-dev.txt
 	$(MAKE) deps
 
 .PHONY: fmt
@@ -24,11 +24,16 @@ lint: dev-deps
 	$(BIN)/isort --check .
 	$(BIN)/black --check .
 	$(BIN)/flake8 .
-	$(BIN)/pyright --project pyproject.toml .
+	# explicitly specify pythonpath to work around import issues in docker
+	$(BIN)/pyright --pythonpath $(BIN)/python --project pyproject.toml .
 
 .PHONY: test
 test: dev-deps
-	$(BIN)/pytest --cov --cov-report html --cov-report term-missing .
+	$(BIN)/pytest -v --cov --cov-report html --cov-report term-missing .
+
+.PHONY: build
+build:
+	docker build -t job-notifier .
 
 .PHONY: qa
 qa: lint test

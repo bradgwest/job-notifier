@@ -1,4 +1,5 @@
 import pathlib
+import time
 
 from src.job import Job
 from src.storage.local import LocalStorage, LocalStorageConfig
@@ -27,6 +28,7 @@ def test_local_storage(tmp_path: pathlib.Path):
     storage = LocalStorage(config)
 
     for page in LISTINGS:
+        time.sleep(0.1)  # ensure each page has a different timestamp
         storage.write("org", page)
 
     pages = list(storage.read("org"))
