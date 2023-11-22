@@ -131,7 +131,7 @@ class Runner:
         elif page_count == 1:
             new_jobs = jobs[0]
         else:
-            new_jobs = set(jobs[1]) - set(jobs[0])
+            new_jobs = set(jobs[0]) - set(jobs[1])
 
         return [job for job in new_jobs if self._match(job)]
 

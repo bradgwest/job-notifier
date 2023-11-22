@@ -8,4 +8,5 @@ def test_storage(storage: Storage):
         storage.write(org, page)  # type: ignore
 
     pages = list(storage.read(org))
+    pages.reverse()
     assert pages == storage.LISTINGS  # type: ignore

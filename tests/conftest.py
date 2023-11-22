@@ -48,7 +48,7 @@ class StorageTest(Storage):
         self.buffers: List[io.StringIO] = []
 
     def _read(self, org: str):
-        for page in self.buffers:
+        for page in reversed(self.buffers):
             yield io.StringIO(page.getvalue())
 
     def _write(self, buff: io.StringIO, org: str):
