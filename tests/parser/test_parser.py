@@ -1,3 +1,4 @@
+import json
 from typing import List, NamedTuple
 
 from bs4 import BeautifulSoup
@@ -23,6 +24,20 @@ class TestParser(parser.Parser):
         ]
 
 
+class TestJSONParser(parser.Parser):
+    @property
+    def org(self) -> str:
+        return "org"
+
+    @property
+    def url(self) -> str:
+        return "test?page={page}"
+
+    def _parse(self, content: str) -> parser.PageData:
+        d = json.loads(content)
+        return d["has_next_page"], [Job(**job) for job in d["jobs"]]
+
+
 def test_parser():
     content = """/
 <html>
@@ -42,6 +57,38 @@ def test_parser():
     assert jobs[1] == Job(
         title="Cake Manufacturing Engineer", url="https://company_1.com/jobs/2"
     )
+
+
+def test_multi_page_parser():
+    pages = {
+        "test?page=1": {
+            "jobs": [
+                Job("Engineer of Chairs", "https://company_1.com/jobs/1").to_dict(),
+                Job(
+                    "Cake Manufacturing Engineer", "https://company_1.com/jobs/2"
+                ).to_dict(),
+            ],
+            "has_next_page": True,
+        },
+        "test?page=2": {
+            "jobs": [
+                Job("Consciousness Engineer", "https://company_1.com/jobs/3").to_dict(),
+                Job(
+                    "Engineer of Time and Space", "https://company_1.com/jobs/4"
+                ).to_dict(),
+            ],
+            "has_next_page": False,
+        },
+    }
+
+    def reader(org: str, url: str) -> str:
+        return json.dumps(pages[url])
+
+    parser = TestJSONParser()
+    jobs = parser.parse(reader)
+    assert len(jobs) == 4
+    assert jobs[0] == Job(**pages["test?page=1"]["jobs"][0])  # type: ignore
+    assert jobs[3] == Job(**pages["test?page=2"]["jobs"][1])  # type: ignore
 
 
 def test_org_parsers(page_reader: parser.PageReader):
