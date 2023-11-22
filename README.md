@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/github/docs/actions/workflows/cicd.yml/badge.svg?event=push)
+![CI/CD](https://github.com/github/docs/actions/workflows/cicd.yaml/badge.svg?event=push)
 
 # Job Notifier
 
@@ -18,13 +18,15 @@ Run it:
 docker run job-notifier
 ```
 
-### From Source
+### Source
 
 Install dependencies:
 
 ```sh
 make deps
 ```
+
+Run it:
 
 ```sh
 python -m src.runner -h
