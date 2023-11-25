@@ -1,5 +1,5 @@
 import json
-from typing import NamedTuple
+from typing import List, Mapping, NamedTuple
 
 
 class Job(NamedTuple):
@@ -15,3 +15,6 @@ class Job(NamedTuple):
     @classmethod
     def from_json(cls, s: str):
         return cls(**json.loads(s))
+
+
+JobMap = Mapping[str, List[Job]]

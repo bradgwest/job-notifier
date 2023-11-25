@@ -5,11 +5,12 @@ import json
 import logging
 import os
 import re
-from typing import Any, Dict, List, Mapping, Tuple, Type, cast
+from collections import defaultdict
+from typing import Any, Dict, Mapping, Tuple, Type, cast
 
 import requests
 
-from src.job import Job
+from src.job import Job, JobMap
 from src.notifier.local import LocalNotifier, LocalNotifierConfig
 from src.notifier.notifier import Notifier, NotifierConfig
 from src.parser import parser
@@ -103,48 +104,57 @@ class Runner:
         self.notifier = notifier
         self.parsers: ParserMap = parsers
         self.reader = reader
-        self.jobs: Dict[str, List[Job]] = {}
+        self.jobs: JobMap = defaultdict(list)
 
-    def update_storage(self) -> None:
+    def _fetch(self) -> JobMap:
+        jobs: JobMap = {}
         for org, parser_type in self.parsers.items():
+            _logger.debug(f"Fetching jobs for {org}")
             parser = parser_type()
-            jobs = parser.parse(self.reader)
-            _logger.debug(f"Found {len(jobs)} jobs for {org}: {json.dumps(jobs)}")
-            if not jobs:
-                raise RuntimeError(f"No jobs found for {org}")
-            self.storage.write(org, jobs)
+            listings = parser.parse(self.reader)
+            _logger.debug(f"Found {len(listings)} jobs for {org}: {json.dumps(jobs)}")
+            jobs[org] = listings
+        return jobs
+
+    def _read_cache(self) -> JobMap:
+        jobs: JobMap = {}
+
+        for org in self.parsers.keys():
+            try:
+                page = next(self.storage.read(org))
+            except StopIteration:
+                _logger.debug(f"Storage for {org} is empty")
+                page = []
+
+            jobs[org] = page
+
+        return jobs
+
+    def update_storage(self, jobs: JobMap) -> None:
+        for org, listings in jobs.items():
+            self.storage.write(org, listings)
 
     def _match(self, job: Job) -> bool:
         return self.JOB_MATCHER.search(job.title) is not None
 
-    def _diff(self, org: str) -> List[Job]:
-        page_count = 0
-        jobs: List[List[Job]] = []
-        for page in self.storage.read(org):
-            jobs.append(page)
-            page_count += 1
-            if page_count == 2:
-                break
+    def diff(self, current: JobMap, cached: JobMap) -> JobMap:
+        jobs: JobMap = {}
 
-        if page_count <= 0:
-            raise RuntimeError(f"Storage for {org} is empty")
-        elif page_count == 1:
-            new_jobs = jobs[0]
-        else:
-            new_jobs = set(jobs[0]) - set(jobs[1])
-
-        return [job for job in new_jobs if self._match(job)]
-
-    def diff(self):
-        jobs: Dict[str, List[Job]] = {}
         for org in self.parsers.keys():
-            jobs[org] = self._diff(org)
+            jobs[org] = [
+                job for job in set(current[org]) - set(cached[org]) if self._match(job)
+            ]
+
         return jobs
 
     def run(self) -> None:
-        self.update_storage()
-        new_jobs = self.diff()
-        self.notifier.notify(new_jobs)
+        current = self._fetch()
+        cached = self._read_cache()
+        new = self.diff(current, cached)
+        # Default to notifying first. On the off chance updating storage fails,
+        # we'll get notified more than once. This is OK for now.
+        self.notifier.notify(new)
+        self.update_storage(current)
 
 
 # todo: add config for storage and notifier

@@ -45,14 +45,14 @@ class StorageTest(Storage):
 
     def __init__(self, config: StorageTestConfig):
         self.config = config
-        self.buffers: List[io.StringIO] = []
+        self.buffers: Dict[str, List[io.StringIO]] = defaultdict(list)
 
     def _read(self, org: str):
-        for page in reversed(self.buffers):
+        for page in reversed(self.buffers.get(org, [])):
             yield io.StringIO(page.getvalue())
 
     def _write(self, buff: io.StringIO, org: str):
-        self.buffers.append(io.StringIO(buff.getvalue()))
+        self.buffers[org].append(io.StringIO(buff.getvalue()))
 
 
 @pytest.fixture

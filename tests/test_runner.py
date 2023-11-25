@@ -53,38 +53,58 @@ def test_runner(storage: Storage, notifier: Notifier, page_reader: parser.PageRe
     assert len(runner.notifier.notifications) == len(PARSERS)  # type: ignore
 
 
-def test_diff_raises_with_no_storage(
-    storage: Storage, notifier: Notifier, page_reader: parser.PageReader
-):
-    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
-    with pytest.raises(RuntimeError):
-        runner.diff()
-
-
-def test_diff_returns_only_new_jobs(
-    storage: Storage,
-    notifier: Notifier,
-    page_reader: parser.PageReader,
-    listings: List[List[Job]],
-):
-    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
-    storage.write("org", listings[0])
-    storage.write("org", listings[1])
-    new_jobs = runner.diff()
-
+def test_diff(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
+    current = {
+        "xyz": [
+            Job("Aircraft Engineer", "https://xyz.com/jobs/387"),
+            Job("GPS Engineer", "https://xyz.com/jobs/123"),
+        ],
+        "abc": [
+            Job("Mechanical Engineer", "https://abc.com/jobs/234"),
+        ],
+    }
+    cached = {
+        "xyz": [
+            Job("Aircraft Engineer", "https://xyz.com/jobs/387"),
+        ],
+        "abc": [
+            Job("Physical Engineer", "https://abc.com/jobs/123"),
+            Job("Mechanical Engineer", "https://abc.com/jobs/234"),
+        ],
+    }
+    runner = Runner(
+        storage, notifier, page_reader, {"xyz": parser.Parser, "abc": parser.Parser}
+    )
+    new_jobs = runner.diff(current, cached)
     assert new_jobs == {
-        "org": [Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs")]
+        "xyz": [Job("GPS Engineer", "https://xyz.com/jobs/123")],
+        "abc": [],
     }
 
 
-def test_diff_returns_all_jobs_when_no_previous_jobs(
-    storage: Storage,
-    notifier: Notifier,
-    page_reader: parser.PageReader,
-    listings: List[List[Job]],
-):
-    runner = Runner(storage, notifier, page_reader, {"org": parser.Parser})
-    storage.write("org", listings[0])
-    new_jobs = runner.diff()
+def test_run(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
+    class XYZParser(parser.Parser):
+        def parse(self, reader: parser.PageReader) -> List[Job]:
+            return [
+                Job("Aircraft Engineer", "https://xyz.com/jobs/387"),
+                Job("GPS Engineer", "https://xyz.com/jobs/123"),
+            ]
 
-    assert new_jobs == {"org": listings[0]}
+    class ABCParser(parser.Parser):
+        def parse(self, reader: parser.PageReader) -> List[Job]:
+            return [
+                Job("Mechanical Engineer", "https://abc.com/jobs/234"),
+            ]
+
+    parsers = {"xyz": XYZParser, "abc": ABCParser}
+
+    storage.write("xyz", [Job("Aircraft Engineer", "https://xyz.com/jobs/387")])
+    storage.write("abc", [Job("Physical Engineer", "https://abc.com/jobs/123")])
+
+    runner = Runner(storage, notifier, page_reader, parsers)
+    runner.run()
+
+    assert runner.notifier.notifications == {  # type: ignore
+        "xyz": [Job("GPS Engineer", "https://xyz.com/jobs/123")],
+        "abc": [Job("Mechanical Engineer", "https://abc.com/jobs/234")],
+    }
