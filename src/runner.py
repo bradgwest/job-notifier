@@ -107,23 +107,26 @@ class Runner:
         self.jobs: JobMap = defaultdict(list)
 
     def _fetch(self) -> JobMap:
+        """Fetch current job listings from all parsers."""
         jobs: JobMap = {}
         for org, parser_type in self.parsers.items():
-            _logger.debug(f"Fetching jobs for {org}")
+            _logger.info(f"Fetching jobs for {org}")
             parser = parser_type()
             listings = parser.parse(self.reader)
-            _logger.debug(f"Found {len(listings)} jobs for {org}: {json.dumps(jobs)}")
+            _logger.info(f"Found {len(listings)} jobs for {org}")
+            _logger.debug(f"Jobs for {org}: {json.dumps(jobs)}")
             jobs[org] = listings
         return jobs
 
     def _read_cache(self) -> JobMap:
+        """Read cached job listings from storage."""
         jobs: JobMap = {}
 
         for org in self.parsers.keys():
             try:
                 page = next(self.storage.read(org))
             except StopIteration:
-                _logger.debug(f"Storage for {org} is empty")
+                _logger.info(f"Storage for {org} is empty")
                 page = []
 
             jobs[org] = page
@@ -131,6 +134,7 @@ class Runner:
         return jobs
 
     def update_storage(self, jobs: JobMap) -> None:
+        """Update storage with current job listings."""
         for org, listings in jobs.items():
             self.storage.write(org, listings)
 
@@ -138,6 +142,7 @@ class Runner:
         return self.JOB_MATCHER.search(job.title) is not None
 
     def diff(self, current: JobMap, cached: JobMap) -> JobMap:
+        """Return new jobs that are not in cache."""
         jobs: JobMap = {}
 
         for org in self.parsers.keys():
@@ -148,6 +153,11 @@ class Runner:
         return jobs
 
     def run(self) -> None:
+        """Run the job notifier.
+
+        This will fetch current job listings, compare them to the cached listings,
+        and notify of any new jobs.
+        """
         current = self._fetch()
         cached = self._read_cache()
         new = self.diff(current, cached)
