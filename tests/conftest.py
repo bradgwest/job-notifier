@@ -5,7 +5,7 @@ from typing import Callable, Dict, List, NamedTuple, Optional
 
 import pytest
 
-from src.job import Job
+from src.job import Job, JobMap
 from src.notifier.notifier import Notifier
 from src.storage.storage import Storage
 
@@ -21,14 +21,15 @@ class NotifierTest(Notifier):
     def __init__(self, config: NotifierTestConfig):
         self.notifications: Dict[str, List[Job]] = defaultdict(list)
 
-    def _notify(self, org: str, job: Job) -> None:
-        self.notifications[org].append(job)
+    def notify(self, new_jobs: JobMap) -> None:
+        for org, jobs in new_jobs.items():
+            for job in jobs:
+                self.notifications[org].append(job)
 
 
 class StorageTestConfig(NamedTuple):
     path: str
     optional_var: Optional[str] = "test"
-    env_var_prefix: str = "TESTER_BACKEND_"
 
 
 class StorageTest(Storage):

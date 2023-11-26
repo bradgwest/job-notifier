@@ -30,7 +30,3 @@ class Storage:
 
     def _write(self, buff: io.StringIO, org: str) -> None:
         raise NotImplementedError
-
-    def clean(self) -> None:
-        """Clean up unnecessary storage"""
-        raise NotImplementedError

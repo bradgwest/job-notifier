@@ -1,18 +1,26 @@
-from typing import List, NamedTuple, Optional, cast
+import argparse
+from typing import List, NamedTuple, Optional, Set
 
 import pytest
 
 from src.job import Job
 from src.notifier.notifier import Notifier
 from src.parser import parser
-from src.runner import PARSERS, Runner, config_from_env
+from src.runner import (
+    NOTIFIER_BACKENDS,
+    PARSERS,
+    STORAGE_BACKENDS,
+    Runner,
+    add_args,
+    setup_notifier_backend,
+    setup_storage_backend,
+)
 from src.storage.storage import Storage
 
 
 class ConfigTest(NamedTuple):
     path: str
     optional_var: Optional[str] = "test"
-    env_var_prefix: str = "TESTER_BACKEND_"
 
 
 @pytest.fixture
@@ -29,22 +37,51 @@ def listings() -> List[List[Job]]:
     ]
 
 
-def test_config_from_env_creates_config(monkeypatch: pytest.MonkeyPatch):
-    test_path = "/test/path"
-    test_optional_var = "updated_test_var"
-    monkeypatch.setenv(ConfigTest._field_defaults["env_var_prefix"] + "PATH", test_path)
-    monkeypatch.setenv(
-        ConfigTest._field_defaults["env_var_prefix"] + "OPTIONAL_VAR",
-        test_optional_var,
-    )
-    config = cast(ConfigTest, config_from_env(ConfigTest))
-    assert config.path == test_path
-    assert config.optional_var == test_optional_var
+def test_setup_storage_backend_errors_on_missing_arg():
+    parser = add_args(argparse.ArgumentParser())
+    cmdline = ["--storage-backend", "LocalStorage"]
+    with pytest.raises(ValueError):
+        args = parser.parse_args(cmdline)
+        setup_storage_backend(args)
 
 
-def test_config_from_env_raises_on_missing_env_var(monkeypatch: pytest.MonkeyPatch):
-    with pytest.raises(RuntimeError):
-        config_from_env(ConfigTest)
+def test_setup_storage_backend():
+    tested_classes: Set[str] = set()
+    backends = {
+        "LocalStorage": ["--local-storage-path", "/tmp"],
+    }
+    for backend_type, backend_args in backends.items():
+        parser = add_args(argparse.ArgumentParser())
+        cmdline = ["--storage-backend", backend_type] + backend_args
+        args = parser.parse_args(cmdline)
+        backend = setup_storage_backend(args)
+        tested_classes.add(str(backend.__class__.__name__))
+
+    assert tested_classes == STORAGE_BACKENDS
+
+
+def test_setup_notifier_backend_errors_on_missing_arg():
+    parser = add_args(argparse.ArgumentParser())
+    cmdline = ["--notifier-backend", "GithubStepSummaryNotifier"]
+    with pytest.raises(ValueError):
+        args = parser.parse_args(cmdline)
+        setup_notifier_backend(args)
+
+
+def test_setup_notifier_backend():
+    tested_classes: Set[str] = set()
+    backends = {
+        "LocalNotifier": [],
+        "GithubStepSummaryNotifier": ["--github-username", "test"],
+    }
+    for backend_type, backend_args in backends.items():
+        parser = add_args(argparse.ArgumentParser())
+        cmdline = ["--notifier-backend", backend_type] + backend_args
+        args = parser.parse_args(cmdline)
+        backend = setup_notifier_backend(args)
+        tested_classes.add(str(backend.__class__.__name__))
+
+    assert tested_classes == NOTIFIER_BACKENDS
 
 
 def test_runner(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):

@@ -21,7 +21,6 @@ class Parser:
         """The url to read."""
         raise NotImplementedError
 
-    # todo: test multiple page functionality
     def parse(self, reader: PageReader) -> List[Job]:
         """Parse a url, following pages, returning a list of jobs."""
         jobs: List[Job] = []

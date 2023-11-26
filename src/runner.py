@@ -6,11 +6,15 @@ import logging
 import os
 import re
 from collections import defaultdict
-from typing import Any, Dict, Mapping, Tuple, Type, cast
+from typing import Mapping, Type
 
 import requests
 
 from src.job import Job, JobMap
+from src.notifier.github import (
+    GithubStepSummaryNotifier,
+    GithubStepSummaryNotifierConfig,
+)
 from src.notifier.local import LocalNotifier, LocalNotifierConfig
 from src.notifier.notifier import Notifier, NotifierConfig
 from src.parser import parser
@@ -26,7 +30,8 @@ Backend = Storage | Notifier
 ParserMap = Mapping[str, Type[parser.Parser]]
 
 PARSERS = {
-    "airbnb": parser.AirbnbParser,
+    # todo
+    # "airbnb": parser.AirbnbParser,
     "airtable": parser.AirtableParser,
     "cloudflare": parser.CloudflareParser,
     "mongodb": parser.MongoDBParser,
@@ -36,12 +41,8 @@ PARSERS = {
     "stripe": parser.StripeParser,
     "zscaler": parser.ZscalerParser,
 }
-STORAGE_BACKENDS: Mapping[str, Tuple[Type[Storage], ConfigType]] = {
-    "LocalStorage": (LocalStorage, LocalStorageConfig),
-}
-NOTIFIER_BACKENDS: Mapping[str, Tuple[Type[Notifier], ConfigType]] = {
-    "LocalNotifier": (LocalNotifier, LocalNotifierConfig),
-}
+STORAGE_BACKENDS = frozenset(["LocalStorage"])
+NOTIFIER_BACKENDS = frozenset(["LocalNotifier", "GithubStepSummaryNotifier"])
 
 
 def _log_level(val: str) -> int:
@@ -51,36 +52,33 @@ def _log_level(val: str) -> int:
         return getattr(logging, val.upper())
 
 
-def config_from_env(cls: Config) -> Config:
-    prefix = cls._field_defaults.get("env_var_prefix")
-    if prefix is not None:
-        kwargs: Dict[str, str] = {
-            name[len(prefix) :].lower(): os.environ[name]
-            for name in os.environ
-            if name.startswith(prefix)
-        }
-    else:
-        kwargs: Dict[str, str] = {}
-
-    try:
-        return cls(**kwargs)  # type: ignore
-    except TypeError as e:
-        raise RuntimeError(f"Could not create {cls.__name__} from environment") from e
+def setup_storage_backend(args: argparse.Namespace) -> Storage:
+    match args.storage_backend:
+        case "LocalStorage":
+            if args.local_storage_path is None:
+                raise ValueError(
+                    "LocalStorage backend requires setting --local-storage-path"
+                )
+            return LocalStorage(LocalStorageConfig(args.local_storage_path))
+        case _:
+            raise ValueError(f"Unsupported storage backend: {args.storage_backend}")
 
 
-def parse_backend(
-    val: str,
-    allowed_values: Mapping[str, Tuple[Type[Storage] | Type[Notifier], ConfigType]],
-) -> Tuple[Type[Any], ConfigType]:
-    try:
-        return allowed_values[val]
-    except KeyError:
-        raise argparse.ArgumentTypeError(f"Unsupported backend: {val}")
-
-
-def setup_backend(backend_type: BackendType, config: Config) -> Backend:
-    cfg = config_from_env(config)
-    return backend_type(cfg)
+def setup_notifier_backend(args: argparse.Namespace) -> Notifier:
+    match args.notifier_backend:
+        case "LocalNotifier":
+            return LocalNotifier(LocalNotifierConfig())
+        case "GithubStepSummaryNotifier":
+            if args.github_username is None:
+                raise ValueError(
+                    "GithubStepSummaryNotifier backend requires setting "
+                    "--github-username"
+                )
+            return GithubStepSummaryNotifier(
+                GithubStepSummaryNotifierConfig(args.github_username)
+            )
+        case _:
+            raise ValueError(f"Unsupported notifier backend: {args.notifier_backend}")
 
 
 def reader(org: str, url: str) -> str:
@@ -167,27 +165,42 @@ class Runner:
         self.update_storage(current)
 
 
-# todo: add config for storage and notifier
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description=__doc__)
+def add_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
     parser.add_argument("--log-level", type=_log_level, default="WARNING")
     parser.add_argument(
         "--storage-backend",
-        type=lambda x: parse_backend(x, STORAGE_BACKENDS),
         default="LocalStorage",
+        choices=STORAGE_BACKENDS,
     )
     parser.add_argument(
         "--notifier-backend",
-        type=lambda x: parse_backend(x, NOTIFIER_BACKENDS),
         default="LocalNotifier",
+        choices=NOTIFIER_BACKENDS,
     )
+    parser.add_argument(
+        "--local-storage-path",
+        help="Path to directory in which to store files when using the "
+        "LocalStorage backend",
+        default=os.getenv("NOTIFIER_LOCAL_STORAGE_PATH"),
+    )
+    parser.add_argument(
+        "--github-username",
+        help="Github username to notify when using the GithubStepSummaryNotifier "
+        "backend",
+        default=os.getenv("NOTIFIER_GITHUB_USERNAME"),
+    )
+    return parser
+
+
+if __name__ == "__main__":
+    parser = add_args(argparse.ArgumentParser(description=__doc__))
     args = parser.parse_args()
 
     logging.basicConfig()
     _logger.setLevel(args.log_level)
 
-    storage = cast(Storage, setup_backend(*args.storage_backend))
-    notifier = cast(Notifier, setup_backend(*args.notifier_backend))
+    storage = setup_storage_backend(args)
+    notifier = setup_notifier_backend(args)
 
     runner = Runner(storage, notifier, reader, PARSERS)
     runner.run()

@@ -16,11 +16,12 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     # set GITHUB_TOKEN permissions
     permissions:
       contents: read
       packages: write
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,6 +33,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+        timeout-minutes: 3
 
       - name: Extract metadata
         if: github.event_name == 'push'
@@ -43,6 +45,7 @@ jobs:
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
             type=sha
             type=sha,format=long
+        timeout-minutes: 3
 
       - name: Build and push
         uses: docker/build-push-action@v5.1.0
@@ -51,3 +54,4 @@ jobs:
           push: ${{ github.event_name == 'push' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+        timeout-minutes: 7

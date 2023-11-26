@@ -9,7 +9,6 @@ from src.storage.storage import Storage
 
 class LocalStorageConfig(NamedTuple):
     path: str
-    env_var_prefix: str = "LOCAL_STORAGE_"
 
 
 class LocalStorage(Storage):
@@ -49,8 +48,3 @@ class LocalStorage(Storage):
         fp = self.filepath(org)
         with open(fp, "w") as f:
             f.write(buff.getvalue())
-
-    def clean(self) -> None:
-        """Remove all by the most recent two files for each org"""
-        # todo
-        pass

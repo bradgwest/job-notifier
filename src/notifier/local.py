@@ -1,7 +1,7 @@
 import sys
 from typing import NamedTuple, TextIO
 
-from src.job import Job
+from src.job import Job, JobMap
 from src.notifier.notifier import Notifier
 
 
@@ -37,3 +37,8 @@ class LocalNotifier(Notifier):
             f"{self.ITALIC}{job.url}{self.END_ITALIC}",
             file=self.file,
         )
+
+    def notify(self, new_jobs: JobMap) -> None:
+        for org, jobs in new_jobs.items():
+            for job in jobs:
+                self._notify(org, job)

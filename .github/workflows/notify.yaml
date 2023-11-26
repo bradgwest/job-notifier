@@ -1,0 +1,44 @@
+# This workflow runs the notifier from the latest docker image, and tags
+# the user in a step summary in order to generate a notification.
+name: notify
+
+on:
+  workflow_dispatch:
+  # todo: disable until tested
+  # schedule:
+  #   - cron: "15 14,19,23 * * 1-5" # 7:15am, 12:15am, 4:15pm MT on every day-of-week from Monday through Friday.
+
+jobs:
+  notify:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
+    env:
+      LOCAL_STORAGE_PATH: ${{ github.workspace }}/.storage
+    steps:
+      - name: Download Artifacts
+        id: download-artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: cache
+        continue-on-error: true
+
+      # Make the storage directory if we failed to download the artifacts.
+      - name: Make Storage Directory
+        if: steps.download-artifacts.outcome == 'failure'
+        run: mkdir -p ${{ env.LOCAL_STORAGE_PATH }}
+
+      - name: Run Notifier
+        uses: docker://ghcr.io/bradgwest/job-notifier:latest
+        with:
+          args: |
+            --storage-backend LocalStorage
+            --local-storage-path ${{ env.LOCAL_STORAGE_PATH }}
+            --notifier-backend GithubStepSummaryNotifier
+            --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
+        timeout-minutes: 15
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: cache
+          path: ${{ env.LOCAL_STORAGE_PATH }}
