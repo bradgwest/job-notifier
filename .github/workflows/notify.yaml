@@ -29,10 +29,10 @@ jobs:
       - name: Run Notifier
         uses: docker://ghcr.io/bradgwest/job-notifier:latest
         with:
-          args: |
-            --storage-backend LocalStorage \
-            --local-storage-path ${{ env.LOCAL_STORAGE_PATH }} \
-            --notifier-backend GithubStepSummaryNotifier \
+          args: >-
+            --storage-backend LocalStorage
+            --local-storage-path ${{ env.LOCAL_STORAGE_PATH }}
+            --notifier-backend GithubStepSummaryNotifier
             --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
         timeout-minutes: 15
 
