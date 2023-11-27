@@ -30,8 +30,7 @@ Backend = Storage | Notifier
 ParserMap = Mapping[str, Type[parser.Parser]]
 
 PARSERS = {
-    # todo
-    # "airbnb": parser.AirbnbParser,
+    "airbnb": parser.AirbnbParser,
     "airtable": parser.AirtableParser,
     "cloudflare": parser.CloudflareParser,
     "mongodb": parser.MongoDBParser,
