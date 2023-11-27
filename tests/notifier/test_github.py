@@ -1,5 +1,5 @@
-from src.job import Job
-from src.notifier.github import (
+from job_notifier.job import Job
+from job_notifier.notifier.github import (
     GithubStepSummaryNotifier,
     GithubStepSummaryNotifierConfig,
 )

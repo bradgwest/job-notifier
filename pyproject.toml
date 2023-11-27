@@ -3,6 +3,46 @@
 #   python@3.12
 #---
 
+[project]
+name = "job_notifier"
+version = "0.0.1"
+authors = [
+  { name="Brad West", email="brad.g.west@gmail.com" },
+]
+description = "A library for notifying users of new job postings."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4==4.12.2",
+    "lxml==4.9.3",
+    "requests==2.31.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==23.11.0",
+    "isort==5.12.0",
+    "flake8==6.1.0",
+    "pyright==1.1.335",
+    "pytest==7.4.3",
+    "pytest-cov==4.1.0",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[project.scripts]
+notify = "job_notifier.runner:main"
+
+[build-system]
+requires = [
+    "setuptools==69.0.2",
+    "wheel==0.42.0"
+]
+build-backend = "setuptools.build_meta"
+
 [tool.pyright]
 include = ["src", "tests"]
 exclude = [

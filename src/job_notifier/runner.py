@@ -10,16 +10,16 @@ from typing import Mapping, Type
 
 import requests
 
-from src.job import Job, JobMap
-from src.notifier.github import (
+from job_notifier.job import Job, JobMap
+from job_notifier.notifier.github import (
     GithubStepSummaryNotifier,
     GithubStepSummaryNotifierConfig,
 )
-from src.notifier.local import LocalNotifier, LocalNotifierConfig
-from src.notifier.notifier import Notifier, NotifierConfig
-from src.parser import parser
-from src.storage.local import LocalStorage, LocalStorageConfig
-from src.storage.storage import Storage, StorageConfig
+from job_notifier.notifier.local import LocalNotifier, LocalNotifierConfig
+from job_notifier.notifier.notifier import Notifier, NotifierConfig
+from job_notifier.parser import parser
+from job_notifier.storage.local import LocalStorage, LocalStorageConfig
+from job_notifier.storage.storage import Storage, StorageConfig
 
 _logger = logging.getLogger(__name__)
 
@@ -192,7 +192,7 @@ def add_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
     return parser
 
 
-if __name__ == "__main__":
+def main():
     parser = add_args(argparse.ArgumentParser(description=__doc__))
     args = parser.parse_args()
 

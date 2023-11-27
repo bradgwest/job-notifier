@@ -3,10 +3,10 @@ from typing import List, NamedTuple, Optional, Set
 
 import pytest
 
-from src.job import Job
-from src.notifier.notifier import Notifier
-from src.parser import parser
-from src.runner import (
+from job_notifier.job import Job
+from job_notifier.notifier.notifier import Notifier
+from job_notifier.parser import parser
+from job_notifier.runner import (
     NOTIFIER_BACKENDS,
     PARSERS,
     STORAGE_BACKENDS,
@@ -15,7 +15,7 @@ from src.runner import (
     setup_notifier_backend,
     setup_storage_backend,
 )
-from src.storage.storage import Storage
+from job_notifier.storage.storage import Storage
 
 
 class ConfigTest(NamedTuple):

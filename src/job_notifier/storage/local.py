@@ -4,7 +4,7 @@ import os
 import uuid
 from typing import Generator, NamedTuple, Optional
 
-from src.storage.storage import Storage
+from job_notifier.storage.storage import Storage
 
 
 class LocalStorageConfig(NamedTuple):

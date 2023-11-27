@@ -1,7 +1,7 @@
 import io
 
-from src.job import Job
-from src.notifier.local import LocalNotifier, LocalNotifierConfig
+from job_notifier.job import Job
+from job_notifier.notifier.local import LocalNotifier, LocalNotifierConfig
 
 
 def test_local_notifier():

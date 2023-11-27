@@ -1,4 +1,4 @@
-from src.job import Job
+from job_notifier.job import Job
 
 
 def test_job():

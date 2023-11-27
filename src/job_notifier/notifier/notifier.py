@@ -1,6 +1,6 @@
 from typing import NamedTuple, Type
 
-from src.job import JobMap
+from job_notifier.job import JobMap
 
 NotifierConfig = Type[NamedTuple]
 

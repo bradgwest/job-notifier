@@ -1,5 +1,5 @@
-from src.job import Job
-from src.notifier.notifier import Notifier
+from job_notifier.job import Job
+from job_notifier.notifier.notifier import Notifier
 
 
 def test_notifier(notifier: Notifier):

@@ -1,4 +1,4 @@
-from src.storage.storage import Storage
+from job_notifier.storage.storage import Storage
 
 
 def test_storage(storage: Storage):

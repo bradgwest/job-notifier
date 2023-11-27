@@ -3,9 +3,9 @@ from typing import List, NamedTuple
 
 from bs4 import BeautifulSoup
 
-from src.job import Job
-from src.parser import parser
-from src.runner import PARSERS
+from job_notifier.job import Job
+from job_notifier.parser import parser
+from job_notifier.runner import PARSERS
 
 
 class TestParser(parser.Parser):

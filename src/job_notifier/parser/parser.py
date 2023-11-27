@@ -3,7 +3,7 @@ from typing import Callable, List, Tuple
 
 from bs4 import BeautifulSoup
 
-from src.job import Job
+from job_notifier.job import Job
 
 # tuple: is_next_page, job_list
 PageData = Tuple[bool, List[Job]]

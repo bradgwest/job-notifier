@@ -16,30 +16,42 @@ RUN apt-get -qq update \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /build
-COPY requirements*.txt /build/
-# cache wheels for later stages
-RUN pip wheel --wheel-dir=/opt/wheelhouse-prod -r /build/requirements.txt \
-    && pip wheel --wheel-dir=/opt/wheelhouse-dev -r /build/requirements-dev.txt
 
-COPY Makefile /build/
-RUN make venv \
-    && /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-dev -r /build/requirements-dev.txt \
-    && /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-prod -r /build/requirements.txt
-
-COPY pyproject.toml .flake8 /build
+COPY pyproject.toml .flake8 Makefile /build
 COPY src /build/src
 COPY tests /build/tests
 
+RUN pip wheel --wheel-dir=/opt/wheelhouse-prod . \
+    && pip wheel --wheel-dir=/opt/wheelhouse-prod 'setuptools==69.0.2' 'wheel==0.42.0' \
+    && make venv \
+    && /build/.venv/bin/pip install --find-links=/opt/wheelhouse-prod '.[dev]'
 RUN make qa
+
+# COPY requirements*.txt /build/
+# # cache wheels for later stages
+# RUN 
+# RUN pip wheel --wheel-dir=/opt/wheelhouse-prod -r /build/requirements.txt \
+#     && pip wheel --wheel-dir=/opt/wheelhouse-prod /build
+#     # && pip wheel --wheel-dir=/opt/wheelhouse-dev -r /build/requirements-dev.txt
+
+# COPY Makefile /build/
+# RUN make venv \
+#     && /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-dev -r /build/requirements-dev.txt
+# 
+# 
+# 
+# RUN /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-prod /build
+# RUN make qa
 
 FROM base as final
 
+RUN mkdir /opt/notifier
+
 COPY --from=builder /opt/wheelhouse-prod /opt/wheelhouse-prod
-COPY --from=builder /build/requirements.txt /opt/requirements.txt
+COPY --from=builder /build/pyproject.toml /opt/notifier/pyproject.toml
+COPY --from=builder /build/src /opt/notifier/src
 
-RUN pip install --no-index --find-links=/opt/wheelhouse-prod -r /opt/requirements.txt
+RUN pip install --no-index --find-links=/opt/wheelhouse-prod /opt/notifier
 
-COPY --from=builder /build/src src
-
-ENTRYPOINT ["python", "-m", "src.runner"]
+ENTRYPOINT ["notify"]
 CMD ["--help"]

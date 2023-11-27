@@ -1,8 +1,8 @@
 import pathlib
 import time
 
-from src.job import Job
-from src.storage.local import LocalStorage, LocalStorageConfig
+from job_notifier.job import Job
+from job_notifier.storage.local import LocalStorage, LocalStorageConfig
 
 
 def test_local_storage(tmp_path: pathlib.Path):

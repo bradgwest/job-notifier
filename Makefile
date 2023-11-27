@@ -5,22 +5,21 @@ BIN = $(VENV)/bin
 venv:
 	python3.12 -m venv $(VENV)
 
-.PHONY: deps
-deps: venv
-	$(BIN)/pip install -r requirements.txt
+.PHONY: install
+install: venv
+	$(BIN)/pip install .
 
-.PHONY: dev-deps
-dev-deps: venv
-	$(BIN)/pip install -r requirements-dev.txt
-	$(MAKE) deps
+.PHONY: dev-install
+dev-install: venv
+	$(BIN)/pip install -e .[dev]
 
 .PHONY: fmt
-fmt: dev-deps
+fmt: dev-install
 	$(BIN)/black .
 	$(BIN)/isort .
 
 .PHONY: lint
-lint: dev-deps
+lint: dev-install
 	$(BIN)/isort --check .
 	$(BIN)/black --check .
 	$(BIN)/flake8 .
@@ -28,7 +27,7 @@ lint: dev-deps
 	$(BIN)/pyright --pythonpath $(BIN)/python --project pyproject.toml .
 
 .PHONY: test
-test: dev-deps
+test: dev-install
 	$(BIN)/pytest -v --cov --cov-report html --cov-report term-missing .
 
 .PHONY: build

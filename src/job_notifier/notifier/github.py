@@ -1,8 +1,8 @@
 import os
 from typing import List, NamedTuple, cast
 
-from src.job import Job, JobMap
-from src.notifier.notifier import Notifier
+from job_notifier.job import Job, JobMap
+from job_notifier.notifier.notifier import Notifier
 
 
 class GithubStepSummaryNotifierConfig(NamedTuple):

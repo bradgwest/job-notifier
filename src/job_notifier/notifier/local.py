@@ -1,8 +1,8 @@
 import sys
 from typing import NamedTuple, TextIO
 
-from src.job import Job, JobMap
-from src.notifier.notifier import Notifier
+from job_notifier.job import Job, JobMap
+from job_notifier.notifier.notifier import Notifier
 
 
 class LocalNotifierConfig(NamedTuple):

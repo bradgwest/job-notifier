@@ -5,9 +5,9 @@ from typing import Callable, Dict, List, NamedTuple, Optional
 
 import pytest
 
-from src.job import Job, JobMap
-from src.notifier.notifier import Notifier
-from src.storage.storage import Storage
+from job_notifier.job import Job, JobMap
+from job_notifier.notifier.notifier import Notifier
+from job_notifier.storage.storage import Storage
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 LISTINGS_DIR = os.path.join(DATA_DIR, "listings")

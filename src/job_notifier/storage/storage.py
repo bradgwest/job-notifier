@@ -2,7 +2,7 @@ import io
 import json
 from typing import Generator, List, NamedTuple, Type
 
-from src.job import Job
+from job_notifier.job import Job
 
 StorageConfig = Type[NamedTuple]
 
