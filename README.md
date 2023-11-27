@@ -5,34 +5,24 @@
 
 ### Docker
 
-Build the image:
-
 ```sh
-make build
-```
-
-Run it:
-
-```sh
-docker run job-notifier
+ARGS="-h" make run
 ```
 
 ### Source
 
-Install dependencies:
+Install the package:
 
 ```sh
-make deps
+make install
 ```
 
 Run it:
 
 ```sh
-python -m src.runner -h
+notify -h
 ```
 
 ### Development
 
-```sh
-make dev-deps
-```
+See the [`Makefile`](./Makefile) for helpful development targets.

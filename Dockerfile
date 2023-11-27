@@ -27,22 +27,6 @@ RUN pip wheel --wheel-dir=/opt/wheelhouse-prod . \
     && /build/.venv/bin/pip install --find-links=/opt/wheelhouse-prod '.[dev]'
 RUN make qa
 
-# COPY requirements*.txt /build/
-# # cache wheels for later stages
-# RUN 
-# RUN pip wheel --wheel-dir=/opt/wheelhouse-prod -r /build/requirements.txt \
-#     && pip wheel --wheel-dir=/opt/wheelhouse-prod /build
-#     # && pip wheel --wheel-dir=/opt/wheelhouse-dev -r /build/requirements-dev.txt
-
-# COPY Makefile /build/
-# RUN make venv \
-#     && /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-dev -r /build/requirements-dev.txt
-# 
-# 
-# 
-# RUN /build/.venv/bin/pip install --no-index --find-links=/opt/wheelhouse-prod /build
-# RUN make qa
-
 FROM base as final
 
 RUN mkdir /opt/notifier

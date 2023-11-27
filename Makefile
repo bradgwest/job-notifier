@@ -30,9 +30,13 @@ lint: dev-install
 test: dev-install
 	$(BIN)/pytest -v --cov --cov-report html --cov-report term-missing .
 
+.PHONY: qa
+qa: lint test
+
 .PHONY: build
 build:
 	docker build -t job-notifier .
 
-.PHONY: qa
-qa: lint test
+.PHONY: run
+run: build
+	docker run --rm -it job-notifier $(ARGS)
