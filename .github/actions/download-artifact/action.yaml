@@ -1,0 +1,26 @@
+name: download-artifact
+
+description: |
+  Download the most recently created artifact of the given name.
+
+inputs:
+  token:
+    description: The GitHub token to use for authentication
+    required: true
+  name:
+    description: The name of the artifact to download
+    required: true
+  path:
+    description: The path to download the artifact to
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - "--token"
+    - ${{ inputs.token }}
+    - "--artifact-name"
+    - ${{ inputs.name }}
+    - "--path"
+    - ${{ inputs.path }}
