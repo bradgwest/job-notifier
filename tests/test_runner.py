@@ -23,20 +23,6 @@ class ConfigTest(NamedTuple):
     optional_var: Optional[str] = "test"
 
 
-@pytest.fixture
-def listings() -> List[List[Job]]:
-    return [
-        [
-            Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
-            Job("GPS Engineer", "https://gps-engineers.com/jobs"),
-        ],
-        [
-            Job("Aircraft Engineer", "https://aircraft-engineers.com/jobs"),
-            Job("Mechanical Engineer", "https://mechanical-engineers.com/jobs"),
-        ],
-    ]
-
-
 def test_setup_storage_backend_errors_on_missing_arg():
     parser = add_args(argparse.ArgumentParser())
     cmdline = ["--storage-backend", "LocalStorage"]
