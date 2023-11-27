@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 20
     env:
-      LOCAL_STORAGE_PATH: ${{ github.workspace }}/.storage
+      LOCAL_STORAGE_PATH: .storage
     steps:
       - name: Download Artifacts
         id: download-artifacts
@@ -26,6 +26,8 @@ jobs:
         if: steps.download-artifacts.outcome == 'failure'
         run: mkdir -p ${{ env.LOCAL_STORAGE_PATH }}
 
+      - run: ls -a
+
       - name: Run Notifier
         uses: docker://ghcr.io/bradgwest/job-notifier:latest
         with:
@@ -35,6 +37,11 @@ jobs:
             --notifier-backend GithubStepSummaryNotifier
             --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
         timeout-minutes: 15
+
+      - run: |
+          ls -a
+          ls -a .storage
+        continue-on-error: true
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
