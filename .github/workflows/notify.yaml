@@ -3,9 +3,8 @@ name: notify
 
 on:
   workflow_dispatch:
-  # todo: disable until tested
-  # schedule:
-  #   - cron: "15 14,19,23 * * 1-5" # 7:15am, 12:15am, 4:15pm MT on every day-of-week from Monday through Friday.
+  schedule:
+    - cron: "15 14,19,23 * * 1-5" # 7:15am, 12:15am, 4:15pm MT on every day-of-week from Monday through Friday.
 
 jobs:
   notify:
@@ -26,8 +25,6 @@ jobs:
         if: steps.download-artifacts.outcome == 'failure'
         run: mkdir -p ${{ env.LOCAL_STORAGE_PATH }}
 
-      - run: ls -a
-
       - name: Run Notifier
         uses: docker://ghcr.io/bradgwest/job-notifier:latest
         with:
@@ -38,13 +35,8 @@ jobs:
             --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
         timeout-minutes: 15
 
-      - run: |
-          ls -a
-          ls -a .storage
-        continue-on-error: true
-
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: cache
           path: ${{ env.LOCAL_STORAGE_PATH }}
