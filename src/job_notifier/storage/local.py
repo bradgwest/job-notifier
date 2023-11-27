@@ -31,6 +31,9 @@ class LocalStorage(Storage):
 
     def _read(self, org: str) -> Generator[io.StringIO, None, None]:
         directory = self.directory(org)
+        if not os.path.exists(directory):
+            return
+
         files = sorted(
             [file for file in os.listdir(directory) if file.endswith(".json")],
             key=lambda x: os.path.getmtime(os.path.join(self.directory(org), x)),

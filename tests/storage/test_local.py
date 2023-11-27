@@ -27,6 +27,10 @@ def test_local_storage(tmp_path: pathlib.Path):
     config = LocalStorageConfig(path=str(directory))
     storage = LocalStorage(config)
 
+    # validate that read handles non-existent orgs
+    pages = list(storage.read("org"))
+    assert not pages
+
     for page in LISTINGS:
         time.sleep(0.1)  # ensure each page has a different timestamp
         storage.write("org", page)
