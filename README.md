@@ -1,5 +1,4 @@
 ![CI/CD](https://github.com/bradgwest/job-notifier/actions/workflows/cicd.yaml/badge.svg?event=push)
-
 # Job Notifier
 
 ## Quick Start
