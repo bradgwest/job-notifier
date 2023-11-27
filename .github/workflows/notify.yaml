@@ -1,5 +1,4 @@
-# This workflow runs the notifier from the latest docker image, and tags
-# the user in a step summary in order to generate a notification.
+# Run notifier from the latest docker image, tagging the user in the step summary
 name: notify
 
 on:
@@ -29,16 +28,16 @@ jobs:
 
       - name: Run Notifier
         uses: docker://ghcr.io/bradgwest/job-notifier:latest
-        # with:
-        #   args: |
-        #     --storage-backend LocalStorage \
-        #     --local-storage-path ${{ env.LOCAL_STORAGE_PATH }} \
-        #     --notifier-backend GithubStepSummaryNotifier \
-        #     --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
+        with:
+          args: |
+            --storage-backend LocalStorage \
+            --local-storage-path ${{ env.LOCAL_STORAGE_PATH }} \
+            --notifier-backend GithubStepSummaryNotifier \
+            --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
         timeout-minutes: 15
 
-      # - name: Upload Artifacts
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: cache
-      #     path: ${{ env.LOCAL_STORAGE_PATH }}
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: cache
+          path: ${{ env.LOCAL_STORAGE_PATH }}
