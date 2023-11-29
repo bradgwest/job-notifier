@@ -98,8 +98,8 @@ class Runner:
         jobs: JobMap = {}
         for org, parser_type in self.parsers.items():
             _logger.info(f"Fetching jobs for {org}")
-            parser = parser_type()
-            listings = parser.parse()
+            p = parser_type(getattr(parser_type, "reader", parser.reader))
+            listings = p.parse()
             _logger.info(f"Found {len(listings)} jobs for {org}")
             _logger.debug(f"Jobs for {org}: {json.dumps(jobs)}")
             jobs[org] = listings

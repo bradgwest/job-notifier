@@ -20,7 +20,7 @@ def reader(org: str, url: str) -> str:
 
 class Parser:
     def __init__(self, reader: PageReader = reader) -> None:
-        self.reader = reader
+        self._reader = reader
 
     @property
     def org(self) -> str:
@@ -37,7 +37,7 @@ class Parser:
         jobs: List[Job] = []
         page = 1
         while True:
-            content = self.reader(self.org, self.url.format(page=page))
+            content = self._reader(self.org, self.url.format(page=page))
             next_page, page_jobs = self._parse(content)
             jobs.extend(page_jobs)
             if not next_page:
@@ -250,22 +250,55 @@ class VectaraParser(Parser):
 
 
 class ZillowParser(Parser):
+    JOBS_PAGE = (
+        "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/?"
+        "locations=bf3166a9227a01f8b514f0b00b147bc9&"
+        "timeType=156fb9a2f01c10be203b6e91581a01d1&"
+        "workerSubType=156fb9a2f01c10bed80e140d011a9559&"
+        "jobFamilyGroup=a90eab1aaed6105e8dd41df427a82ee6"
+    )
+
     @property
     def org(self) -> str:
         return "zillow"
 
     @property
     def url(self) -> str:
-        return "https://careers.zillowgroup.com/jobs/search?location=Remote"
+        return (
+            "https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/"
+            "Zillow_Group_External/jobs"
+        )
+
+    # todo: need to paginate
+    @staticmethod
+    def reader(org: str, url: str) -> str:
+        data = {
+            "appliedFacets": {
+                "timeType": ["156fb9a2f01c10be203b6e91581a01d1"],  # Full Time
+                "workerSubType": ["156fb9a2f01c10bed80e140d011a9559"],  # Regular
+                "locations": ["bf3166a9227a01f8b514f0b00b147bc9"],  # Remote-USA
+                "jobFamilyGroup": ["a90eab1aaed6105e8dd41df427a82ee6"],  # Software Dev
+            },
+            "limit": 20,  # 20 is Max
+            "offset": 0,
+            "searchText": "",
+        }
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        }
+        r = requests.post(url, data=json.dumps(data), headers=headers)
+        r.raise_for_status()
+        return r.content.decode(r.encoding or "utf-8")
 
     def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
+        d = json.loads(content)
         return False, [
             Job(
-                title=listing.h2.text.strip(),
-                url=f'https://careers.zillowgroup.com{listing["href"]}',
+                title=listing["title"].strip(),
+                url=self.JOBS_PAGE,
             )
-            for listing in soup.find_all("a", class_="job-tile")
+            for listing in d["jobPostings"]
         ]
 
 

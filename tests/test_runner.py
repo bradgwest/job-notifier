@@ -1,5 +1,6 @@
 import argparse
 from typing import List, NamedTuple, Optional, Set
+from unittest.mock import patch
 
 import pytest
 
@@ -72,7 +73,8 @@ def test_setup_notifier_backend():
 
 def test_runner(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
     runner = Runner(storage, notifier, PARSERS)
-    runner.run()
+    with patch.object(parser.Parser, "reader", page_reader, create=True):
+        runner.run()
     assert len(runner.notifier.notifications) == len(PARSERS)  # type: ignore
 
 

@@ -220,6 +220,18 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "zillow": Test(
+            parser.ZillowParser(page_reader),
+            [
+                Job(
+                    "Senior Software Development Engineer, Big Data",
+                    parser.ZillowParser.JOBS_PAGE,
+                ),
+                Job(
+                    "Senior Principal Big Data Architect", parser.ZillowParser.JOBS_PAGE
+                ),
+            ],
+        ),
         "zscaler": Test(
             parser.ZscalerParser(page_reader),
             [
