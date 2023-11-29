@@ -71,7 +71,7 @@ def test_setup_notifier_backend():
 
 
 def test_runner(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
-    runner = Runner(storage, notifier, page_reader, PARSERS)
+    runner = Runner(storage, notifier, PARSERS)
     runner.run()
     assert len(runner.notifier.notifications) == len(PARSERS)  # type: ignore
 
@@ -95,9 +95,7 @@ def test_diff(storage: Storage, notifier: Notifier, page_reader: parser.PageRead
             Job("Mechanical Engineer", "https://abc.com/jobs/234"),
         ],
     }
-    runner = Runner(
-        storage, notifier, page_reader, {"xyz": parser.Parser, "abc": parser.Parser}
-    )
+    runner = Runner(storage, notifier, {"xyz": parser.Parser, "abc": parser.Parser})
     new_jobs = runner.diff(current, cached)
     assert new_jobs == {
         "xyz": [Job("GPS Engineer", "https://xyz.com/jobs/123")],
@@ -107,14 +105,14 @@ def test_diff(storage: Storage, notifier: Notifier, page_reader: parser.PageRead
 
 def test_run(storage: Storage, notifier: Notifier, page_reader: parser.PageReader):
     class XYZParser(parser.Parser):
-        def parse(self, reader: parser.PageReader) -> List[Job]:
+        def parse(self) -> List[Job]:
             return [
                 Job("Aircraft Engineer", "https://xyz.com/jobs/387"),
                 Job("GPS Engineer", "https://xyz.com/jobs/123"),
             ]
 
     class ABCParser(parser.Parser):
-        def parse(self, reader: parser.PageReader) -> List[Job]:
+        def parse(self) -> List[Job]:
             return [
                 Job("Mechanical Engineer", "https://abc.com/jobs/234"),
             ]
@@ -124,7 +122,7 @@ def test_run(storage: Storage, notifier: Notifier, page_reader: parser.PageReade
     storage.write("xyz", [Job("Aircraft Engineer", "https://xyz.com/jobs/387")])
     storage.write("abc", [Job("Physical Engineer", "https://abc.com/jobs/123")])
 
-    runner = Runner(storage, notifier, page_reader, parsers)
+    runner = Runner(storage, notifier, parsers)
     runner.run()
 
     assert runner.notifier.notifications == {  # type: ignore

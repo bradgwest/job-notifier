@@ -1,6 +1,7 @@
 import json
 from typing import Callable, List, Tuple
 
+import requests
 from bs4 import BeautifulSoup
 
 from job_notifier.job import Job
@@ -10,7 +11,17 @@ PageData = Tuple[bool, List[Job]]
 PageReader = Callable[[str, str], str]
 
 
+def reader(org: str, url: str) -> str:
+    """Read a url, returning the content."""
+    r = requests.get(url)
+    r.raise_for_status()
+    return r.content.decode(r.encoding or "utf-8")
+
+
 class Parser:
+    def __init__(self, reader: PageReader = reader) -> None:
+        self.reader = reader
+
     @property
     def org(self) -> str:
         """The organization name."""
@@ -21,12 +32,12 @@ class Parser:
         """The url to read."""
         raise NotImplementedError
 
-    def parse(self, reader: PageReader) -> List[Job]:
+    def parse(self) -> List[Job]:
         """Parse a url, following pages, returning a list of jobs."""
         jobs: List[Job] = []
         page = 1
         while True:
-            content = reader(self.org, self.url.format(page=page))
+            content = self.reader(self.org, self.url.format(page=page))
             next_page, page_jobs = self._parse(content)
             jobs.extend(page_jobs)
             if not next_page:
@@ -235,6 +246,26 @@ class VectaraParser(Parser):
                 "span",
                 "sort-by-location posting-category small-category-label location",
             ).text.strip()
+        ]
+
+
+class ZillowParser(Parser):
+    @property
+    def org(self) -> str:
+        return "zillow"
+
+    @property
+    def url(self) -> str:
+        return "https://careers.zillowgroup.com/jobs/search?location=Remote"
+
+    def _parse(self, content: str) -> PageData:
+        soup = BeautifulSoup(content, "lxml")
+        return False, [
+            Job(
+                title=listing.h2.text.strip(),
+                url=f'https://careers.zillowgroup.com{listing["href"]}',
+            )
+            for listing in soup.find_all("a", class_="job-tile")
         ]
 
 

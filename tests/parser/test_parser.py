@@ -48,8 +48,8 @@ def test_parser():
 </html>
 """.strip()
 
-    parser = TestParser()
-    jobs = parser.parse(lambda _, __: content)
+    parser = TestParser(lambda _, __: content)
+    jobs = parser.parse()
     assert len(jobs) == 2
     assert jobs[0] == Job(
         title="Engineer of Chairs", url="https://company_1.com/jobs/1"
@@ -84,8 +84,8 @@ def test_multi_page_parser():
     def reader(org: str, url: str) -> str:
         return json.dumps(pages[url])
 
-    parser = TestJSONParser()
-    jobs = parser.parse(reader)
+    parser = TestJSONParser(reader)
+    jobs = parser.parse()
     assert len(jobs) == 4
     assert jobs[0] == Job(**pages["test?page=1"]["jobs"][0])  # type: ignore
     assert jobs[3] == Job(**pages["test?page=2"]["jobs"][1])  # type: ignore
@@ -98,7 +98,7 @@ def test_org_parsers(page_reader: parser.PageReader):
 
     cases = {
         "airbnb": Test(
-            parser.AirbnbParser(),
+            parser.AirbnbParser(page_reader),
             [
                 Job(
                     "Senior Lead, Channel Communications",
@@ -111,7 +111,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "airtable": Test(
-            parser.AirtableParser(),
+            parser.AirtableParser(page_reader),
             [
                 Job(
                     "Software Engineer (Mobile, iOS)",
@@ -124,7 +124,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "cloudflare": Test(
-            parser.CloudflareParser(),
+            parser.CloudflareParser(page_reader),
             [
                 Job(
                     "Global Commissions Lead",
@@ -139,7 +139,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "mongodb": Test(
-            parser.MongoDBParser(),
+            parser.MongoDBParser(page_reader),
             [
                 Job(
                     "Senior Product Performance Engineer",
@@ -152,7 +152,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "netflix": Test(
-            parser.NetflixParser(),
+            parser.NetflixParser(page_reader),
             [
                 Job(
                     "Engineering Manager - Compute Runtime",
@@ -162,7 +162,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "pintrest": Test(
-            parser.PintrestParser(),
+            parser.PintrestParser(page_reader),
             [
                 Job(
                     "Senior Software Engineer, Backend",
@@ -177,7 +177,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "square": Test(
-            parser.SquareParser(),
+            parser.SquareParser(page_reader),
             [
                 Job(
                     "Senior Software Engineer, Orders Data Platform",
@@ -192,7 +192,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "stripe": Test(
-            parser.StripeParser(),
+            parser.StripeParser(page_reader),
             [
                 Job(
                     "Data Engineer",
@@ -206,7 +206,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "vectara": Test(
-            parser.VectaraParser(),
+            parser.VectaraParser(page_reader),
             [
                 Job(
                     "Software Engineer",
@@ -221,7 +221,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "zscaler": Test(
-            parser.ZscalerParser(),
+            parser.ZscalerParser(page_reader),
             [
                 Job(
                     "Android Networking, Staff Software Engineer",
@@ -241,7 +241,7 @@ def test_org_parsers(page_reader: parser.PageReader):
     ), f"missing parser test(s) {sorted(missing_parser_tests)}"
 
     for org, test in cases.items():
-        jobs = test.parser.parse(page_reader)
+        jobs = test.parser.parse()
 
         for job in test.expected:
             assert job in jobs, f"{job} missing from result set for {org}"

@@ -8,8 +8,6 @@ import re
 from collections import defaultdict
 from typing import Mapping, Type
 
-import requests
-
 from job_notifier.job import Job, JobMap
 from job_notifier.notifier.github import (
     GithubStepSummaryNotifier,
@@ -81,13 +79,6 @@ def setup_notifier_backend(args: argparse.Namespace) -> Notifier:
             raise ValueError(f"Unsupported notifier backend: {args.notifier_backend}")
 
 
-def reader(org: str, url: str) -> str:
-    """Read a url, returning the content."""
-    r = requests.get(url)
-    r.raise_for_status()
-    return r.content.decode(r.encoding or "utf-8")
-
-
 class Runner:
     JOB_MATCHER = re.compile(r"engineer", re.IGNORECASE)
 
@@ -95,13 +86,11 @@ class Runner:
         self,
         storage: Storage,
         notifier: Notifier,
-        reader: parser.PageReader,
         parsers: ParserMap,
     ) -> None:
         self.storage = storage
         self.notifier = notifier
         self.parsers: ParserMap = parsers
-        self.reader = reader
         self.jobs: JobMap = defaultdict(list)
 
     def _fetch(self) -> JobMap:
@@ -110,7 +99,7 @@ class Runner:
         for org, parser_type in self.parsers.items():
             _logger.info(f"Fetching jobs for {org}")
             parser = parser_type()
-            listings = parser.parse(self.reader)
+            listings = parser.parse()
             _logger.info(f"Found {len(listings)} jobs for {org}")
             _logger.debug(f"Jobs for {org}: {json.dumps(jobs)}")
             jobs[org] = listings
@@ -202,5 +191,5 @@ def main():
     storage = setup_storage_backend(args)
     notifier = setup_notifier_backend(args)
 
-    runner = Runner(storage, notifier, reader, PARSERS)
+    runner = Runner(storage, notifier, PARSERS)
     runner.run()
