@@ -21,7 +21,7 @@ class Storage:
 
     def write(self, org: str, jobs: List[Job]) -> None:
         buff = io.StringIO()
-        json.dump([job.to_dict() for job in jobs], buff)
+        json.dump([job.to_dict() for job in jobs], buff, indent=2)
         self._write(buff, org)
         buff.close()
 
