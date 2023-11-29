@@ -38,6 +38,7 @@ PARSERS = {
     "stripe": parser.StripeParser,
     "vectara": parser.VectaraParser,
     "zscaler": parser.ZscalerParser,
+    "zillow": parser.ZillowParser,
 }
 STORAGE_BACKENDS = frozenset(["LocalStorage"])
 NOTIFIER_BACKENDS = frozenset(["LocalNotifier", "GithubStepSummaryNotifier"])
