@@ -213,6 +213,31 @@ class StripeParser(Parser):
         ]
 
 
+class VectaraParser(Parser):
+    @property
+    def org(self) -> str:
+        return "vectara"
+
+    @property
+    def url(self) -> str:
+        return "https://jobs.lever.co/vectara"
+
+    def _parse(self, content: str) -> PageData:
+        soup = BeautifulSoup(content, "lxml")
+        return False, [
+            Job(
+                title=listing.h5.text.strip(),
+                url=listing["href"],
+            )
+            for listing in soup.find_all("a", class_="posting-title")
+            if "US Remote"
+            in listing.find(
+                "span",
+                "sort-by-location posting-category small-category-label location",
+            ).text.strip()
+        ]
+
+
 class ZscalerParser(Parser):
     @property
     def org(self) -> str:

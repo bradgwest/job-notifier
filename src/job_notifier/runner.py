@@ -38,6 +38,7 @@ PARSERS = {
     "pintrest": parser.PintrestParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
+    "vectara": parser.VectaraParser,
     "zscaler": parser.ZscalerParser,
 }
 STORAGE_BACKENDS = frozenset(["LocalStorage"])

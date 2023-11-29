@@ -205,6 +205,21 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "vectara": Test(
+            parser.VectaraParser(),
+            [
+                Job(
+                    "Software Engineer",
+                    "https://jobs.lever.co/vectara/"
+                    "f5d5286b-6202-4d4b-b2e4-36101d142c6c",
+                ),
+                Job(
+                    "Product Manager",
+                    "https://jobs.lever.co/vectara/"
+                    "ff439929-ae7b-45a5-9656-7ee1e71b1aed",
+                ),
+            ],
+        ),
         "zscaler": Test(
             parser.ZscalerParser(),
             [
