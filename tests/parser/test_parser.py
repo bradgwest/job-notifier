@@ -97,6 +97,19 @@ def test_org_parsers(page_reader: parser.PageReader):
         expected: List[Job]
 
     cases = {
+        "affirm": Test(
+            parser.AffirmParser(page_reader),
+            [
+                Job(
+                    "Senior Software Engineer (Infrastructure Platform)",
+                    "https://boards.greenhouse.io/affirm/jobs/5706497003",
+                ),
+                Job(
+                    "Senior Software Engineer, Backend (ML Data)",
+                    "https://boards.greenhouse.io/affirm/jobs/5761151003",
+                ),
+            ],
+        ),
         "airbnb": Test(
             parser.AirbnbParser(page_reader),
             [
@@ -194,6 +207,21 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "ramp": Test(
+            parser.RampParser(page_reader),
+            [
+                Job(
+                    "Staff Software Engineer | Cloud Security",
+                    "https://jobs.ashbyhq.com/ramp/"
+                    "34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+                ),
+                Job(
+                    "Software Engineer | Frontend",
+                    "https://jobs.ashbyhq.com/ramp/"
+                    "4e64ab86-4e30-403b-b1b9-41dc052570ce",
+                ),
+            ],
+        ),
         "square": Test(
             parser.SquareParser(page_reader),
             [
@@ -269,10 +297,11 @@ def test_org_parsers(page_reader: parser.PageReader):
         ),
     }
 
-    missing_parser_tests = set(PARSERS.keys()) - set(cases.keys())
-    assert (
-        not missing_parser_tests
-    ), f"missing parser test(s) {sorted(missing_parser_tests)}"
+    assert list(PARSERS.keys()) == list(sorted(PARSERS.keys())), "PARSERS is not sorted"
+    assert list(cases.keys()) == list(sorted(cases.keys())), "cases is not sorted"
+    assert set(PARSERS.keys()) == set(
+        cases.keys()
+    ), "PARSERS and cases do not match. Either missing a test case or a parser."
 
     for org, test in cases.items():
         jobs = test.parser.parse()

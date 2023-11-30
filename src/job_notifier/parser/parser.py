@@ -53,6 +53,25 @@ class Parser:
         raise NotImplementedError
 
 
+class AffirmParser(Parser):
+    @property
+    def org(self) -> str:
+        return "affirm"
+
+    @property
+    def url(self) -> str:
+        return "https://boards.greenhouse.io/affirm"
+
+    def _parse(self, content: str) -> PageData:
+        soup = BeautifulSoup(content, "lxml")
+        domain = "https://boards.greenhouse.io"
+        return False, [
+            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
+            for listing in soup.find_all("div", class_="opening")
+            if "Remote US" in listing.span.text.strip()
+        ]
+
+
 class AirbnbParser(Parser):
     @property
     def org(self) -> str:
@@ -212,6 +231,28 @@ class NvidiaParser(Parser):
                 url=self.JOBS_DOMAIN + listing["externalPath"],
             )
             for listing in d["jobPostings"]
+        ]
+
+
+class RampParser(Parser):
+    @property
+    def org(self) -> str:
+        return "ramp"
+
+    @property
+    def url(self) -> str:
+        return "https://api.ashbyhq.com/posting-api/job-board/ramp"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["jobUrl"])
+            for job in d["jobs"]
+            if job["isRemote"]
+            or any(
+                location["location"] == "Remote"
+                for location in job["secondaryLocations"]
+            )
         ]
 
 

@@ -28,6 +28,7 @@ Backend = Storage | Notifier
 ParserMap = Mapping[str, Type[parser.Parser]]
 
 PARSERS = {
+    "affirm": parser.AffirmParser,
     "airbnb": parser.AirbnbParser,
     "airtable": parser.AirtableParser,
     "cloudflare": parser.CloudflareParser,
@@ -35,11 +36,12 @@ PARSERS = {
     "netflix": parser.NetflixParser,
     "nvidia": parser.NvidiaParser,
     "pintrest": parser.PintrestParser,
+    "ramp": parser.RampParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
     "vectara": parser.VectaraParser,
-    "zscaler": parser.ZscalerParser,
     "zillow": parser.ZillowParser,
+    "zscaler": parser.ZscalerParser,
 }
 STORAGE_BACKENDS = frozenset(["LocalStorage"])
 NOTIFIER_BACKENDS = frozenset(["LocalNotifier", "GithubStepSummaryNotifier"])
