@@ -33,6 +33,7 @@ PARSERS = {
     "cloudflare": parser.CloudflareParser,
     "mongodb": parser.MongoDBParser,
     "netflix": parser.NetflixParser,
+    "nvidia": parser.NvidiaParser,
     "pintrest": parser.PintrestParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,

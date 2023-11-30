@@ -1,0 +1,539 @@
+{
+  "total": 80,
+  "jobPostings": [
+    {
+      "title": "Principal Threat Intelligence Engineer",
+      "externalPath": "/job/US-CO-Remote/Principal-Threat-Intelligence-Engineer_JR1976075-1",
+      "locationsText": "US, CO, Remote",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR1976075"
+      ]
+    },
+    {
+      "title": "Senior Package Layout Engineer - Hardware",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Package-Layout-Engineer---Hardware_JR1967602",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR1967602"
+      ]
+    },
+    {
+      "title": "Senior Developer Technology Engineer, Public Sector",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Developer-Technology-Engineer--Public-Sector_JR1972513",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR1972513"
+      ]
+    },
+    {
+      "title": "GPU System Software Engineer",
+      "externalPath": "/job/US-TX-Austin/GPU-System-Software-Engineer_JR1969229-1",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "JR1969229"
+      ]
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Perception - Autonomous Vehicles Next-Gen",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Perception---Autonomous-Vehicles-Next-Gen_JR1976257",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "JR1976257"
+      ]
+    },
+    {
+      "title": "Senior System Software Engineer, Attestation and Signing Services",
+      "externalPath": "/job/US-CA-Remote/Senior-System-Software-Engineer--Attestation-and-Signing-Services_JR1969006",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "JR1969006"
+      ]
+    },
+    {
+      "title": "Senior DevOps and Automation Engineer, Fabric Networking\u202f - GPU",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-DevOps-and-Automation-Engineer--Fabric-Networking----GPU_JR1974805",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": [
+        "JR1974805"
+      ]
+    },
+    {
+      "title": "System Security Software Engineer, GPU SW",
+      "externalPath": "/job/US-CA-Santa-Clara/System-Security-Software-Engineer--GPU-SW_JR1975983",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 6 Days Ago",
+      "bulletFields": [
+        "JR1975983"
+      ]
+    },
+    {
+      "title": "Senior Full-Stack Web Applications Software Engineer",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Full-Stack-Web-Applications-Software-Engineer_JR1975324",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 9 Days Ago",
+      "bulletFields": [
+        "JR1975324"
+      ]
+    },
+    {
+      "title": "Senior HPC Architect",
+      "externalPath": "/job/US-CA-Remote/Senior-HPC-Architect_JR1968520",
+      "locationsText": "US, CA, Remote",
+      "postedOn": "Posted 10 Days Ago",
+      "bulletFields": [
+        "JR1968520"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, Cloud - GeForce Now",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud---GeForce-Now_JR1975204",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 11 Days Ago",
+      "bulletFields": [
+        "JR1975204"
+      ]
+    },
+    {
+      "title": "Senior Software Security Engineer - Autonomous Vehicles",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Software-Security-Engineer---Autonomous-Vehicles_JR1974023",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 12 Days Ago",
+      "bulletFields": [
+        "JR1974023"
+      ]
+    },
+    {
+      "title": "Senior Software Systems Engineer, Low Speed Maneuvers - Autonomous Vehicles",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Software-Systems-Engineer--Low-Speed-Maneuvers---Autonomous-Vehicles_JR1975831",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 13 Days Ago",
+      "bulletFields": [
+        "JR1975831"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, Fabric Networking - GPU",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fabric-Networking---GPU_JR1972473",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 13 Days Ago",
+      "bulletFields": [
+        "JR1972473"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, AI Infrastructure and Tools",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Infrastructure-and-Tools_JR1971487",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 14 Days Ago",
+      "bulletFields": [
+        "JR1971487"
+      ]
+    },
+    {
+      "title": "Senior Systems Test, Data Analysis",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Systems-Test-Engineer---Autonomous-Vehicles_JR1971545-1",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 14 Days Ago",
+      "bulletFields": [
+        "JR1971545"
+      ]
+    },
+    {
+      "title": "Backend Compiler Engineer - GPU",
+      "externalPath": "/job/US-TX-Austin/Backend-Compiler-Engineer---GPU_JR1975637",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 15 Days Ago",
+      "bulletFields": [
+        "JR1975637"
+      ]
+    },
+    {
+      "title": "Senior DL Frameworks Life Cycle Engineer",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-DL-Frameworks-Life-Cycle-Engineer_JR1975659",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 15 Days Ago",
+      "bulletFields": [
+        "JR1975659"
+      ]
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Foundation - Autonomous Vehicles Next-Gen",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Foundation---Autonomous-Vehicles-Next-Gen_JR1971932",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 16 Days Ago",
+      "bulletFields": [
+        "JR1971932"
+      ]
+    },
+    {
+      "title": "Senior Graphics Compiler Engineer",
+      "externalPath": "/job/US-CA-Remote/Senior-Graphics-Compiler-Engineer_JR1975419",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 17 Days Ago",
+      "bulletFields": [
+        "JR1975419"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "jobFamilyGroup",
+      "descriptor": "Job Category",
+      "values": [
+        {
+          "descriptor": "Engineering",
+          "id": "0c40f6bd1d8f10ae43ffaefd46dc7e78",
+          "count": 80
+        },
+        {
+          "descriptor": "Sales",
+          "id": "0c40f6bd1d8f10ae43ffcac5bbec7e90",
+          "count": 16
+        },
+        {
+          "descriptor": "Program Manager",
+          "id": "0c40f6bd1d8f10ae43ffc668c6847e8c",
+          "count": 6
+        },
+        {
+          "descriptor": "Marketing",
+          "id": "0c40f6bd1d8f10ae43ffc19725ec7e88",
+          "count": 6
+        },
+        {
+          "descriptor": "IT - Information Technology",
+          "id": "0c40f6bd1d8f10ae43ffbd1459047e84",
+          "count": 5
+        },
+        {
+          "descriptor": "Professional Services",
+          "id": "e8bdc341a93101bd5f4d2b0a1c005e36",
+          "count": 4
+        },
+        {
+          "descriptor": "Research",
+          "id": "0c40f6bd1d8f10ae43ffc8817cf47e8e",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular Employee",
+          "id": "0c40f6bd1d8f10adf6dae161b1844a15",
+          "count": 80
+        },
+        {
+          "descriptor": "Management",
+          "id": "0c40f6bd1d8f10adf6dae2cd57444a16",
+          "count": 5
+        },
+        {
+          "descriptor": "New College Graduate",
+          "id": "ab40a98049581037a3ada55b087049b7",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Time Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "5509c0b5959810ac0029943377d47364",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locationHierarchy2",
+          "descriptor": "Location Type",
+          "values": [
+            {
+              "descriptor": "Office",
+              "id": "0c3f5f117e9a0101f6422f0fe79d0000",
+              "count": 435
+            },
+            {
+              "descriptor": "Remote",
+              "id": "0c3f5f117e9a0101f63dc469c3010000",
+              "count": 80
+            }
+          ]
+        },
+        {
+          "facetParameter": "locationHierarchy1",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "United States",
+              "id": "2fcb99c455831013ea52fb338f2932d8",
+              "count": 80
+            },
+            {
+              "descriptor": "Poland",
+              "id": "2fcb99c455831013ea52d8783aa0329c",
+              "count": 18
+            },
+            {
+              "descriptor": "Germany",
+              "id": "2fcb99c455831013ea52adc65f5d3254",
+              "count": 17
+            },
+            {
+              "descriptor": "United Kingdom",
+              "id": "2fcb99c455831013ea52f785717432d2",
+              "count": 15
+            },
+            {
+              "descriptor": "Netherlands",
+              "id": "2fcb99c455831013ea52d0e0e4583290",
+              "count": 10
+            },
+            {
+              "descriptor": "Switzerland",
+              "id": "2fcb99c455831013ea52e9ef1a0032ba",
+              "count": 7
+            },
+            {
+              "descriptor": "India",
+              "id": "2fcb99c455831013ea52b82135ba3266",
+              "count": 7
+            },
+            {
+              "descriptor": "Ukraine",
+              "id": "970bf8c909a7012c3733f063d3000107",
+              "count": 4
+            },
+            {
+              "descriptor": "Hungary",
+              "id": "7bcfe8379f6b01ad4d347d1ca87689a6",
+              "count": 4
+            },
+            {
+              "descriptor": "Canada",
+              "id": "2fcb99c455831013ea529c3b93ba3236",
+              "count": 4
+            },
+            {
+              "descriptor": "Greece",
+              "id": "c498fba66f4e01b7b7931c0fd400ab04",
+              "count": 3
+            },
+            {
+              "descriptor": "Armenia",
+              "id": "d21cf68980ad0128000fd2c6b107c000",
+              "count": 3
+            },
+            {
+              "descriptor": "Sweden",
+              "id": "2fcb99c455831013ea52e6c3067832b4",
+              "count": 3
+            },
+            {
+              "descriptor": "Czechia",
+              "id": "2fcb99c455831013ea52a358b3d53242",
+              "count": 3
+            },
+            {
+              "descriptor": "China",
+              "id": "2fcb99c455831013ea529fe151e3323c",
+              "count": 3
+            },
+            {
+              "descriptor": "Denmark",
+              "id": "d21cf68980ad0121a67d319db107a200",
+              "count": 2
+            },
+            {
+              "descriptor": "France",
+              "id": "2fcb99c455831013ea52aa2df70e324e",
+              "count": 2
+            },
+            {
+              "descriptor": "Finland",
+              "id": "2fcb99c455831013ea52a6cbc15f3248",
+              "count": 2
+            },
+            {
+              "descriptor": "Romania",
+              "id": "e5375aecc8d9103bebfb513cb69200d4",
+              "count": 1
+            },
+            {
+              "descriptor": "Thailand",
+              "id": "2fcb99c455831013ea52f07ea4c732c6",
+              "count": 1
+            },
+            {
+              "descriptor": "Spain",
+              "id": "2fcb99c455831013ea52e31a43e832ae",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "facetParameter": "locations",
+          "descriptor": "Sites",
+          "values": [
+            {
+              "descriptor": "US, CA, Santa Clara",
+              "id": "91336993fab910af6d702fae0bb4c2e8",
+              "count": 66
+            },
+            {
+              "descriptor": "US, CA, Remote",
+              "id": "91336993fab910af6d716528e9d4c406",
+              "count": 61
+            },
+            {
+              "descriptor": "US, WA, Remote",
+              "id": "91336993fab910af6d7169a81124c410",
+              "count": 19
+            },
+            {
+              "descriptor": "US, TX, Austin",
+              "id": "91336993fab910af6d702b631b94c2de",
+              "count": 12
+            },
+            {
+              "descriptor": "US, TX, Remote",
+              "id": "91336993fab910af6d702939a7fcc2d9",
+              "count": 11
+            },
+            {
+              "descriptor": "US, OR, Remote",
+              "id": "91336993fab910af6d6ff05591bcc257",
+              "count": 8
+            },
+            {
+              "descriptor": "US, MA, Remote",
+              "id": "91336993fab910af6d702d89918cc2e3",
+              "count": 7
+            },
+            {
+              "descriptor": "US, CO, Remote",
+              "id": "91336993fab910af6d716c1bb8d4c415",
+              "count": 7
+            },
+            {
+              "descriptor": "US, NY, Remote",
+              "id": "91336993fab910af6d6ff2800b0cc25c",
+              "count": 6
+            },
+            {
+              "descriptor": "US, NC, Remote",
+              "id": "91336993fab910af6d7006cdf31cc289",
+              "count": 5
+            },
+            {
+              "descriptor": "US, OR, Hillsboro",
+              "id": "91336993fab910af6d7027195454c2d4",
+              "count": 4
+            },
+            {
+              "descriptor": "US, AZ, Remote",
+              "id": "91336993fab910af6d7013ca699cc2a7",
+              "count": 4
+            },
+            {
+              "descriptor": "US, NJ, Remote",
+              "id": "91336993fab910af6d7152b6749cc3de",
+              "count": 4
+            },
+            {
+              "descriptor": "US, WA, Redmond",
+              "id": "91336993fab910af6d701e82d004c2c0",
+              "count": 3
+            },
+            {
+              "descriptor": "US, NY, New York",
+              "id": "d2088e737cbb01293f745dc7ce017070",
+              "count": 3
+            },
+            {
+              "descriptor": "US, DC, Remote",
+              "id": "91336993fab910af6d713a0f5044c3a7",
+              "count": 3
+            },
+            {
+              "descriptor": "US, NC, Durham",
+              "id": "91336993fab910af6d7022e347dcc2ca",
+              "count": 2
+            },
+            {
+              "descriptor": "US, MA, Westford",
+              "id": "91336993fab910af6d7008ff1774c28e",
+              "count": 2
+            },
+            {
+              "descriptor": "US, GA, Remote",
+              "id": "91336993fab910af6d6fe4b908fcc23e",
+              "count": 2
+            },
+            {
+              "descriptor": "US, Remote",
+              "id": "16fc4607fc4310011e929f7115f90000",
+              "count": 2
+            },
+            {
+              "descriptor": "US, VA, Remote",
+              "id": "91336993fab910af6d7159be65c4c3ed",
+              "count": 2
+            },
+            {
+              "descriptor": "US, FL, Remote",
+              "id": "91336993fab910af6d7020bf3b14c2c5",
+              "count": 1
+            },
+            {
+              "descriptor": "US, PA, Remote",
+              "id": "91336993fab910af6d700193f3c4c27f",
+              "count": 1
+            },
+            {
+              "descriptor": "US, MI, Remote",
+              "id": "91336993fab910af6d6fe9a03534c248",
+              "count": 1
+            },
+            {
+              "descriptor": "US, CA, Sunnyvale",
+              "id": "c498fba66f4e01f896020488d5007305",
+              "count": 1
+            },
+            {
+              "descriptor": "US, MA, Westborough",
+              "id": "c498fba66f4e016e2c6efb87d5006e05",
+              "count": 1
+            },
+            {
+              "descriptor": "US, IL, Remote",
+              "id": "91336993fab910af6d714794d4b4c3c5",
+              "count": 1
+            },
+            {
+              "descriptor": "US, CO, Boulder",
+              "id": "91336993fab910af6d712ddeebf4c38e",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

@@ -161,6 +161,24 @@ def test_org_parsers(page_reader: parser.PageReader):
                 Job("Art Director", "https://jobs.netflix.com/jobs/302748851"),
             ],
         ),
+        "nvidia": Test(
+            parser.NvidiaParser(page_reader),
+            [
+                Job(
+                    "Principal Threat Intelligence Engineer",
+                    "https://nvidia.wd5.myworkdayjobs.com/en-US/"
+                    "NVIDIAExternalCareerSite"
+                    "/job/US-CO-Remote/Principal-Threat-Intelligence-Engineer_"
+                    "JR1976075-1",
+                ),
+                Job(
+                    "GPU System Software Engineer",
+                    "https://nvidia.wd5.myworkdayjobs.com/en-US/"
+                    "NVIDIAExternalCareerSite"
+                    "/job/US-TX-Austin/GPU-System-Software-Engineer_JR1969229-1",
+                ),
+            ],
+        ),
         "pintrest": Test(
             parser.PintrestParser(page_reader),
             [
@@ -225,10 +243,14 @@ def test_org_parsers(page_reader: parser.PageReader):
             [
                 Job(
                     "Senior Software Development Engineer, Big Data",
-                    parser.ZillowParser.JOBS_PAGE,
+                    "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External"
+                    "/job/Remote-USA/Senior-Software-Development-Engineer--"
+                    "Big-Data_P743363-1",
                 ),
                 Job(
-                    "Senior Principal Big Data Architect", parser.ZillowParser.JOBS_PAGE
+                    "Senior Principal Big Data Architect",
+                    "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External"
+                    "/job/Remote-USA/Senior-Principal-Big-Data-Architect_P741689-1",
                 ),
             ],
         ),

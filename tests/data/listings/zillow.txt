@@ -1,1 +1,138 @@
-{"total":4,"jobPostings":[{"title":"Senior Software Development Engineer, Big Data","externalPath":"/job/Remote-USA/Senior-Software-Development-Engineer--Big-Data_P743363-1","locationsText":"Remote-USA","postedOn":"Posted 12 Days Ago","bulletFields":["P743363"]},{"title":"Manager, Finance Technology","externalPath":"/job/Remote-USA/Manager--Finance-Technology_P742106","locationsText":"Remote-USA","postedOn":"Posted 23 Days Ago","bulletFields":["P742106"]},{"title":"Senior Principal Big Data Architect","externalPath":"/job/Remote-USA/Senior-Principal-Big-Data-Architect_P741689-1","locationsText":"Remote-USA","postedOn":"Posted 26 Days Ago","bulletFields":["P741689"]},{"title":"Sr Manager, Machine Learning Engineering","externalPath":"/job/Remote-USA/Sr-Manager--Machine-Learning-Engineering_P743093-1","locationsText":"Remote-USA","postedOn":"Posted 28 Days Ago","bulletFields":["P743093"]}],"facets":[{"facetParameter":"workerSubType","descriptor":"Job Type","values":[{"descriptor":"Regular","id":"156fb9a2f01c10bed80e140d011a9559","count":4}]},{"facetParameter":"timeType","descriptor":"Time Type","values":[{"descriptor":"Full time","id":"156fb9a2f01c10be203b6e91581a01d1","count":4}]},{"facetParameter":"jobFamilyGroup","descriptor":"Job Family","values":[{"descriptor":"Product Development/Design","id":"a90eab1aaed6105e8dcac61d33c32ee2","count":9},{"descriptor":"Software Development","id":"a90eab1aaed6105e8dd41df427a82ee6","count":4},{"descriptor":"Accounting & Finance","id":"8a1dd2714f9a107e6921f459b267ff24","count":4},{"descriptor":"Sales","id":"17b4af38e59f10011ca29047a63b0000","count":2},{"descriptor":"Mortgages","id":"e3e2d3ad89cc010e522f0c317e19d832","count":2},{"descriptor":"Legal & Compliance","id":"015153e04e0a01bf62d6763d45214f9d","count":2},{"descriptor":"Systems & Network Operations","id":"15e9945ef79a10011bddb2470bd60000","count":1},{"descriptor":"Sourcing/Procurement","id":"17b4af38e59f10011bd0760042ee0000","count":1},{"descriptor":"Marketing & Corporate Affairs","id":"a90eab1aaed6105e8dc561c3a1452ee0","count":1}]},{"facetParameter":"locationMainGroup","values":[{"facetParameter":"locations","descriptor":"Locations","values":[{"descriptor":"Mexico City","id":"12c6dfd7a5af100200864b2989040000","count":13},{"descriptor":"Remote-USA","id":"bf3166a9227a01f8b514f0b00b147bc9","count":4}]}]}],"userAuthenticated":false}
+{
+  "total": 4,
+  "jobPostings": [
+    {
+      "title": "Senior Software Development Engineer, Big Data",
+      "externalPath": "/job/Remote-USA/Senior-Software-Development-Engineer--Big-Data_P743363-1",
+      "locationsText": "Remote-USA",
+      "postedOn": "Posted 12 Days Ago",
+      "bulletFields": [
+        "P743363"
+      ]
+    },
+    {
+      "title": "Manager, Finance Technology",
+      "externalPath": "/job/Remote-USA/Manager--Finance-Technology_P742106",
+      "locationsText": "Remote-USA",
+      "postedOn": "Posted 23 Days Ago",
+      "bulletFields": [
+        "P742106"
+      ]
+    },
+    {
+      "title": "Senior Principal Big Data Architect",
+      "externalPath": "/job/Remote-USA/Senior-Principal-Big-Data-Architect_P741689-1",
+      "locationsText": "Remote-USA",
+      "postedOn": "Posted 26 Days Ago",
+      "bulletFields": [
+        "P741689"
+      ]
+    },
+    {
+      "title": "Sr Manager, Machine Learning Engineering",
+      "externalPath": "/job/Remote-USA/Sr-Manager--Machine-Learning-Engineering_P743093-1",
+      "locationsText": "Remote-USA",
+      "postedOn": "Posted 28 Days Ago",
+      "bulletFields": [
+        "P743093"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular",
+          "id": "156fb9a2f01c10bed80e140d011a9559",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Time Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "156fb9a2f01c10be203b6e91581a01d1",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "facetParameter": "jobFamilyGroup",
+      "descriptor": "Job Family",
+      "values": [
+        {
+          "descriptor": "Product Development/Design",
+          "id": "a90eab1aaed6105e8dcac61d33c32ee2",
+          "count": 9
+        },
+        {
+          "descriptor": "Software Development",
+          "id": "a90eab1aaed6105e8dd41df427a82ee6",
+          "count": 4
+        },
+        {
+          "descriptor": "Accounting & Finance",
+          "id": "8a1dd2714f9a107e6921f459b267ff24",
+          "count": 4
+        },
+        {
+          "descriptor": "Sales",
+          "id": "17b4af38e59f10011ca29047a63b0000",
+          "count": 2
+        },
+        {
+          "descriptor": "Mortgages",
+          "id": "e3e2d3ad89cc010e522f0c317e19d832",
+          "count": 2
+        },
+        {
+          "descriptor": "Legal & Compliance",
+          "id": "015153e04e0a01bf62d6763d45214f9d",
+          "count": 2
+        },
+        {
+          "descriptor": "Systems & Network Operations",
+          "id": "15e9945ef79a10011bddb2470bd60000",
+          "count": 1
+        },
+        {
+          "descriptor": "Sourcing/Procurement",
+          "id": "17b4af38e59f10011bd0760042ee0000",
+          "count": 1
+        },
+        {
+          "descriptor": "Marketing & Corporate Affairs",
+          "id": "a90eab1aaed6105e8dc561c3a1452ee0",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Mexico City",
+              "id": "12c6dfd7a5af100200864b2989040000",
+              "count": 13
+            },
+            {
+              "descriptor": "Remote-USA",
+              "id": "bf3166a9227a01f8b514f0b00b147bc9",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

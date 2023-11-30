@@ -167,6 +167,54 @@ class NetflixParser(Parser):
         ]
 
 
+class NvidiaParser(Parser):
+    JOBS_DOMAIN = "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite"
+
+    @property
+    def org(self) -> str:
+        return "nvidia"
+
+    @property
+    def url(self) -> str:
+        return (
+            "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/"
+            "NVIDIAExternalCareerSite/jobs"
+        )
+
+    # todo: need to paginate
+    @staticmethod
+    def reader(org: str, url: str) -> str:
+        data = {
+            "appliedFacets": {
+                "locationHierarchy2": ["0c3f5f117e9a0101f63dc469c3010000"],
+                "locationHierarchy1": ["2fcb99c455831013ea52fb338f2932d8"],
+                "jobFamilyGroup": ["0c40f6bd1d8f10ae43ffaefd46dc7e78"],
+                "workerSubType": ["0c40f6bd1d8f10adf6dae161b1844a15"],
+                "timeType": ["5509c0b5959810ac0029943377d47364"],
+            },
+            "limit": 20,  # 20 is Max
+            "offset": 0,  # todo need to paginate. Refactor required
+            "searchText": "",
+        }
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        }
+        r = requests.post(url, data=json.dumps(data), headers=headers)
+        r.raise_for_status()
+        return r.content.decode(r.encoding or "utf-8")
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(
+                title=listing["title"].strip(),
+                url=self.JOBS_DOMAIN + listing["externalPath"],
+            )
+            for listing in d["jobPostings"]
+        ]
+
+
 class PintrestParser(Parser):
     @property
     def org(self) -> str:
@@ -250,13 +298,7 @@ class VectaraParser(Parser):
 
 
 class ZillowParser(Parser):
-    JOBS_PAGE = (
-        "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/?"
-        "locations=bf3166a9227a01f8b514f0b00b147bc9&"
-        "timeType=156fb9a2f01c10be203b6e91581a01d1&"
-        "workerSubType=156fb9a2f01c10bed80e140d011a9559&"
-        "jobFamilyGroup=a90eab1aaed6105e8dd41df427a82ee6"
-    )
+    JOBS_DOMAIN = "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External"
 
     @property
     def org(self) -> str:
@@ -296,7 +338,7 @@ class ZillowParser(Parser):
         return False, [
             Job(
                 title=listing["title"].strip(),
-                url=self.JOBS_PAGE,
+                url=self.JOBS_DOMAIN + listing["externalPath"],
             )
             for listing in d["jobPostings"]
         ]
