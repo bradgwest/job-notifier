@@ -151,6 +151,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "discord": Test(
+            parser.DiscordParser(page_reader),
+            [
+                Job(
+                    "Senior Software Engineer, Apps User Experience",
+                    "https://boards.greenhouse.io/discord/jobs/6974294002",
+                ),
+                Job(
+                    "Senior Software Engineer, Core Product",
+                    "https://boards.greenhouse.io/discord/jobs/6969882002",
+                ),
+            ],
+        ),
         "mongodb": Test(
             parser.MongoDBParser(page_reader),
             [

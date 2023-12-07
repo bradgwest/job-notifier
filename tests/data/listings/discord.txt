@@ -1,0 +1,1916 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7052713002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5696364002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7052713002,
+      "updated_at": "2023-12-07T16:15:00-05:00",
+      "requisition_id": "5002-P4-4815-1",
+      "title": "Compensation Business Partner"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7005313002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5673275002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7005313002,
+      "updated_at": "2023-11-28T23:35:30-05:00",
+      "requisition_id": "7005-S1-2310-REAL",
+      "title": "Core Tech - Native Framework & Tools Intern"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7007246002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5674100002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7007246002,
+      "updated_at": "2023-12-01T19:11:17-05:00",
+      "requisition_id": "6004-L1-2115-1",
+      "title": "Creative Intern"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003700002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672438002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003700002,
+      "updated_at": "2023-11-21T10:46:56-05:00",
+      "requisition_id": "6003-S2-2215-DSE",
+      "title": "Data Engineer Intern"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003713002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672448002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003713002,
+      "updated_at": "2023-11-21T10:46:55-05:00",
+      "requisition_id": "6003-S2-2215-DSE-1",
+      "title": "Data Science Intern, Analytics"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003727002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672455002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003727002,
+      "updated_at": "2023-11-21T10:46:55-05:00",
+      "requisition_id": "6003-S2-2215-DSE-2",
+      "title": "Data Science Intern, Causal Inference"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6884977002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5617946002,
+      "location": {
+        "name": "Washington, DC"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6884977002,
+      "updated_at": "2023-11-21T10:45:33-05:00",
+      "requisition_id": "3010-M4-4320-1",
+      "title": "Director of U.S. Public Policy, Government Relations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7001738002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5671436002,
+      "location": {
+        "name": "San Francisco, CA (or Remote)"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7001738002,
+      "updated_at": "2023-11-21T10:46:43-05:00",
+      "requisition_id": "7005-M3-2210-S-2",
+      "title": "Engineering Manager - Detection Infrastructure"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6982204002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5661751002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6982204002,
+      "updated_at": "2023-11-21T10:46:41-05:00",
+      "requisition_id": "7005-M3-2210-1",
+      "title": "Engineering Manager- Experimentation Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6617071002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5492366002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6617071002,
+      "updated_at": "2023-11-21T10:43:11-05:00",
+      "requisition_id": "7003-P4-2110-PRSL-1",
+      "title": "Engineering Manager - Games"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6683812002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5523981002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6683812002,
+      "updated_at": "2023-11-21T10:43:32-05:00",
+      "requisition_id": "7003-P4-2110-RG-1",
+      "title": "Engineering Manager - Revenue Growth "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6898842002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5624090002,
+      "location": {
+        "name": "San Francisco, CA / Remote "
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6898842002,
+      "updated_at": "2023-11-27T00:54:15-05:00",
+      "requisition_id": "2030-P3-4205-3",
+      "title": "Exploitative Content Specialist (bilingual - Portuguese)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6906923002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5628085002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6906923002,
+      "updated_at": "2023-11-21T10:45:46-05:00",
+      "requisition_id": "5005-M4-3405-2",
+      "title": "Group Product Marketing Manager, Subscriber Acquisition"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6933806002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5639681002,
+      "location": {
+        "name": "Singapore or Australia"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6933806002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "3010-M4-4320-1-C",
+      "title": "Head of Asia Pacific Public Policy & Government Relations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6843309002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5597489002,
+      "location": {
+        "name": "Australia"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6843309002,
+      "updated_at": "2023-11-21T10:45:13-05:00",
+      "requisition_id": "2030-M3-4205-3",
+      "title": "Minor Safety and Exploitative Content Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6936143002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5640619002,
+      "location": {
+        "name": "San Francisco, CA or Remote (U.S.)"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6936143002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "TBD1",
+      "title": "Product Manager, Infrastructure"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7002868002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5671998002,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7002868002,
+      "updated_at": "2023-11-21T10:46:50-05:00",
+      "requisition_id": "2009-P3-4605-1",
+      "title": "Regional Security Manager, Bay Area"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6244346002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5317927002,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6244346002,
+      "updated_at": "2023-12-05T13:12:46-05:00",
+      "requisition_id": "Exec-VP3-761-1",
+      "title": "Senior Director of People Technology & Operations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6914060002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5631302002,
+      "location": {
+        "name": "San Francisco, CA (or Remote)"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6914060002,
+      "updated_at": "2023-11-21T10:45:52-05:00",
+      "requisition_id": "7003-M6-2110-S-1",
+      "title": "Senior Director of Safety Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6923849002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5635202002,
+      "location": {
+        "name": "San Francisco, CA "
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6923849002,
+      "updated_at": "2023-11-27T13:35:19-05:00",
+      "requisition_id": "1001-P3-4415-1",
+      "title": "Senior GL Accountant"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7012809002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5676905002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7012809002,
+      "updated_at": "2023-11-27T13:22:28-05:00",
+      "requisition_id": "5010-P4-4815-1",
+      "title": "Senior Integrations Analyst (Workday)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7012173002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5676591002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7012173002,
+      "updated_at": "2023-11-21T10:47:11-05:00",
+      "requisition_id": "6004-P3-2115-AC-1",
+      "title": "Senior Motion Designer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7015043002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5678048002,
+      "location": {
+        "name": "San Francisco (Remote)"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7015043002,
+      "updated_at": "2023-11-09T14:38:25-05:00",
+      "requisition_id": "TBD3",
+      "title": "Senior Product Manager, Core Product"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7047811002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5693958002,
+      "location": {
+        "name": "San Francisco (Remote)"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7047811002,
+      "updated_at": "2023-12-04T20:56:33-05:00",
+      "requisition_id": "7003-P3-2210-REV",
+      "title": "Senior Product Manager, New Businesses"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6948927002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5646426002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6948927002,
+      "updated_at": "2023-12-07T12:03:52-05:00",
+      "requisition_id": "7005-P3-2110-AD-1",
+      "title": "Senior Software Engineer, Apps Developers"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6974294002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5657964002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6974294002,
+      "updated_at": "2023-11-21T10:46:22-05:00",
+      "requisition_id": "7005-P3-2110-ADX-1",
+      "title": "Senior Software Engineer, Apps User Experience"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6969882002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5656023002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6969882002,
+      "updated_at": "2023-11-21T10:46:31-05:00",
+      "requisition_id": "7005-P3-2110-PPR-1",
+      "title": "Senior Software Engineer, Core Product"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6726751002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5543371002,
+      "location": {
+        "name": "San Francisc, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6726751002,
+      "updated_at": "2023-12-04T15:58:35-05:00",
+      "requisition_id": "7003-P3-2310-BDT",
+      "title": "Senior Software Engineer - Developer Environments"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6845401002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5598463002,
+      "location": {
+        "name": "444 De Haro St "
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6845401002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "P-100427",
+      "title": "Senior Software Engineer - Games"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6952337002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5647877002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Machine Learning",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6952337002,
+      "updated_at": "2023-11-21T10:46:12-05:00",
+      "requisition_id": "8001-P3-2110-AML",
+      "title": "Senior Software Engineer - Machine Learning Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6322969002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5355435002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6322969002,
+      "updated_at": "2023-11-21T10:41:12-05:00",
+      "requisition_id": "7003-P3-243-SCUML-2",
+      "title": "Senior Software Engineer, Machine Learning Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6628757002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5497646002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Product Engineering",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6628757002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "P-100624",
+      "title": "Senior Software Engineer - Nitro Growth"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6893466002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5621785002,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6893466002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "P-101761",
+      "title": "Senior Software Engineer - Payments"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6737109002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5548103002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Product Engineering",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6737109002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "PIPELINE",
+      "title": "Senior Software Engineer - Product"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6837574002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5594935002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6837574002,
+      "updated_at": "2023-12-06T18:14:14-05:00",
+      "requisition_id": "6002-3-2110-TPM-1",
+      "title": "Senior Technical Program Manager - Data / ML Platform "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003739002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672462002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003739002,
+      "updated_at": "2023-11-28T23:35:59-05:00",
+      "requisition_id": "7005-S1-2110-CLX",
+      "title": "Software Engineer- Client Platforms Intern"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7005241002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5673245002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7005241002,
+      "updated_at": "2023-11-21T10:47:04-05:00",
+      "requisition_id": "7001-S2-2220-PLATE",
+      "title": "Software Engineer Intern, Data Products"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003736002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672460002,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003736002,
+      "updated_at": "2023-11-28T23:38:00-05:00",
+      "requisition_id": "7005-S1-2110-DS",
+      "title": "Software Engineer Intern - Design Systems"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003743002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672465002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003743002,
+      "updated_at": "2023-11-28T23:38:41-05:00",
+      "requisition_id": "7005-S1-2110-RG",
+      "title": "Software Engineer Intern - Nitro Growth"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003740002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672463002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003740002,
+      "updated_at": "2023-11-28T23:34:52-05:00",
+      "requisition_id": "7005-S1-2110-PRKS",
+      "title": "Software Engineer Intern - Perks (Core Product)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7003744002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5672466002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7003744002,
+      "updated_at": "2023-11-28T23:36:32-05:00",
+      "requisition_id": "7005-S1-2110-PE",
+      "title": "Software Engineer Intern - Platform Ecosystems"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7005231002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5673242002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7005231002,
+      "updated_at": "2023-11-28T23:37:03-05:00",
+      "requisition_id": "7004-S1-2310-PLAT",
+      "title": "Software Engineer Intern - Security"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7034055002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5687604002,
+      "location": {
+        "name": "San Francisco, California "
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7034055002,
+      "updated_at": "2023-11-21T15:14:21-05:00",
+      "requisition_id": "P-101120",
+      "title": "Sr. Staff Software Engineer - Revenue Growth "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6792708002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5574446002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6792708002,
+      "updated_at": "2023-11-21T10:44:50-05:00",
+      "requisition_id": "7003-P4-2110-UX-1",
+      "title": "Staff Software Engineer, Apps User Experience"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6956015002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5649354002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6956015002,
+      "updated_at": "2023-12-07T13:32:55-05:00",
+      "requisition_id": "7005-P4-2110-CLX-1",
+      "title": "Staff Software Engineer, Client Development Experience"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6977135002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5329854002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6977135002,
+      "updated_at": "2023-11-21T10:39:00-05:00",
+      "requisition_id": "7003-P4-243-DP-1",
+      "title": "Staff Software Engineer - Data Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6726750002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5543370002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6726750002,
+      "updated_at": "2023-11-21T10:44:12-05:00",
+      "requisition_id": "7003-P4-2310-BDT",
+      "title": "Staff Software Engineer - Developer Environments"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6935853002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5208714002,
+      "location": {
+        "name": "San Francisco, CA or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Machine Learning",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6935853002,
+      "updated_at": "2023-11-21T10:38:24-05:00",
+      "requisition_id": "7003-P4-211-C-1",
+      "title": "Staff Software Engineer - Machine Learning Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6792824002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5574491002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6792824002,
+      "updated_at": "2023-11-21T10:44:46-05:00",
+      "requisition_id": "7003-P4-2310-MLP-1",
+      "title": "Staff Software Engineer - Machine Learning Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6836955002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 5594580002,
+      "location": {
+        "name": "San Francisco"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6836955002,
+      "updated_at": "2023-12-06T18:18:08-05:00",
+      "requisition_id": "7003-P3-2110-PE-1",
+      "title": "Staff Software Engineer - Nitro Expression"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/6975322002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 5658404002,
+      "location": {
+        "name": "Amsterdam, Netherlands"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": null,
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 6975322002,
+      "updated_at": "2023-11-08T14:56:58-05:00",
+      "requisition_id": "4016-P4-4320-1",
+      "title": "Teen Safety Expert, EU"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/discord/jobs/7007251002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 5674104002,
+      "location": {
+        "name": "San Francisco or Remote"
+      },
+      "metadata": [
+        {
+          "id": 15769324002,
+          "name": "Jobs Page Display Department Override",
+          "value": "Internships",
+          "value_type": "short_text"
+        },
+        {
+          "id": 4105571002,
+          "name": "Tier Level",
+          "value": [
+            "1"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 7007251002,
+      "updated_at": "2023-12-06T19:55:27-05:00",
+      "requisition_id": "6004-L1-2115-2",
+      "title": "UX Researcher Intern"
+    }
+  ],
+  "meta": {
+    "total": 52
+  }
+}

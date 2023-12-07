@@ -32,6 +32,7 @@ PARSERS = {
     "airbnb": parser.AirbnbParser,
     "airtable": parser.AirtableParser,
     "cloudflare": parser.CloudflareParser,
+    "discord": parser.DiscordParser,
     "mongodb": parser.MongoDBParser,
     "netflix": parser.NetflixParser,
     "nvidia": parser.NvidiaParser,
