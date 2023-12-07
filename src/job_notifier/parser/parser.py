@@ -256,6 +256,25 @@ class RampParser(Parser):
         ]
 
 
+class RedditParser(Parser):
+    @property
+    def org(self) -> str:
+        return "reddit"
+
+    @property
+    def url(self) -> str:
+        return "https://boards.greenhouse.io/reddit"
+
+    def _parse(self, content: str) -> PageData:
+        soup = BeautifulSoup(content, "lxml")
+        domain = "https://boards.greenhouse.io"
+        return False, [
+            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
+            for listing in soup.find_all("div", class_="opening")
+            if "Remote - United States" in listing.span.text.strip()
+        ]
+
+
 class PintrestParser(Parser):
     @property
     def org(self) -> str:

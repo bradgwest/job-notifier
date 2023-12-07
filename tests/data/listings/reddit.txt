@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<script type="text/javascript">var _rollbarConfig = {"accessToken":"a9e544e2eb674f56b12d47e1d2ed4cd1","captureUncaught":true,"payload":{"environment":"production"},"hostBlockList":["linkedin.com","recruitics.com"],"checkIgnore":function(isUncaught, args, payload) {
+  try {
+    var isPhantomJS = window.navigator.userAgent.match(/phantomjs/i);
+    var isSplash= window.navigator.userAgent.match(/splash version/i);
+    var firefox = window.navigator.userAgent.match(/(firefox)\/(\w+)/i); // JSON, must escape slash
+    var chrome = window.navigator.userAgent.match(/(chrome)\/(\w+)/i); // JSON, must escape slash
+
+    var browserExtensionOrAutomationFile = function(frame) {
+      var regExPatterns = [/^chrome-extension/, /^safari-extension/, /^moz-extension/, /^pptr/];
+      return regExPatterns.some(function(regEx) {
+        return regEx.test(frame.filename);
+      });
+    }
+
+    var isBrowserExtensionOrAutomation = payload.body.trace &&
+                                         payload.body.trace.frames &&
+                                         payload.body.trace.frames.some(browserExtensionOrAutomationFile);
+
+    var isFirefoxLessThan50;
+    if (firefox) {
+      var majorVersion = Number(firefox[2]);
+      isFirefoxLessThan50 = majorVersion < 50
+    }
+
+    var isChromeLessThan50;
+    if (chrome) {
+      var chromeVersion = Number(chrome[2]);
+      isChromeLessThan50 = chromeVersion < 50;
+    }
+
+    return Boolean(isPhantomJS) ||
+           Boolean(isSplash) ||
+           Boolean(isFirefoxLessThan50) ||
+           Boolean(isChromeLessThan50) ||
+           Boolean(isBrowserExtensionOrAutomation);
+  } catch (e) {
+    return true;
+  }
+}
+,"ignoredMessages":["BetterJsPop","vungle","Script error","awliwidget"]};</script>
+<script type="text/javascript">!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.22.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <title>Jobs at Reddit</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0" />
+  <meta id="rendered-by" content="jben" />
+  <link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/application-37fb77937add45f47b8aa211c6e36baf590f4e1ddea883f7fa2967cb913854f4.css" />
+<link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css" />
+  
+  
+    <meta property="og:title" content="Reddit"></meta>
+    <meta property="og:description" content=""></meta>
+    <meta property="og:url" content="https://boards.greenhouse.io/reddit"></meta>
+    <meta property="og:type" content="article"></meta>
+      <meta property="og:image" content="https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/004/762/original/Greenhouse_Reddit_Logo.png?1610398267"></meta>
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main" class="accessible">
+      
+<div id="flash_wrapper">
+</div>
+
+
+<div id="logo"><img alt="Reddit Logo" src="https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/004/762/resized/Greenhouse_Reddit_Logo.png?1610398267" width="155" height="75" /></div>
+
+  <h1>Reddit</h1>
+
+  <div id="content">
+    
+  </div>
+
+    <h2 id="board_title">Current Job Openings</h2>
+
+  
+
+
+
+<div id="filter-count"></div>
+
+  
+
+<section class="level-0">
+  <h3 id="71092">Data </h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="70567">Data Science &amp; Analytics</h4>
+
+  <div class="opening" department_id="70567,71092" office_id="10168" data-office-10168="true" data-department-70567="true" data-department-71092="true">
+  <a data-mapped="true" href="/reddit/jobs/5392918">Data Science Manager, Ads Platform &amp; Experience</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="70567,71092" office_id="88237" data-office-88237="true" data-department-70567="true" data-department-71092="true">
+  <a data-mapped="true" href="/reddit/jobs/5377492">Senior Data Scientist, Recommendation Systems</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="70567,71092" office_id="10167" data-office-10167="true" data-department-70567="true" data-department-71092="true">
+  <a data-mapped="true" href="/reddit/jobs/5429863">Staff Data Scientist, Advertiser Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="70567,71092" office_id="10769" data-office-10769="true" data-department-70567="true" data-department-71092="true">
+  <a data-mapped="true" href="/reddit/jobs/5249535">Staff Data Scientist, Core Experience Analytics</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="50937">Design</h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="70578">Product Design</h4>
+
+  <div class="opening" department_id="50937,70578" office_id="88237" data-office-88237="true" data-department-50937="true" data-department-70578="true">
+  <a data-mapped="true" href="/reddit/jobs/5437836">Senior Product Designer</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70587">UX Research</h4>
+
+  <div class="opening" department_id="50937,70587" office_id="88237" data-office-88237="true" data-department-50937="true" data-department-70587="true">
+  <a data-mapped="true" href="/reddit/jobs/5520296">Usability Researcher (Contract)</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="16253">Engineering</h3>
+
+  <div class="opening" department_id="16253" office_id="10769" data-office-10769="true" data-department-16253="true">
+  <a data-mapped="true" href="/reddit/jobs/5304530">Director of Engineering, Machine Learning</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253" office_id="88237" data-office-88237="true" data-department-16253="true">
+  <a data-mapped="true" href="/reddit/jobs/5477258">Principal Engineer, Data Platform</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253" office_id="88237" data-office-88237="true" data-department-16253="true">
+  <a data-mapped="true" href="/reddit/jobs/5303300">Principal Engineer, Data Platform</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253" office_id="88237" data-office-88237="true" data-department-16253="true">
+  <a data-mapped="true" href="/reddit/jobs/5477261">Principal Engineer, Data Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+
+<section class="child level-1">
+  <h4 id="70548">Ads Engineering</h4>
+
+  <div class="opening" department_id="16253,70548" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/4951670">Engineering Manager, Ads Bidding and Pacing</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70548" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/5309417">Senior Software Engineer, Ads Marketplace Quality</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70548" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/5446021">Software Engineer, Ad Creative Management</a>
+  <br/>
+  <span class="location">Remote - British Columbia, Canada</span>
+</div><div class="opening" department_id="16253,70548" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/5028667">Software Engineer, Ad Creative Management</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70548" office_id="10167,10168,10769" data-office-10167="true" data-office-10168="true" data-office-10769="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/5009252">Staff Software Engineer, Revenue Lifecycle</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70548" office_id="10167,10168,10769" data-office-10167="true" data-office-10168="true" data-office-10769="true" data-department-16253="true" data-department-70548="true">
+  <a data-mapped="true" href="/reddit/jobs/5148009">Staff Software Engineer, Revenue Lifecycle </a>
+  <br/>
+  <span class="location">Vancouver, Canada</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70553">BE Platform</h4>
+
+  <div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5315143">Engineering Manager, Transport</a>
+  <br/>
+  <span class="location">Seattle, WA</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5315142">Engineering Manager, Transport</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5303298">Engineering Manager, Transport</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5315141">Engineering Manager, Transport</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5458369">Senior Site Reliability Engineer</a>
+  <br/>
+  <span class="location">Berlin, Germany</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5458365">Senior Site Reliability Engineer</a>
+  <br/>
+  <span class="location">Amsterdam, Netherlands</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5458372">Senior Site Reliability Engineer</a>
+  <br/>
+  <span class="location">London, United Kingdom</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5385431">Senior Site Reliability Engineer</a>
+  <br/>
+  <span class="location">Dublin, Ireland</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5462491">Senior Software Engineer - Transport</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5462492">Senior Software Engineer - Transport</a>
+  <br/>
+  <span class="location">Seattle, WA</span>
+</div><div class="opening" department_id="16253,70553" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5385418">Senior Software Engineer - Transport</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5202167">Staff Software Engineer, Transport</a>
+  <br/>
+  <span class="location">Amsterdam, Netherlands</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5160657">Staff Software Engineer, Transport</a>
+  <br/>
+  <span class="location">Dublin, Ireland</span>
+</div><div class="opening" department_id="16253,70553" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70553="true">
+  <a data-mapped="true" href="/reddit/jobs/5202161">Staff Software Engineer, Transport</a>
+  <br/>
+  <span class="location">London, United Kingdom</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="77934">Client Platforms</h4>
+
+  <div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5245144">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">Toronto, Canada</span>
+</div><div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5231652">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5245137">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">Seattle, WA</span>
+</div><div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5245140">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5245141">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,77934" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5245136">Engineering Manager, Service Foundation</a>
+  <br/>
+  <span class="location">Austin, TX</span>
+</div><div class="opening" department_id="16253,77934" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-77934="true">
+  <a data-mapped="true" href="/reddit/jobs/5330121">Staff Software Engineer, Web Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="81518">Consumer, Contributor, Moderator</h4>
+
+  <div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5476115">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5476116">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">Los Angeles, CA</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5480172">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">Remote - Ontario, Canada</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5476124">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">Toronto, Canada</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5476093">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5476114">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">Chicago, IL</span>
+</div><div class="opening" department_id="16253,81518" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-81518="true">
+  <a data-mapped="true" href="/reddit/jobs/5374658">Principal Mobile Engineer, Core Experience</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="86224">DevPlatform</h4>
+
+  <div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5198695">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5444014">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5444021">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5444029">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">Chicago, IL</span>
+</div><div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5444030">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">Los Angeles, CA</span>
+</div><div class="opening" department_id="16253,86224" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5444060">Engineering Manager, Developer Platform</a>
+  <br/>
+  <span class="location">Toronto, Canada</span>
+</div><div class="opening" department_id="16253,86224" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5231650">Staff Software Engineer, Developer Platform </a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,86224" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5316748">Staff Software Engineer, Developer Platform </a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,86224" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5316749">Staff Software Engineer, Developer Platform </a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,86224" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5231648">Tech Lead - Staff Android Engineer, Developer Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,86224" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-86224="true">
+  <a data-mapped="true" href="/reddit/jobs/5394833">Tech Lead - Staff iOS Engineer, Developer Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70569">Economy</h4>
+
+  <div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5445887">Senior Engineering Manager, Community Chat</a>
+  <br/>
+  <span class="location">Toronto, Canada</span>
+</div><div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5469434">Senior Engineering Manager- Reddit Chat</a>
+  <br/>
+  <span class="location">Amsterdam, Netherlands</span>
+</div><div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5469419">Senior Engineering Manager- Reddit Chat</a>
+  <br/>
+  <span class="location">London, United Kingdom</span>
+</div><div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5445898">Senior Engineering Manager- Reddit Chat</a>
+  <br/>
+  <span class="location">Boston, MA</span>
+</div><div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5469440">Senior Engineering Manager- Reddit Chat</a>
+  <br/>
+  <span class="location">Dublin, Ireland</span>
+</div><div class="opening" department_id="16253,70569" office_id="10769" data-office-10769="true" data-department-16253="true" data-department-70569="true">
+  <a data-mapped="true" href="/reddit/jobs/5330123">Senior Engineering Manager- Reddit Chat</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70570">FE Platform</h4>
+
+  <div class="opening" department_id="16253,70570" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70570="true">
+  <a data-mapped="true" href="/reddit/jobs/5182699">Senior iOS Engineer, Developer Productivity</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70570" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70570="true">
+  <a data-mapped="true" href="/reddit/jobs/5509112">Senior iOS Engineer, Developer Productivity</a>
+  <br/>
+  <span class="location">Remote - Ontario, Canada</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70571">Growth</h4>
+
+  <div class="opening" department_id="16253,70571" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5447599">Backend Engineer, Growth</a>
+  <br/>
+  <span class="location">London, United Kingdom</span>
+</div><div class="opening" department_id="16253,70571" office_id="18696" data-office-18696="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5397161">Backend Engineer, SEO </a>
+  <br/>
+  <span class="location">Dublin, Ireland</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5536331">Senior Backend Engineer, Moments</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5536330">Senior Backend Engineer, Moments</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5509645">Senior Backend Engineer, Moments</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70571" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5309673">Senior iOS Fullstack Engineer, Channels</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70571" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5518876">Senior iOS Fullstack Engineer, Channels</a>
+  <br/>
+  <span class="location">Toronto, Canada</span>
+</div><div class="opening" department_id="16253,70571" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5518872">Senior iOS Fullstack Engineer, Channels</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div><div class="opening" department_id="16253,70571" office_id="88237" data-office-88237="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5518869">Senior iOS Fullstack Engineer, Channels</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5478392">Staff Software Engineer, International Growth</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5396268">Staff Software Engineer, International Growth</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="16253,70571" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-70571="true">
+  <a data-mapped="true" href="/reddit/jobs/5478391">Staff Software Engineer, International Growth</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="79647">Machine Learning</h4>
+
+  <div class="opening" department_id="16253,79647" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-79647="true">
+  <a data-mapped="true" href="/reddit/jobs/5358862">Senior Software Engineer, Machine Learning Platform</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16253,79647" office_id="10167" data-office-10167="true" data-department-16253="true" data-department-79647="true">
+  <a data-mapped="true" href="/reddit/jobs/5500579">Staff Software Engineer, Machine Learning Platform</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="49738">Finance</h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="70582">Sales Finance</h4>
+
+  <div class="opening" department_id="49738,70582" office_id="10769" data-office-10769="true" data-department-49738="true" data-department-70582="true">
+  <a data-mapped="true" href="/reddit/jobs/5514081">Strategic Finance Manager, LCS &amp; Agency Development</a>
+  <br/>
+  <span class="location">San Francisco, CA</span>
+</div><div class="opening" department_id="49738,70582" office_id="10769" data-office-10769="true" data-department-49738="true" data-department-70582="true">
+  <a data-mapped="true" href="/reddit/jobs/5514073">Strategic Finance Manager, LCS &amp; Agency Development</a>
+  <br/>
+  <span class="location">Los Angeles, CA</span>
+</div><div class="opening" department_id="49738,70582" office_id="10769" data-office-10769="true" data-department-49738="true" data-department-70582="true">
+  <a data-mapped="true" href="/reddit/jobs/5514084">Strategic Finance Manager, LCS &amp; Agency Development</a>
+  <br/>
+  <span class="location">Chicago, IL</span>
+</div><div class="opening" department_id="49738,70582" office_id="10769" data-office-10769="true" data-department-49738="true" data-department-70582="true">
+  <a data-mapped="true" href="/reddit/jobs/5514082">Strategic Finance Manager, LCS &amp; Agency Development</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="50934">Legal</h3>
+
+  <div class="opening" department_id="50934" office_id="10168" data-office-10168="true" data-department-50934="true">
+  <a data-mapped="true" href="/reddit/jobs/5101763">Product Counsel - Ads</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="level-0">
+  <h3 id="71093">People &amp; Culture</h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="61164">Experience</h4>
+
+  <div class="opening" department_id="61164,71093" office_id="10168" data-office-10168="true" data-department-61164="true" data-department-71093="true">
+  <a data-mapped="true" href="/reddit/jobs/5505172">Sr. Experience Partner, Workplace</a>
+  <br/>
+  <span class="location">New York City, NY</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="16305">Product</h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="70549">Ads Product</h4>
+
+  <div class="opening" department_id="16305,70549" office_id="10168" data-office-10168="true" data-department-16305="true" data-department-70549="true">
+  <a data-mapped="true" href="/reddit/jobs/5519104">Senior Product Manager, Ads Targeting (Expansion)</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16305,70549" office_id="88237" data-office-88237="true" data-department-16305="true" data-department-70549="true">
+  <a data-mapped="true" href="/reddit/jobs/5449601">Staff Product Manager, Creative Optimization, Planning, and Recommendations</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="81517">Consumer</h4>
+
+  <div class="opening" department_id="16305,81517" office_id="10167" data-office-10167="true" data-department-16305="true" data-department-81517="true">
+  <a data-mapped="true" href="/reddit/jobs/5327220">Staff Product Manager, Content Discovery (EST timezone only)</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16305,81517" office_id="88237" data-office-88237="true" data-department-16305="true" data-department-81517="true">
+  <a data-mapped="true" href="/reddit/jobs/5345806">Staff Product Manager, Core Experience</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div><div class="opening" department_id="16305,81517" office_id="10167" data-office-10167="true" data-department-16305="true" data-department-81517="true">
+  <a data-mapped="true" href="/reddit/jobs/5358639">Staff Product Manager, Data API</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70586">TPM</h4>
+
+  <div class="opening" department_id="16305,70586" office_id="88237" data-office-88237="true" data-department-16305="true" data-department-70586="true">
+  <a data-mapped="true" href="/reddit/jobs/5476046">Senior Technical Program Manager - Ads</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="15691">Sales</h3>
+
+  <div class="opening" department_id="15691" office_id="88237" data-office-88237="true" data-department-15691="true">
+  <a data-mapped="true" href="/reddit/jobs/5138521">Lead, Advertising Measurement (Contract)</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+
+<section class="child level-1">
+  <h4 id="70572">Growth Mid Market &amp; SMB</h4>
+
+  <div class="opening" department_id="15691,70572" office_id="91185" data-office-91185="true" data-department-15691="true" data-department-70572="true">
+  <a data-mapped="true" href="/reddit/jobs/5171503">Vendor Performance Manager</a>
+  <br/>
+  <span class="location">Lisbon, Portugal</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70573">Large Customer Sales</h4>
+
+  <div class="opening" department_id="15691,70573" office_id="48028" data-office-48028="true" data-department-15691="true" data-department-70573="true">
+  <a data-mapped="true" href="/reddit/jobs/5475676">Client Account Manager, Large Customer Sales (CPG)</a>
+  <br/>
+  <span class="location">Chicago, IL</span>
+</div>
+  
+</section>
+
+<section class="child level-1">
+  <h4 id="70583">Sales Strategy &amp; Operations</h4>
+
+  <div class="opening" department_id="15691,70583" office_id="88240" data-office-88240="true" data-department-15691="true" data-department-70583="true">
+  <a data-mapped="true" href="/reddit/jobs/5541881">Senior Product Operations Specialist</a>
+  <br/>
+  <span class="location">Remote - United Kingdom</span>
+</div>
+  
+</section>
+</section>
+
+<section class="level-0">
+  <h3 id="82381">Security, Privacy, &amp; Assurance</h3>
+
+  
+  
+
+<section class="child level-1">
+  <h4 id="70584">Security</h4>
+
+  <div class="opening" department_id="70584,82381" office_id="10167" data-office-10167="true" data-department-70584="true" data-department-82381="true">
+  <a data-mapped="true" href="/reddit/jobs/5395245">Staff Security Engineer - Threat Detection</a>
+  <br/>
+  <span class="location">Remote - United States</span>
+</div>
+  
+</section>
+</section>
+  
+
+
+
+    </div>
+  </div>
+
+      <div id="footer">
+    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
+      <img border="0" alt="Greenhouse Logo" id="gh_logo" src="https://boards.cdn.greenhouse.io/assets/greenhouse-in-app-logo-green-236d994ee39682bb46e214901c264de0df582c97e949e7c854c3531b79f00240.svg" width="100" height="30" />
+</a>    <div class="privacy-policy">
+      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+
+      <script src="https://boards.cdn.greenhouse.io/assets/application-117d8e9638784cef2f4c8e04346a031023417010284e5f30cb9346d58dcaac54.js"></script>
+
+  <script src="https://boards.cdn.greenhouse.io/assets/index_init-b257fc242bdcd2b7d88beddbb8bbb8b171d1e40ebf2de22fd9f149d3bcfd82c2.js"></script>  
+
+  </body>
+</html>

@@ -37,6 +37,7 @@ PARSERS = {
     "nvidia": parser.NvidiaParser,
     "pintrest": parser.PintrestParser,
     "ramp": parser.RampParser,
+    "reddit": parser.RedditParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
     "vectara": parser.VectaraParser,

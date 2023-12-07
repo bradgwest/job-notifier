@@ -222,6 +222,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "reddit": Test(
+            parser.RedditParser(page_reader),
+            [
+                Job(
+                    "Staff Software Engineer, Web Platform",
+                    "https://boards.greenhouse.io/reddit/jobs/5330121",
+                ),
+                Job(
+                    "Principal Mobile Engineer, Core Experience",
+                    "https://boards.greenhouse.io/reddit/jobs/5374658",
+                ),
+            ],
+        ),
         "square": Test(
             parser.SquareParser(page_reader),
             [
