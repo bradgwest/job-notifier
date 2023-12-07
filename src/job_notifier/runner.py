@@ -38,6 +38,7 @@ PARSERS = {
     "pintrest": parser.PintrestParser,
     "ramp": parser.RampParser,
     "reddit": parser.RedditParser,
+    "slack": parser.SlackParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
     "vectara": parser.VectaraParser,

@@ -295,6 +295,53 @@ class PintrestParser(Parser):
         ]
 
 
+class SlackParser(Parser):
+    JOBS_DOMAIN = "https://salesforce.wd12.myworkdayjobs.com/en-US/Slack"
+
+    @property
+    def org(self) -> str:
+        return "slack"
+
+    @property
+    def url(self) -> str:
+        return (
+            "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/Slack/jobs"
+        )
+
+    # todo: need to paginate
+    @staticmethod
+    def reader(org: str, url: str) -> str:
+        data = {
+            "appliedFacets": {
+                "CF_-_REC_-_LRV_-_Job_Posting_Anchor_-_Country_from_Job_Posting_Location_Extended": [  # noqa
+                    "bc33aa3152ec42d4995f4791a106ed09"
+                ],
+                "jobFamilyGroup": ["14fa3452ec7c1011f90d0002a2100000"],
+                "workerSubType": ["3a910852b2c31010f48d2bbc8b020000"],
+            },
+            "limit": 20,
+            "offset": 0,
+            "searchText": "",
+        }
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        }
+        r = requests.post(url, data=json.dumps(data), headers=headers)
+        r.raise_for_status()
+        return r.content.decode(r.encoding or "utf-8")
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(
+                title=listing["title"].strip(),
+                url=self.JOBS_DOMAIN + listing["externalPath"],
+            )
+            for listing in d["jobPostings"]
+        ]
+
+
 class SquareParser(Parser):
     @property
     def org(self) -> str:

@@ -1,0 +1,434 @@
+{
+  "total": 19,
+  "jobPostings": [
+    {
+      "title": "Sr. Staff, Android",
+      "externalPath": "/job/Washington---Seattle/Sr-Staff--Android_JR208474-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR208474"
+      ]
+    },
+    {
+      "title": "Security Engineer - Slack",
+      "externalPath": "/job/Colorado---Remote/Security-Engineer---Slack_JR231535",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR231535"
+      ]
+    },
+    {
+      "title": "Senior, Product Security Engineer - Slack",
+      "externalPath": "/job/Florida---Remote/Senior--Product-Security-Engineer---Slack_JR228561",
+      "locationsText": "Florida - Remote",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR228561"
+      ]
+    },
+    {
+      "title": "Senior Fullstack Software Engineer, Quip",
+      "externalPath": "/job/Colorado---Remote/Senior-Fullstack-Software-Engineer--Quip_JR218178-2",
+      "locationsText": "8 Locations",
+      "postedOn": "Posted 6 Days Ago",
+      "bulletFields": [
+        "JR218178"
+      ]
+    },
+    {
+      "title": "Senior Engineering Manager (Core Product)",
+      "externalPath": "/job/Colorado---Remote/Senior-Engineering-Manager--Core-Product-_JR226060-1",
+      "locationsText": "Colorado - Remote",
+      "postedOn": "Posted 7 Days Ago",
+      "bulletFields": [
+        "JR226060"
+      ]
+    },
+    {
+      "title": "Sr Staff Software Engineer, Backend",
+      "externalPath": "/job/Colorado---Remote/Sr-Staff-Software-Engineer--Backend_JR227055",
+      "locationsText": "7 Locations",
+      "postedOn": "Posted 7 Days Ago",
+      "bulletFields": [
+        "JR227055"
+      ]
+    },
+    {
+      "title": "Software Engineer, iOS- Slack (Senior/Staff)",
+      "externalPath": "/job/Texas---Dallas/Software-Engineer--iOS--Slack--Multiple-Levels-_JR207100-1",
+      "locationsText": "11 Locations",
+      "postedOn": "Posted 8 Days Ago",
+      "bulletFields": [
+        "JR207100"
+      ]
+    },
+    {
+      "title": "Fullstack Software Engineer II, Slack",
+      "externalPath": "/job/Colorado---Denver/Fullstack-Software-Engineer-II--Slack_JR230535",
+      "locationsText": "8 Locations",
+      "postedOn": "Posted 8 Days Ago",
+      "bulletFields": [
+        "JR230535"
+      ]
+    },
+    {
+      "title": "Risk and Compliance Engineer",
+      "externalPath": "/job/California---San-Francisco/Staff-Senior-Software-Engineer_JR229482",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 20 Days Ago",
+      "bulletFields": [
+        "JR229482"
+      ]
+    },
+    {
+      "title": "Senior Security Engineer - Slack",
+      "externalPath": "/job/Massachusetts---Remote/Security-Customer-Protection-Engineer_JR228529",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 22 Days Ago",
+      "bulletFields": [
+        "JR228529"
+      ]
+    },
+    {
+      "title": "Staff Data Engineer, Customer Analytics - Slack",
+      "externalPath": "/job/Washington---Remote/Staff-Data-Engineer--Enterprise-Insights---Slack_JR213092",
+      "locationsText": "10 Locations",
+      "postedOn": "Posted 23 Days Ago",
+      "bulletFields": [
+        "JR213092"
+      ]
+    },
+    {
+      "title": "Sr. Engineer, Database Infrastructure - Slack",
+      "externalPath": "/job/Colorado---Remote/Sr-Software-Engineer--DataStores---Slack_JR225964",
+      "locationsText": "12 Locations",
+      "postedOn": "Posted 23 Days Ago",
+      "bulletFields": [
+        "JR225964"
+      ]
+    },
+    {
+      "title": "Staff Software Engineer, Core Libraries - Slack",
+      "externalPath": "/job/Colorado---Remote/Staff-Software-Engineer--Core-Libraries---Slack_JR228135",
+      "locationsText": "10 Locations",
+      "postedOn": "Posted 23 Days Ago",
+      "bulletFields": [
+        "JR228135"
+      ]
+    },
+    {
+      "title": "Senior, Product Security Engineer - Slack",
+      "externalPath": "/job/Florida---Remote/Senior--Product-Security-Engineer---Slack_JR228562-1",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 24 Days Ago",
+      "bulletFields": [
+        "JR228562"
+      ]
+    },
+    {
+      "title": "Staff Product Security Engineer - Slack",
+      "externalPath": "/job/Colorado---Denver/Staff-Product-Security-Engineer---Slack_JR219761",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 27 Days Ago",
+      "bulletFields": [
+        "JR219761"
+      ]
+    },
+    {
+      "title": "Staff Software Engineer, iOS Infrastructure",
+      "externalPath": "/job/Colorado---Remote/Staff-Software-Engineer--iOS-Infrastructure_JR227092",
+      "locationsText": "9 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "JR227092"
+      ]
+    },
+    {
+      "title": "Engineering Manager - Machine Learning & Search Infrastructure",
+      "externalPath": "/job/Texas---Remote/Machine-Learning---Search-Infra-Engineering-Manager_JR224626",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "JR224626"
+      ]
+    },
+    {
+      "title": "Software Engineer, Android - Slack (Multiple Levels)",
+      "externalPath": "/job/Georgia---Atlanta/Software-Engineer--Android---Slack--Multiple-Levels-_JR207027-1",
+      "locationsText": "11 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "JR207027"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer (Machine Learning)",
+      "externalPath": "/job/Texas---Remote/Senior-Software-Engineer--Machine-Learning-_JR223911",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": [
+        "JR223911"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "CF_-_REC_-_LRV_-_Job_Posting_Anchor_-_Country_from_Job_Posting_Location_Extended",
+      "descriptor": "Country",
+      "values": [
+        {
+          "descriptor": "United States of America",
+          "id": "bc33aa3152ec42d4995f4791a106ed09",
+          "count": 19
+        },
+        {
+          "descriptor": "India",
+          "id": "c4f78be1a8f14da0ab49ce1162348a5e",
+          "count": 5
+        },
+        {
+          "descriptor": "Canada",
+          "id": "a30a87ed25634629aa6c3958aa2b91ea",
+          "count": 3
+        },
+        {
+          "descriptor": "Ireland",
+          "id": "04a05835925f45b3a59406a2a6b72c8a",
+          "count": 2
+        },
+        {
+          "descriptor": "Netherlands",
+          "id": "9696868b09c64d52a62ee13b052383cc",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "jobFamilyGroup",
+      "descriptor": "Job Category",
+      "values": [
+        {
+          "descriptor": "Software Engineering",
+          "id": "14fa3452ec7c1011f90d0002a2100000",
+          "count": 19
+        },
+        {
+          "descriptor": "Sales",
+          "id": "14fa3452ec7c1011f90d030426db0000",
+          "count": 4
+        },
+        {
+          "descriptor": "User Experience",
+          "id": "14fa3452ec7c1011f90d056a9bc80000",
+          "count": 2
+        },
+        {
+          "descriptor": "Product",
+          "id": "14fa3452ec7c1011f90cf2c552640000",
+          "count": 2
+        },
+        {
+          "descriptor": "Marketing & Communications",
+          "id": "14fa3452ec7c1011f90cecc098e70000",
+          "count": 1
+        },
+        {
+          "descriptor": "Customer Success",
+          "id": "14fa3452ec7c1011f90ce62273ea0000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular",
+          "id": "3a910852b2c31010f48d2bbc8b020000",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Time Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "0e28126347c3100fe3b402cf26290000",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Texas - Remote",
+              "id": "1038e944b11010124539fe8ad1340000",
+              "count": 12
+            },
+            {
+              "descriptor": "Colorado - Remote",
+              "id": "1038e944b1101012453bcb4b56f50000",
+              "count": 12
+            },
+            {
+              "descriptor": "Florida - Remote",
+              "id": "1038e944b1101012453afacdb9690000",
+              "count": 10
+            },
+            {
+              "descriptor": "Oregon - Remote",
+              "id": "1038e944b1101012453ca35f71700000",
+              "count": 9
+            },
+            {
+              "descriptor": "Georgia - Remote",
+              "id": "1038e944b1101012453cc894946c0000",
+              "count": 8
+            },
+            {
+              "descriptor": "Arizona - Remote",
+              "id": "1038e944b1101012453b3ba9ad1f0000",
+              "count": 8
+            },
+            {
+              "descriptor": "Pennsylvania - Remote",
+              "id": "1038e944b1101012453ec204a4ef0000",
+              "count": 7
+            },
+            {
+              "descriptor": "North Carolina - Remote",
+              "id": "1038e944b1101012453a1fa1473d0000",
+              "count": 7
+            },
+            {
+              "descriptor": "Minnesota - Remote",
+              "id": "1038e944b1101012453a9b0091a90000",
+              "count": 7
+            },
+            {
+              "descriptor": "Georgia - Atlanta Metro - Remote",
+              "id": "1038e944b1101012453b72506c400000",
+              "count": 4
+            },
+            {
+              "descriptor": "Utah - Remote",
+              "id": "27cc52fb221f1012453a325b2e3a0000",
+              "count": 3
+            },
+            {
+              "descriptor": "Indiana - Remote",
+              "id": "1038e944b1101012453eb26824540000",
+              "count": 3
+            },
+            {
+              "descriptor": "Illinois - Chicago Metro - Remote",
+              "id": "1038e944b1101012453f7a44a4600000",
+              "count": 3
+            },
+            {
+              "descriptor": "US, Remote",
+              "id": "837ce96d41ed1003d810709470e50000",
+              "count": 2
+            },
+            {
+              "descriptor": "Texas - Dallas",
+              "id": "1038e944b1101012453f1ca83d0a0000",
+              "count": 2
+            },
+            {
+              "descriptor": "Nevada - Remote",
+              "id": "1038e944b1101012453c6324b0730000",
+              "count": 2
+            },
+            {
+              "descriptor": "Michigan - Remote",
+              "id": "1038e944b1101012453ef20addc20000",
+              "count": 2
+            },
+            {
+              "descriptor": "Massachusetts - Remote",
+              "id": "1038e944b1101012453c57bcbca30000",
+              "count": 2
+            },
+            {
+              "descriptor": "Colorado - Denver",
+              "id": "1038e944b110101245402a1aa0900000",
+              "count": 2
+            },
+            {
+              "descriptor": "Washington - Seattle",
+              "id": "27cc52fb221f1012453a6392417f0000",
+              "count": 1
+            },
+            {
+              "descriptor": "Washington - Remote",
+              "id": "1038e944b1101012453b2570616b0000",
+              "count": 1
+            },
+            {
+              "descriptor": "South Carolina - Remote",
+              "id": "1038e944b1101012453e3d578beb0000",
+              "count": 1
+            },
+            {
+              "descriptor": "Ohio - Remote",
+              "id": "1038e944b1101012453d8c4078900000",
+              "count": 1
+            },
+            {
+              "descriptor": "New Jersey - Remote",
+              "id": "1038e944b1101012453fa5782d020000",
+              "count": 1
+            },
+            {
+              "descriptor": "Kansas - Remote",
+              "id": "1038e944b1101012453e752dddd20000",
+              "count": 1
+            },
+            {
+              "descriptor": "Illinois - Remote",
+              "id": "1038e944b1101012453fb2ac8e470000",
+              "count": 1
+            },
+            {
+              "descriptor": "Georgia - Atlanta",
+              "id": "1038e944b1101012453b7e549d150000",
+              "count": 1
+            },
+            {
+              "descriptor": "California - San Francisco",
+              "id": "1038e944b1101012453f6677d95a0000",
+              "count": 1
+            },
+            {
+              "descriptor": "California - Remote",
+              "id": "1038e944b1101012453ae52d34d90000",
+              "count": 1
+            },
+            {
+              "descriptor": "Arkansas - Remote",
+              "id": "1038e944b1101012453a750f42b60000",
+              "count": 1
+            },
+            {
+              "descriptor": "Alaska - Remote",
+              "id": "1038e944b1101012453ad88c6c8c0000",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

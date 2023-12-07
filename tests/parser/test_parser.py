@@ -235,6 +235,22 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "slack": Test(
+            parser.SlackParser(page_reader),
+            [
+                Job(
+                    "Senior Fullstack Software Engineer, Quip",
+                    "https://salesforce.wd12.myworkdayjobs.com/en-US/Slack/job"
+                    "/Colorado---Remote/Senior-Fullstack-Software-Engineer--"
+                    "Quip_JR218178-2",
+                ),
+                Job(
+                    "Security Engineer - Slack",
+                    "https://salesforce.wd12.myworkdayjobs.com/en-US/Slack/job"
+                    "/Colorado---Remote/Security-Engineer---Slack_JR231535",
+                ),
+            ],
+        ),
         "square": Test(
             parser.SquareParser(page_reader),
             [
