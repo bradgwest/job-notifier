@@ -1,0 +1,1099 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4214837004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4141073004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4214837004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "813",
+      "title": "Account Executive, Enterprise"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4928783004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4557549004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 4928783004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "773",
+      "title": "Account Executive, Enterprise (London, UK)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4991504004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4594811004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4991504004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "849",
+      "title": "Automations & AI Specialist, Product Support"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5017828004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4610476004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5017828004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "867",
+      "title": "Belonging, Equity & Impact (BEI) Partner"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5026432004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4610668004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5026432004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "869",
+      "title": "Brand Copywriter"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4985943004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4568309004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4985943004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "801",
+      "title": "Business Data Scientist - Early Career (2024)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5024781004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4614038004,
+      "location": {
+        "name": "Berlin, Germany"
+      },
+      "metadata": null,
+      "id": 5024781004,
+      "updated_at": "2023-12-07T09:01:34-05:00",
+      "requisition_id": "876",
+      "title": "Business Development Representative (Germany)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5013969004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4606564004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5013969004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "865",
+      "title": "Contracts Manager, Vendors"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4998647004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4598076004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4998647004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "858",
+      "title": "Data Scientist, Infrastructure "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4975816004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4586013004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4975816004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "838",
+      "title": "Data Scientist - Marketing "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5027898004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4615780004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5027898004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "882",
+      "title": "Data Scientist, Product"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5004110004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4600710004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5004110004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "863",
+      "title": "Deal Desk Analyst"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5000156004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4598831004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5000156004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "859",
+      "title": "Director, Learning and Performance, Product Support"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4758248004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4461350004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4758248004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "570",
+      "title": "Director of Scalable Support"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5029213004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4616561004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5029213004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "883",
+      "title": "Director, People Relations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4941870004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4556423004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4941870004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "771",
+      "title": "Director, Sales Enablement"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4953079004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4572575004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4953079004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "811",
+      "title": "Engineering Director - Machine Learning"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4966039004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4580284004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4966039004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "831",
+      "title": "Engineering Manager - Explore "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5020504004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4611837004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5020504004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "870",
+      "title": "Engineering Manager - Growth Engagement"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4236441004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4154459004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4236441004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "266",
+      "title": "Engineering Manager - Infrastructure"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4962442004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4577975004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4962442004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "827",
+      "title": "Engineering Manager - Machine Learning"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4876500004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4528858004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4876500004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "698",
+      "title": "Enterprise Solutions Architect"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4316193004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4199581004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 4316193004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "259",
+      "title": "Enterprise Solutions Architect (London, UK)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5017718004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4610406004,
+      "location": {
+        "name": "Singapore"
+      },
+      "metadata": null,
+      "id": 5017718004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "866",
+      "title": "Events Marketing Manager (Singapore) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5020847004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4612038004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5020847004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "871",
+      "title": "Manager, Distribution Partnerships"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4918287004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4551029004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4918287004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "759",
+      "title": "Manager, Enterprise Sales"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4989203004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4593335004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 4989203004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "848",
+      "title": "Manager, Growth Marketing (London, UK) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4959610004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4576452004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4959610004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "824",
+      "title": "Manager, Product Management - Adoption & Engagement"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5025352004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4614347004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5025352004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "875",
+      "title": "Manager, Product Operations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5022953004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4613123004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 5022953004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "874",
+      "title": "Manager, Revenue Accounting (London, UK)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4977054004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4586610004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4977054004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "840",
+      "title": "Manager, Solutions Architect"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4919894004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4551987004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 4919894004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "762",
+      "title": "Manager, Strategic Sales (London, UK)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4756707004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4460509004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4756707004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "566",
+      "title": "ML/AI Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5031714004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4617737004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5031714004,
+      "updated_at": "2023-12-05T18:18:03-05:00",
+      "requisition_id": "886",
+      "title": "Motion Designer, Brand Studio"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5027074004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4615263004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5027074004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "878",
+      "title": "Operations Program Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4945819004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4568312004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4945819004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "802",
+      "title": "Product Design - Early Career (2024) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4945802004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4568302004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4945802004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "799",
+      "title": "Product Design Intern (2024)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4957695004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4575278004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4957695004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "823",
+      "title": "Product Manager - Design Editor"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4983541004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4590051004,
+      "location": {
+        "name": "London, England"
+      },
+      "metadata": null,
+      "id": 4983541004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "847",
+      "title": "Program Manager, Belonging, Equity & Impact"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5025093004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4614233004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5025093004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "877",
+      "title": "Sales Compensation Analyst "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5027243004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4615366004,
+      "location": {
+        "name": "Singapore \u2022 Tokyo, Japan"
+      },
+      "metadata": null,
+      "id": 5027243004,
+      "updated_at": "2023-12-06T19:59:22-05:00",
+      "requisition_id": "880",
+      "title": "Sales Enablement Manager (JAPAC)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4214880004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4141098004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4214880004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "1146",
+      "title": "Security Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5032721004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4618313004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5032721004,
+      "updated_at": "2023-12-06T13:38:52-05:00",
+      "requisition_id": "887",
+      "title": "Senior Corporate Accountant"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4754116004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4458870004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4754116004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "561",
+      "title": "Software Engineer - Creation Engine "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4214847004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4141079004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4214847004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "273",
+      "title": "Software Engineer - Editor"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4339815004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4217905004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4339815004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "281",
+      "title": "Software Engineer - FigJam "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4214913004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4141118004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4214913004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "278",
+      "title": "Software Engineer - Growth"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4776674004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4471058004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4776674004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "582",
+      "title": "Software Engineer - Infrastructure "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4942607004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4565859004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4942607004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "793",
+      "title": "Software Engineer Intern (2024)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/4214883004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4141102004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 Seattle, WA \u2022 United States"
+      },
+      "metadata": null,
+      "id": 4214883004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "210",
+      "title": "Software Engineer - Teamwork"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5001490004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4599401004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5001490004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "860",
+      "title": "Strategic Finance, Corporate"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5021469004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4612376004,
+      "location": {
+        "name": "San Francisco, CA \u2022 New York, NY \u2022 United States"
+      },
+      "metadata": null,
+      "id": 5021469004,
+      "updated_at": "2023-12-04T18:47:37-05:00",
+      "requisition_id": "872",
+      "title": "Strategic Finance, Marketing"
+    }
+  ],
+  "meta": {
+    "total": 52
+  }
+}

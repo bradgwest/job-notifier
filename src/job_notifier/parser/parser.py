@@ -160,6 +160,24 @@ class DiscordParser(Parser):
         ]
 
 
+class FigmaParser(Parser):
+    @property
+    def org(self) -> str:
+        return "figma"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/figma/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if "United States" in job["location"]["name"]
+        ]
+
+
 class MongoDBParser(Parser):
     @property
     def org(self) -> str:

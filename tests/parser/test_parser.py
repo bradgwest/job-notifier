@@ -164,6 +164,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "figma": Test(
+            parser.FigmaParser(page_reader),
+            [
+                Job(
+                    "Software Engineer - Creation Engine",
+                    "https://boards.greenhouse.io/figma/jobs/4754116004",
+                ),
+                Job(
+                    "Software Engineer - Editor",
+                    "https://boards.greenhouse.io/figma/jobs/4214847004",
+                ),
+            ],
+        ),
         "mongodb": Test(
             parser.MongoDBParser(page_reader),
             [
