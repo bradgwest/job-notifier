@@ -452,6 +452,24 @@ class TwilioParser(Parser):
         ]
 
 
+class UpstartParser(Parser):
+    @property
+    def org(self) -> str:
+        return "upstart"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/upstart/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if job["location"]["name"] == "United States | Remote"
+        ]
+
+
 class VectaraParser(Parser):
     @property
     def org(self) -> str:

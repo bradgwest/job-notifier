@@ -332,6 +332,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "upstart": Test(
+            parser.UpstartParser(page_reader),
+            [
+                Job(
+                    "Data Platform Engineer",
+                    "https://www.upstart.com/careers/5499985/apply?gh_jid=5499985",
+                ),
+                Job(
+                    "Full Stack Software Engineer, Pricing",
+                    "https://www.upstart.com/careers/5461095/apply?gh_jid=5461095",
+                ),
+            ],
+        ),
         "vectara": Test(
             parser.VectaraParser(page_reader),
             [

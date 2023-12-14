@@ -1,0 +1,906 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://www.upstart.com/careers/5016667/apply?gh_jid=5016667",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2533620,
+      "location": {
+        "name": "Austin, TX, USA"
+      },
+      "metadata": null,
+      "id": 5016667,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "1045",
+      "title": "Account Executive, Auto Retail"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5017265/apply?gh_jid=5017265",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2533846,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5017265,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101167",
+      "title": "Account Executive II, Auto Retail- New York/ Philadelphia/ Boston"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5546149/apply?gh_jid=5546149",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2736549,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5546149,
+      "updated_at": "2023-12-06T18:54:02-05:00",
+      "requisition_id": "JR101552",
+      "title": "Account Executive II - Southern California "
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5231319/apply?gh_jid=5231319",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2617707,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5231319,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101331",
+      "title": "Capital Markets Analyst"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5558610/apply?gh_jid=5558610",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2741923,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5558610,
+      "updated_at": "2023-12-12T11:20:06-05:00",
+      "requisition_id": "JR101565",
+      "title": "Compliance Associate Manager, Home Lending"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5499985/apply?gh_jid=5499985",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2722531,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5499985,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101512",
+      "title": "Data Platform Engineer"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5557419/apply?gh_jid=5557419",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2741583,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5557419,
+      "updated_at": "2023-12-12T11:19:28-05:00",
+      "requisition_id": "JR101559",
+      "title": "Dealer Implementation Specialist"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5475072/apply?gh_jid=5475072",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2713507,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5475072,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101492",
+      "title": "Engineering Manager, Quality Engineering and Tools"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5461095/apply?gh_jid=5461095",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2708470,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5461095,
+      "updated_at": "2023-11-16T17:48:33-05:00",
+      "requisition_id": "JR101484",
+      "title": "Full Stack Software Engineer, Pricing"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5359286/apply?gh_jid=5359286",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2675307,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5359286,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101415",
+      "title": "Full Stack Software Engineer, Verifications"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5546391/apply?gh_jid=5546391",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2736650,
+      "location": {
+        "name": "Columbus, OH, USA"
+      },
+      "metadata": null,
+      "id": 5546391,
+      "updated_at": "2023-12-08T13:49:00-05:00",
+      "requisition_id": "JR101553",
+      "title": "Head of Collections Operations and Performance"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5434290/apply?gh_jid=5434290",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2699352,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5434290,
+      "updated_at": "2023-11-22T12:57:21-05:00",
+      "requisition_id": "JR101455",
+      "title": "Manager, Machine Learning (Data Science)"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5477874/apply?gh_jid=5477874",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2714606,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5477874,
+      "updated_at": "2023-12-04T10:37:36-05:00",
+      "requisition_id": "JR101497",
+      "title": "Manager, Retention Lifecycle Marketing"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5505154/apply?gh_jid=5505154",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2724254,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5505154,
+      "updated_at": "2023-12-13T08:31:42-05:00",
+      "requisition_id": "JR101518",
+      "title": "OEM Program Manager"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5424498/apply?gh_jid=5424498",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2695185,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5424498,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101453",
+      "title": "Principal Analyst, Growth Analytics"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5287885/apply?gh_jid=5287885",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2649281,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5287885,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101350",
+      "title": "Principal Analyst, Investor Analytics "
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5507874/apply?gh_jid=5507874",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2725341,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5507874,
+      "updated_at": "2023-11-22T15:16:50-05:00",
+      "requisition_id": "JR101520",
+      "title": "Principal Product Manager"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5539825/apply?gh_jid=5539825",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2734581,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5539825,
+      "updated_at": "2023-11-30T09:59:39-05:00",
+      "requisition_id": "JR101542",
+      "title": "Principal Software Engineer, Auto"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5537500/apply?gh_jid=5537500",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2733637,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5537500,
+      "updated_at": "2023-11-29T10:16:28-05:00",
+      "requisition_id": "JR101537",
+      "title": "Principal Software Engineer, Auto Retail"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5437738/apply?gh_jid=5437738",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2700675,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5437738,
+      "updated_at": "2023-11-28T11:27:07-05:00",
+      "requisition_id": "JR101465",
+      "title": "Principal Software Engineer, Machine Learning (C++)"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5567161/apply?gh_jid=5567161",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2744106,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5567161,
+      "updated_at": "2023-12-14T16:16:22-05:00",
+      "requisition_id": "JR101578",
+      "title": "Principal Technical Program Manager, Data Analytics"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5558046/apply?gh_jid=5558046",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2741756,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5558046,
+      "updated_at": "2023-12-08T12:42:02-05:00",
+      "requisition_id": "JR101564",
+      "title": "Research Scientist"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5442403/apply?gh_jid=5442403",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2702384,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5442403,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "PL - Sr Analytics Eng",
+      "title": "Senior Analytics Engineer"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5506465/apply?gh_jid=5506465",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2724774,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5506465,
+      "updated_at": "2023-11-15T19:20:54-05:00",
+      "requisition_id": "JR101519",
+      "title": "Senior Bankruptcy Manager"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5483503/apply?gh_jid=5483503",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2716862,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5483503,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "1058",
+      "title": "Senior Data Platform Engineer"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5462853/apply?gh_jid=5462853",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2709028,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5462853,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101490",
+      "title": "Senior Engineering Manager, Application Security"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5407619/apply?gh_jid=5407619",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2690131,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5407619,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101442",
+      "title": "Senior Engineering Manager, Identity & Access Management"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5492745/apply?gh_jid=5492745",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2720032,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5492745,
+      "updated_at": "2023-12-05T11:33:51-05:00",
+      "requisition_id": "JR101509",
+      "title": "Senior Enterprise Dealer Success Manager"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5503991/apply?gh_jid=5503991",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2724084,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5503991,
+      "updated_at": "2023-11-15T18:08:33-05:00",
+      "requisition_id": "JR101514",
+      "title": "Senior Product Designer"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5419783/apply?gh_jid=5419783",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2693702,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5419783,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101451",
+      "title": "Senior Product Manager, Machine Learning "
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5558044/apply?gh_jid=5558044",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2741755,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5558044,
+      "updated_at": "2023-12-13T14:53:29-05:00",
+      "requisition_id": "JR101563",
+      "title": "Senior Product Manager, Small Dollar Loans"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5461414/apply?gh_jid=5461414",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2708579,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5461414,
+      "updated_at": "2023-12-08T12:48:40-05:00",
+      "requisition_id": "JR101485",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5514147/apply?gh_jid=5514147",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2727708,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5514147,
+      "updated_at": "2023-12-12T15:45:52-05:00",
+      "requisition_id": "JR101523",
+      "title": "Senior Software Engineer, API Enablement"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5462598/apply?gh_jid=5462598",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2708915,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5462598,
+      "updated_at": "2023-11-27T15:20:37-05:00",
+      "requisition_id": "JR101488",
+      "title": "Senior Software Engineer, Home Lending"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5492132/apply?gh_jid=5492132",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2719794,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5492132,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101508",
+      "title": "Senior Software Engineer, Identity & Access Management"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5496275/apply?gh_jid=5496275",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2721215,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5496275,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101511",
+      "title": "Senior Software Engineer, ML Platform Infrastructure"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5492095/apply?gh_jid=5492095",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2719774,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5492095,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101507",
+      "title": "Senior Software Engineer, Mobile"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5286905/apply?gh_jid=5286905",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2648957,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5286905,
+      "updated_at": "2023-11-17T20:27:23-05:00",
+      "requisition_id": "1053",
+      "title": "Software Engineer, Servicing"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5451570/apply?gh_jid=5451570",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2706286,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5451570,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101477",
+      "title": "Staff Data Analyst, Credit Analytics"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5389998/apply?gh_jid=5389998",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2684491,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5389998,
+      "updated_at": "2023-11-15T13:16:44-05:00",
+      "requisition_id": "JR101432",
+      "title": "Staff Data Analyst, Operations Analytics"
+    },
+    {
+      "absolute_url": "https://www.upstart.com/careers/5434292/apply?gh_jid=5434292",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_optional",
+      "internal_job_id": 2699353,
+      "location": {
+        "name": "United States | Remote"
+      },
+      "metadata": null,
+      "id": 5434292,
+      "updated_at": "2023-12-08T16:23:46-05:00",
+      "requisition_id": "JR101456",
+      "title": "Staff Research Scientist"
+    }
+  ],
+  "meta": {
+    "total": 41
+  }
+}

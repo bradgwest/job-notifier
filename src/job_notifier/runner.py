@@ -27,6 +27,7 @@ Config = StorageConfig | NotifierConfig
 Backend = Storage | Notifier
 ParserMap = Mapping[str, Type[parser.Parser]]
 
+# TODO: make this a bit smarter and more generic
 PARSERS = {
     "affirm": parser.AffirmParser,
     "airbnb": parser.AirbnbParser,
@@ -45,6 +46,7 @@ PARSERS = {
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
     "twilio": parser.TwilioParser,
+    "upstart": parser.UpstartParser,
     "vectara": parser.VectaraParser,
     "zillow": parser.ZillowParser,
     "zscaler": parser.ZscalerParser,
