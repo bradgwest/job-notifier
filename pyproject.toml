@@ -52,6 +52,7 @@ exclude = [
     "**/build"
 ]
 venvPath = ".venv"
+typeCheckingMode = "strict"
 
 [tool.isort]
 profile = "black"
