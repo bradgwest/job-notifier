@@ -43,6 +43,7 @@ PARSERS = {
     "slack": parser.SlackParser,
     "square": parser.SquareParser,
     "stripe": parser.StripeParser,
+    "twilio": parser.TwilioParser,
     "vectara": parser.VectaraParser,
     "zillow": parser.ZillowParser,
     "zscaler": parser.ZscalerParser,

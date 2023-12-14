@@ -306,6 +306,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "twilio": Test(
+            parser.TwilioParser(page_reader),
+            [
+                Job(
+                    "Principal Fullstack Engineer",
+                    "https://boards.greenhouse.io/twilio/jobs/5543642",
+                ),
+                Job(
+                    "Senior Fullstack Engineer",
+                    "https://boards.greenhouse.io/twilio/jobs/5565685",
+                ),
+            ],
+        ),
         "vectara": Test(
             parser.VectaraParser(page_reader),
             [

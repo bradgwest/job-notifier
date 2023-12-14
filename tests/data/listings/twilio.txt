@@ -1,0 +1,2359 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5450346",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2705850,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP3SLS1613-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5450346,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45737",
+      "title": "Compliance Manager, Carrier Relations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5420747",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2693962,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3SS5823-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5420747,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45845",
+      "title": "Customer Operations Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5483111",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2716682,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5483111,
+      "updated_at": "2023-12-14T09:31:24-05:00",
+      "requisition_id": "46216",
+      "title": "DevOps Engineer L2"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5507790",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2725305,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4HR6214-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5507790,
+      "updated_at": "2023-12-12T12:39:35-05:00",
+      "requisition_id": "46327",
+      "title": "Employee Relations Business Partner"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5483121",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2716684,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TM3EG2123-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5483121,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46215",
+      "title": "Engineering Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5401571",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2688459,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS2014-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5401571,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "R231144",
+      "title": "Enterprise CSM (East) Segment "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5570979",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744963,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5SLS1835-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5570979,
+      "updated_at": "2023-12-14T12:41:27-05:00",
+      "requisition_id": "46464",
+      "title": "GTM Planning and Process Improvement Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5517497",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2728626,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS634-N",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5517497,
+      "updated_at": "2023-12-13T10:52:43-05:00",
+      "requisition_id": "46154",
+      "title": "ISV New Business Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5566427",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743877,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP5SLS635-N",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5566427,
+      "updated_at": "2023-12-13T12:43:09-05:00",
+      "requisition_id": "46156",
+      "title": "ISV New Business Senior Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5569569",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744570,
+      "location": {
+        "name": "Tokyo, Japan"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS634-E",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5569569,
+      "updated_at": "2023-12-14T04:23:58-05:00",
+      "requisition_id": "46171",
+      "title": "ISV/Partner Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5507371",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2689291,
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5507371,
+      "updated_at": "2023-12-14T13:31:47-05:00",
+      "requisition_id": "46083",
+      "title": "(Junior) DevOps Engineer - Email Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5404159",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2689291,
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5404159,
+      "updated_at": "2023-12-14T13:31:47-05:00",
+      "requisition_id": "46083",
+      "title": "(Junior) DevOps Engineer - Email Platform"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5557749",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741658,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NM3LG3033-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5557749,
+      "updated_at": "2023-12-12T12:42:02-05:00",
+      "requisition_id": "46412",
+      "title": "Manager, Commercial Contracts"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5483281",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2716758,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NM3HR3203-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5483281,
+      "updated_at": "2023-12-13T19:31:30-05:00",
+      "requisition_id": "46203",
+      "title": "Manager, People Services Center"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5566364",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743847,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NM3SS2793-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5566364,
+      "updated_at": "2023-12-13T15:51:43-05:00",
+      "requisition_id": "46421",
+      "title": "Manager, Personalized Support"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5566425",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743876,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SM3SLS1203-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5566425,
+      "updated_at": "2023-12-14T12:39:26-05:00",
+      "requisition_id": "45730",
+      "title": "Manager, Sales Development - New Business"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5546608",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736741,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TM3EG2123-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5546608,
+      "updated_at": "2023-12-12T16:53:40-05:00",
+      "requisition_id": "46393",
+      "title": "Manager, Software Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5544803",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736136,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS634-N",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544803,
+      "updated_at": "2023-12-12T19:04:21-05:00",
+      "requisition_id": "R231390",
+      "title": "New Business Senior Account Executive (Direct Sales)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5411533",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2690946,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3LG5943-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5411533,
+      "updated_at": "2023-12-13T19:31:33-05:00",
+      "requisition_id": "45997",
+      "title": "People Compliance Program Lead, APJ 3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5240982",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2623497,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5EG5105-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5240982,
+      "updated_at": "2023-12-12T01:59:22-05:00",
+      "requisition_id": "45632",
+      "title": "Principal Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5543642",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2735679,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5EG5105-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5543642,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46370",
+      "title": "Principal Fullstack Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5411485",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2690918,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5EG5105-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5411485,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46057",
+      "title": "Principal Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5565852",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743704,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3IT6803-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5565852,
+      "updated_at": "2023-12-13T00:02:01-05:00",
+      "requisition_id": "46068",
+      "title": "Product Data Analyst (L3)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5508537",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2725674,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4PD5224-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5508537,
+      "updated_at": "2023-12-13T17:17:49-05:00",
+      "requisition_id": "46140",
+      "title": "Product Manager, L4"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5544160",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2735884,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP2SS5812-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544160,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46341",
+      "title": "Product Operations Specialist (L2)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5556801",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741333,
+      "location": {
+        "name": "Tokyo, Japan"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3SS5813-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5556801,
+      "updated_at": "2023-12-11T22:32:37-05:00",
+      "requisition_id": "46333",
+      "title": "Product Operations Specialist (L3)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5479185",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2715216,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SM6SLS1606-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5479185,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46149",
+      "title": "Regional Vice President, Trading"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5539774",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2734557,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4SLS1834-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5539774,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46364",
+      "title": "Sales Compensation Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5225506",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2613853,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP2SLS1332-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5225506,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "R230742",
+      "title": "Sales Development Representative, Segment"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5565685",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743649,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5565685,
+      "updated_at": "2023-12-13T14:27:41-05:00",
+      "requisition_id": "46373",
+      "title": "Senior Fullstack Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5465039",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2709916,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3FI6113-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5465039,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46204",
+      "title": "Senior International Payroll Analyst"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5343471",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2668905,
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NM4FI3054-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5343471,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45744",
+      "title": "Senior Manager, Internal Auditor"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5552110",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2739265,
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4LG6364-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5552110,
+      "updated_at": "2023-12-14T14:45:50-05:00",
+      "requisition_id": "46100",
+      "title": "Senior Paralegal / Telecom Regulatory Compliance Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5568026",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2739265,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4LG6364-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5568026,
+      "updated_at": "2023-12-14T14:46:03-05:00",
+      "requisition_id": "46100",
+      "title": "Senior Paralegal / Telecom Regulatory Compliance Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5436306",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2700226,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3PD5223-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5436306,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46081",
+      "title": "Senior Product Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5516540",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2728346,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5516540,
+      "updated_at": "2023-12-12T22:52:38-05:00",
+      "requisition_id": "46268",
+      "title": "Senior Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5537392",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2733591,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5537392,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46266",
+      "title": "Senior Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5551593",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2739032,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5551593,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46375",
+      "title": "Senior Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5546605",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736740,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5546605,
+      "updated_at": "2023-12-12T18:03:47-05:00",
+      "requisition_id": "46392",
+      "title": "Senior Software Engineer, Distributed Systems"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5517499",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2728627,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP5SLS635-E",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5517499,
+      "updated_at": "2023-12-12T15:25:16-05:00",
+      "requisition_id": "46173",
+      "title": "Senior Strategic Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5491659",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2718575,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5LG6395-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5491659,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46104",
+      "title": "Senior Telecommunications Regulatory Compliance Counsel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5487911",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2718575,
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5LG6395-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5487911,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46104",
+      "title": "Senior Telecommunications Regulatory Compliance Counsel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5519612",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2729295,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5LG6395-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5519612,
+      "updated_at": "2023-12-11T22:26:35-05:00",
+      "requisition_id": "46290",
+      "title": "Senior Telecom Regulatory Compliance Counsel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5520265",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2729295,
+      "location": {
+        "name": "Sydney, Australia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5LG6395-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5520265,
+      "updated_at": "2023-12-11T22:26:35-05:00",
+      "requisition_id": "46290",
+      "title": "Senior Telecom Regulatory Compliance Counsel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5520262",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2729295,
+      "location": {
+        "name": "Remote - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP5LG6395-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5520262,
+      "updated_at": "2023-12-11T22:26:35-05:00",
+      "requisition_id": "46290",
+      "title": "Senior Telecom Regulatory Compliance Counsel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5273428",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2643644,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5273428,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45024",
+      "title": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5509922",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2726103,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5509922,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46279",
+      "title": "Software Engineer, Flex "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5523528",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2730295,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5523528,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46228",
+      "title": "Software Engineer (Frontend), Programmable Messaging"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5510787",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2726455,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5510787,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46231",
+      "title": "Software Engineer L2"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5366393",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2678154,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5366393,
+      "updated_at": "2023-12-13T13:07:12-05:00",
+      "requisition_id": "45850",
+      "title": "Software Engineer (L2)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5544154",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2735881,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544154,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46349",
+      "title": "Software Engineer (L3)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5544158",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2735883,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544158,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46348",
+      "title": "Software Engineer (L3)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5391999",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2684978,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5391999,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45851",
+      "title": "Software Engineer (L3)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5379169",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2682168,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3EG5103-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5379169,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45957",
+      "title": "Software Engineer- L3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5366383",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2678152,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5366383,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45853",
+      "title": "Software Engineer (L4)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5481060",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2715892,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP2EG5102-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5481060,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46265",
+      "title": "Software Engineer, Messaging"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5498692",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2722053,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5498692,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46285",
+      "title": "Staff Fullstack Software Engineer, Special Projects Group "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5503230",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2723852,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5174-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5503230,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46260",
+      "title": "Staff Machine Learning Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5366375",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2678148,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4PD5224-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5366375,
+      "updated_at": "2023-12-14T10:49:40-05:00",
+      "requisition_id": "45894",
+      "title": "Staff Product Manager - Messaging (Health & Monitoring)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5414501",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692030,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5PD5225-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5414501,
+      "updated_at": "2023-12-14T10:48:59-05:00",
+      "requisition_id": "45846",
+      "title": "Staff Product Manager - Verification"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5426252",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692030,
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5PD5225-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5426252,
+      "updated_at": "2023-12-14T10:48:59-05:00",
+      "requisition_id": "45846",
+      "title": "Staff Product Manager - Verification"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5522425",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692030,
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5PD5225-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5522425,
+      "updated_at": "2023-12-14T10:48:59-05:00",
+      "requisition_id": "45846",
+      "title": "Staff Product Manager - Verification"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5426255",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692030,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP5PD5225-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5426255,
+      "updated_at": "2023-12-14T10:48:59-05:00",
+      "requisition_id": "45846",
+      "title": "Staff Product Manager - Verification"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5510967",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2726537,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4PD5224-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5510967,
+      "updated_at": "2023-12-14T10:50:14-05:00",
+      "requisition_id": "46127",
+      "title": "(Staff) Product Manager  - Voice Connectivity"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5568499",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744445,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5568499,
+      "updated_at": "2023-12-14T09:30:21-05:00",
+      "requisition_id": "46227",
+      "title": "Staff, Software Development Engineer (Full Stack)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5526952",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2731508,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5526952,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46278",
+      "title": "Staff Software Engineer, D&A Platform Services"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5312921",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2656885,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5312921,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45790",
+      "title": "Staff Software Engineer, Edge Proxy"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5523165",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2730145,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5523165,
+      "updated_at": "2023-12-12T10:45:00-05:00",
+      "requisition_id": "46347",
+      "title": " Staff Software Engineer (L4)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5448181",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2705183,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5448181,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45838",
+      "title": "Staff Software Engineer (L4) - Segment Data Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5546654",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736761,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5546654,
+      "updated_at": "2023-12-13T18:18:40-05:00",
+      "requisition_id": "46418",
+      "title": "Staff Software Engineer, Segment Warehouse"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5547041",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736933,
+      "location": {
+        "name": "Tallinn, Estonia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5547041,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46264",
+      "title": "Staff Software Engineer, SMS-UI (Tech lead) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5498756",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2722065,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5498756,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46282",
+      "title": "Staff Software Engineer, Special Projects Group"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5081096",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2555408,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4EG5104-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5081096,
+      "updated_at": "2023-12-12T03:14:23-05:00",
+      "requisition_id": "45454",
+      "title": "Staff, Software Engineer (SRE)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5564554",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736760,
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4AD5374-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5564554,
+      "updated_at": "2023-12-12T07:14:37-05:00",
+      "requisition_id": "46410",
+      "title": "Staff, Technical Program Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5546652",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736760,
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP4AD5374-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5546652,
+      "updated_at": "2023-12-12T07:13:54-05:00",
+      "requisition_id": "46410",
+      "title": "Staff, Technical Program Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5517505",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2728630,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS634-E",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5517505,
+      "updated_at": "2023-12-13T10:30:40-05:00",
+      "requisition_id": "46177",
+      "title": "Strategic Account Executive"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5544694",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736085,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "SP4SLS634-E",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544694,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "R231388",
+      "title": "Strategic Account Executive (ISV)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5565735",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743670,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4FI6724-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5565735,
+      "updated_at": "2023-12-14T13:34:02-05:00",
+      "requisition_id": "46411",
+      "title": "Strategic Sourcing Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5321509",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2659877,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP4BS6464-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5321509,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45765",
+      "title": "Systems Administrator"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5556803",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741334,
+      "location": {
+        "name": "Tokyo, Japan"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3SS5823-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5556803,
+      "updated_at": "2023-12-12T23:01:25-05:00",
+      "requisition_id": "46336",
+      "title": "Techincal Support Engineer 3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5564079",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741334,
+      "location": {
+        "name": "Remote - Singapore"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3SS5823-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5564079,
+      "updated_at": "2023-12-12T23:01:25-05:00",
+      "requisition_id": "46336",
+      "title": "Techincal Support Engineer 3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5330377",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2662604,
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP3SS5823-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5330377,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "43597",
+      "title": "Technical Account Manager 3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5532489",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2732483,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "TP3AD5373-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5532489,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "45689",
+      "title": "Technical Program Manager 3"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/5541491",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2734991,
+      "location": {
+        "name": "Remote - Colombia"
+      },
+      "metadata": [
+        {
+          "id": 259693,
+          "name": "Job Code",
+          "value": "NP2SS5822-1",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5541491,
+      "updated_at": "2023-12-11T19:16:31-05:00",
+      "requisition_id": "46339",
+      "title": "Technical Support Expert 2"
+    }
+  ],
+  "meta": {
+    "total": 84
+  }
+}

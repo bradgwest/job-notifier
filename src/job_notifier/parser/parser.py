@@ -415,6 +415,24 @@ class StripeParser(Parser):
         ]
 
 
+class TwilioParser(Parser):
+    @property
+    def org(self) -> str:
+        return "twilio"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/twilio/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if job["location"]["name"] == "Remote - US"
+        ]
+
+
 class VectaraParser(Parser):
     @property
     def org(self) -> str:
