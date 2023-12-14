@@ -177,6 +177,19 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "lacework": Test(
+            parser.LaceworkParser(page_reader),
+            [
+                Job(
+                    "Software Engineer - Developer Infrastructure",
+                    "https://www.lacework.com/job-openings?gh_jid=4883515004",
+                ),
+                Job(
+                    "Software Engineer - Data Foundation",
+                    "https://www.lacework.com/job-openings?gh_jid=4945239004",
+                ),
+            ],
+        ),
         "mongodb": Test(
             parser.MongoDBParser(page_reader),
             [

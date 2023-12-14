@@ -34,6 +34,7 @@ PARSERS = {
     "cloudflare": parser.CloudflareParser,
     "discord": parser.DiscordParser,
     "figma": parser.FigmaParser,
+    "lacework": parser.LaceworkParser,
     "mongodb": parser.MongoDBParser,
     "netflix": parser.NetflixParser,
     "nvidia": parser.NvidiaParser,

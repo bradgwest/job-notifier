@@ -1,0 +1,532 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5036041004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4620315004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 5036041004,
+      "updated_at": "2023-12-08T17:07:18-05:00",
+      "requisition_id": "P-102457",
+      "title": "Cloud Security Researcher, Lacework Labs"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4911864004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4547531004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4911864004,
+      "updated_at": "2023-11-28T19:30:49-05:00",
+      "requisition_id": "P-102280",
+      "title": "Compliance Security Engineer"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4990715004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4594409004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4990715004,
+      "updated_at": "2023-11-14T18:40:06-05:00",
+      "requisition_id": "P-102379",
+      "title": "Detection Security Engineer"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5011065004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4604671004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 5011065004,
+      "updated_at": "2023-12-14T00:55:46-05:00",
+      "requisition_id": "P-102413",
+      "title": "Regional Sales Manager - Chicago, Enterprise"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5011067004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4604673004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 5011067004,
+      "updated_at": "2023-12-07T14:30:34-05:00",
+      "requisition_id": "P-102423",
+      "title": "Regional Sales Manager - PacNW/Rockies Enterprise"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4998391004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4597910004,
+      "location": {
+        "name": "United Kingdom"
+      },
+      "metadata": null,
+      "id": 4998391004,
+      "updated_at": "2023-11-14T19:27:47-05:00",
+      "requisition_id": "P-102402",
+      "title": "Senior Customer Success Manager - EMEA"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5014179004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4606710004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 5014179004,
+      "updated_at": "2023-12-05T10:15:29-05:00",
+      "requisition_id": "P-102439",
+      "title": "Senior Manager, Sales Planning and Insights"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4945239004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4568027004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4945239004,
+      "updated_at": "2023-11-14T19:32:53-05:00",
+      "requisition_id": "P-102351",
+      "title": "Software Engineer - Data Foundation"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4883515004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4532482004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4883515004,
+      "updated_at": "2023-12-04T13:17:51-05:00",
+      "requisition_id": "1026",
+      "title": "Software Engineer - Developer Infrastructure"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5006198004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4601895004,
+      "location": {
+        "name": "London, England, United Kingdom"
+      },
+      "metadata": null,
+      "id": 5006198004,
+      "updated_at": "2023-11-14T19:33:50-05:00",
+      "requisition_id": "1040",
+      "title": "Software Engineer - Developer Infrastructure"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4722395004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4439586004,
+      "location": {
+        "name": "United Kingdom"
+      },
+      "metadata": null,
+      "id": 4722395004,
+      "updated_at": "2023-11-16T13:26:15-05:00",
+      "requisition_id": "986",
+      "title": "Software Engineer - Front End"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4941757004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4565499004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4941757004,
+      "updated_at": "2023-11-14T19:34:39-05:00",
+      "requisition_id": "P-102338a",
+      "title": "Software Engineer - Full Stack"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4906757004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4544627004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4906757004,
+      "updated_at": "2023-11-14T19:38:57-05:00",
+      "requisition_id": "P-102253",
+      "title": "Software Engineer, Linux Agent"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4696948004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4424821004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4696948004,
+      "updated_at": "2023-11-14T19:44:50-05:00",
+      "requisition_id": "972",
+      "title": "Software Engineer - Product"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4933396004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4560328004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4933396004,
+      "updated_at": "2023-11-14T19:45:23-05:00",
+      "requisition_id": "P-102307",
+      "title": "Software Engineer, Product Platform "
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4932358004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4559677004,
+      "location": {
+        "name": "London, England, United Kingdom"
+      },
+      "metadata": null,
+      "id": 4932358004,
+      "updated_at": "2023-11-29T10:44:07-05:00",
+      "requisition_id": "1032",
+      "title": "Software Engineer - Site Reliability"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4015716004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4015421004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4015716004,
+      "updated_at": "2023-11-29T10:43:18-05:00",
+      "requisition_id": "844",
+      "title": "Software Engineer - Site Reliability"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5036403004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4618649004,
+      "location": {
+        "name": "Remote - US"
+      },
+      "metadata": null,
+      "id": 5036403004,
+      "updated_at": "2023-12-08T18:34:46-05:00",
+      "requisition_id": "1044",
+      "title": "Software Engineer - Vulnerability Management"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5033274004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4618649004,
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "metadata": null,
+      "id": 5033274004,
+      "updated_at": "2023-12-05T10:16:42-05:00",
+      "requisition_id": "1044",
+      "title": "Software Engineer - Vulnerability Management"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5033275004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4618649004,
+      "location": {
+        "name": "Seattle, WA"
+      },
+      "metadata": null,
+      "id": 5033275004,
+      "updated_at": "2023-12-08T18:32:44-05:00",
+      "requisition_id": "1044",
+      "title": "Software Engineer - Vulnerability Management"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4990782004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4594446004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4990782004,
+      "updated_at": "2023-11-14T19:52:20-05:00",
+      "requisition_id": "P-102410",
+      "title": "Sr. Director, People Technology and Operations"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4988754004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4593029004,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": null,
+      "id": 4988754004,
+      "updated_at": "2023-11-14T19:52:41-05:00",
+      "requisition_id": "P-102403",
+      "title": "Sr. Manager, Global Benefits"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5031399004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4015503004,
+      "location": {
+        "name": "Belfast, Northern Ireland, United Kingdom"
+      },
+      "metadata": null,
+      "id": 5031399004,
+      "updated_at": "2023-12-08T18:37:32-05:00",
+      "requisition_id": "82",
+      "title": "Technical Program Manager"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=4015830004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4015503004,
+      "location": {
+        "name": "London, England, United Kingdom"
+      },
+      "metadata": null,
+      "id": 4015830004,
+      "updated_at": "2023-12-08T18:37:32-05:00",
+      "requisition_id": "82",
+      "title": "Technical Program Manager"
+    },
+    {
+      "absolute_url": "https://www.lacework.com/job-openings?gh_jid=5019162004",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4611228004,
+      "location": {
+        "name": "Sydney, New South Wales, Australia"
+      },
+      "metadata": null,
+      "id": 5019162004,
+      "updated_at": "2023-11-20T12:57:42-05:00",
+      "requisition_id": "P-102447",
+      "title": "Technical Support Engineer"
+    }
+  ],
+  "meta": {
+    "total": 25
+  }
+}

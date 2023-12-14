@@ -178,6 +178,25 @@ class FigmaParser(Parser):
         ]
 
 
+class LaceworkParser(Parser):
+    @property
+    def org(self) -> str:
+        return "lacework"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/lacework/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if job["location"]["name"] == "Remote - US"
+            or job["location"]["name"] == "United States"
+        ]
+
+
 class MongoDBParser(Parser):
     @property
     def org(self) -> str:
