@@ -59,6 +59,14 @@ def _log_level(val: str) -> int:
         return getattr(logging, val.upper())
 
 
+def _valid_company(company: str) -> str:
+    if company not in PARSERS.keys():
+        raise argparse.ArgumentTypeError(
+            f"Invalid company: {company}. Valid companies: {PARSERS.keys()}"
+        )
+    return company
+
+
 def setup_storage_backend(args: argparse.Namespace) -> Storage:
     match args.storage_backend:
         case "LocalStorage":
@@ -166,6 +174,13 @@ class Runner:
 def add_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
     parser.add_argument("--log-level", type=_log_level, default="WARNING")
     parser.add_argument(
+        "--companies",
+        nargs="+",
+        help="Companies for which to notify",
+        default=list(PARSERS.keys()),
+        type=_valid_company,
+    )
+    parser.add_argument(
         "--storage-backend",
         default="LocalStorage",
         choices=STORAGE_BACKENDS,
@@ -200,5 +215,5 @@ def main():
     storage = setup_storage_backend(args)
     notifier = setup_notifier_backend(args)
 
-    runner = Runner(storage, notifier, PARSERS)
+    runner = Runner(storage, notifier, {c: PARSERS[c] for c in args.companies})
     runner.run()
