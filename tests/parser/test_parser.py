@@ -136,6 +136,21 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "chanzuckerberginitiative": Test(
+            parser.ChanzuckerberginitiativeParser(page_reader),
+            [
+                Job(
+                    "Senior Software Engineer, Science",
+                    "https://boards.greenhouse.io/chanzuckerberginitiative/"
+                    "jobs/5316149?gh_jid=5316149",
+                ),
+                Job(
+                    "Senior Machine Learning Engineer, Science",
+                    "https://boards.greenhouse.io/chanzuckerberginitiative/"
+                    "jobs/5366977?gh_jid=5366977",
+                ),
+            ],
+        ),
         "cloudflare": Test(
             parser.CloudflareParser(page_reader),
             [
@@ -191,7 +206,7 @@ def test_org_parsers(page_reader: parser.PageReader):
             ],
         ),
         "mongodb": Test(
-            parser.MongoDBParser(page_reader),
+            parser.MongodbParser(page_reader),
             [
                 Job(
                     "Senior Product Performance Engineer",

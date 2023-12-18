@@ -1,0 +1,432 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/4970748?gh_jid=4970748",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2506767,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Artificial Intelligence",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Science",
+            "Technology"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will be a leader within CZI developing and applying state-of-the-art methods in artificial intelligence and machine learning to solve important problems in the biomedical sciences aligned with CZI\u2019s focus on understanding the mysteries of the cell.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 4970748,
+      "updated_at": "2023-12-13T18:32:19-05:00",
+      "requisition_id": "R1107",
+      "title": "Director, Artificial Intelligence, Science"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5467421?gh_jid=5467421",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2709461,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Education"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will develop product messaging, sales content, and customer success efforts for Education products, specifically how they relate and impact the K12 market through outreach and use cases that are thought provoking, educational, easy to understand and speak clearly to our target school and district customers.  You will define the go-to-market strategy and have a role in defining and driving the marketing content and positioning aspects from concept to launch to entice and educate customers & prospects on the benefits of CZI Education\u2019s product offerings.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5467421,
+      "updated_at": "2023-11-30T17:48:05-05:00",
+      "requisition_id": "R1159",
+      "title": "Director, School Development and Success, Education"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5464062?gh_jid=5464062",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2709489,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Investments",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Central"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will be responsible for maintaining the investment book of record to support the execution of a multi-asset class investment portfolio.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5464062,
+      "updated_at": "2023-11-16T15:51:45-05:00",
+      "requisition_id": "R1161",
+      "title": "Senior Analyst, Investment Operations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5476237?gh_jid=5476237",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2706150,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Central"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will join an outstanding investment operations team that is critical to the execution of CZI\u2019s multi-asset class investment portfolio. The investment function pursues a \"manager-of-managers\" approach, working with funds across a wide spectrum of investment styles and strategies. The ideal candidate will have a technical background with a strong interest in acquiring finance/investments knowledge.  They possess both data engineering and advanced data analytics skills.  They will have a strategic approach, while also possessing a proactive, entrepreneurial attitude, and are excited about shaping and building out CZI\u2019s investment systems and reporting tools.  A commitment and passion for philanthropy and CZI\u2019s mission will also be a key consideration.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5476237,
+      "updated_at": "2023-11-16T13:39:49-05:00",
+      "requisition_id": "R1156",
+      "title": "Senior Data Engineer, Investment Operations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5366977?gh_jid=5366977",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2545977,
+      "location": {
+        "name": "Redwood City, CA (Open to Remote)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Artificial Intelligence",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Science",
+            "Technology"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will apply and optimize state-of-the-art models in artificial intelligence and machine learning to solve important problems in the biomedical sciences aligned with CZI\u2019s mission. You will work as part of a team responsible for developing and deploying ML models that use data developed by CZI and research partners all for the purpose of contributing to greater understanding of human cell function.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5366977,
+      "updated_at": "2023-10-17T18:46:41-04:00",
+      "requisition_id": "R1125",
+      "title": "Senior Machine Learning Engineer, Science"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5316149?gh_jid=5316149",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2658149,
+      "location": {
+        "name": "Redwood City, CA (Open to Remote)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Science",
+            "Technology"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will build open source software to support our mission, working closely with a collaborative, multi-disciplinary team. You will also collaborate with external partners, who are pushing the boundaries of current microscopy hardware, and learn about imaging technologies.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5316149,
+      "updated_at": "2023-11-27T14:16:35-05:00",
+      "requisition_id": "R1137",
+      "title": "Senior Software Engineer, Science"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5454674?gh_jid=5454674",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692231,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Design",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Education"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will be responsible for managing a portfolio of research programs, including managing relationships with stakeholders, ensuring the programs adhere to the highest standards, and ensuring timely and effective delivery of project outcomes.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5454674,
+      "updated_at": "2023-12-12T11:23:48-05:00",
+      "requisition_id": "R1149",
+      "title": "Senior User Experience Researcher, Research Operations"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5365448?gh_jid=5365448",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2661588,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Design",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Education",
+            "Technology"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will have the opportunity to partner with initiative leads to bring innovation to Education. You will help the organization identify problems at the intersection of philanthropy and tech and serve as a multiplier to the Education pilot teams.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5365448,
+      "updated_at": "2023-09-26T12:04:38-04:00",
+      "requisition_id": "R1139",
+      "title": "Staff Product Designer, Education "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/4963705?gh_jid=4963705",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2506768,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Artificial Intelligence",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Science",
+            "Technology"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will develop and apply state-of-the-art methods in artificial intelligence and machine learning to solve important problems in the biomedical sciences aligned with CZI\u2019s focus on understanding the mysteries of the cell.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 4963705,
+      "updated_at": "2023-10-17T20:16:21-04:00",
+      "requisition_id": "R1108",
+      "title": "Staff Research Scientist, AI/ML "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/5492000?gh_jid=5492000",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2718846,
+      "location": {
+        "name": "Redwood City, CA (Open to Flex)"
+      },
+      "metadata": [
+        {
+          "id": 167699,
+          "name": "Careers Page - Dept.",
+          "value": "Artificial Intelligence",
+          "value_type": "single_select"
+        },
+        {
+          "id": 176564,
+          "name": "Careers Page - Initiative",
+          "value": [
+            "Central"
+          ],
+          "value_type": "multi_select"
+        },
+        {
+          "id": 177535,
+          "name": "Brief Description",
+          "value": "You will provide technical leadership in designing and building efficient, stable, performant, scalable and secure AI/ML and Data engineering solutions. You will drive  the technical design for how we extend our Cloud based AI/ML platform to successfully encompass our current Cloud based Databricks Ray on Spark, Weaviate Vector Databases, and Containerized Ray on Kubernetes with a workflow that extends to running pre-training, AI training, fine tuning, and inference in the hosted Cloud GPU Compute services.",
+          "value_type": "long_text"
+        }
+      ],
+      "id": 5492000,
+      "updated_at": "2023-12-14T17:16:53-05:00",
+      "requisition_id": "R1163",
+      "title": "Staff Software Engineer, AI/ML and Data Infrastructure"
+    }
+  ],
+  "meta": {
+    "total": 10
+  }
+}

@@ -114,6 +114,24 @@ class AirtableParser(Parser):
         ]
 
 
+class ChanzuckerberginitiativeParser(Parser):
+    @property
+    def org(self) -> str:
+        return "chanzuckerberginitiative"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/chanzuckerberginitiative/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if "Remote" in job["location"]["name"]
+        ]
+
+
 class CloudflareParser(Parser):
     @property
     def org(self) -> str:
@@ -197,7 +215,7 @@ class LaceworkParser(Parser):
         ]
 
 
-class MongoDBParser(Parser):
+class MongodbParser(Parser):
     @property
     def org(self) -> str:
         return "mongodb"
