@@ -5,11 +5,18 @@
 
 ### Docker
 
+**Prerequisites**
+* [`docker`](https://docs.docker.com/get-docker/)
+
 ```sh
-ARGS="-h" make run
+docker run ghcr.io/bradgwest/job-notifier
 ```
 
 ### Source
+
+**Prerequisites**
+* [`make`](https://www.gnu.org/software/make/)
+* [`python3.12`](https://www.python.org/downloads/)
 
 Install the package:
 
