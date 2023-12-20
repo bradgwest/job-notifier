@@ -35,6 +35,7 @@ PARSERS = {
     "chanzuckerberginitiative": parser.ChanzuckerberginitiativeParser,
     "cloudflare": parser.CloudflareParser,
     "discord": parser.DiscordParser,
+    "elastic": parser.ElasticParser,
     "figma": parser.FigmaParser,
     "lacework": parser.LaceworkParser,
     "mongodb": parser.MongodbParser,

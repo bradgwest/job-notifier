@@ -179,6 +179,22 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "elastic": Test(
+            parser.ElasticParser(page_reader),
+            [
+                Job(
+                    "Senior Release Engineer - Golang, Kubernetes",
+                    "https://jobs.elastic.co/jobs/cross-team/united-states/"
+                    "senior-release-engineer-golang-kubernetes/5519070?&lang=en_us",
+                ),
+                Job(
+                    "Elasticsearch - Senior Software Engineer - Lucene, Search, Java",
+                    "https://jobs.elastic.co/jobs/elasticsearch/united-states/"
+                    "elasticsearch-senior-software-engineer-lucene-search-java/"
+                    "5121947?&lang=en_us",
+                ),
+            ],
+        ),
         "figma": Test(
             parser.FigmaParser(page_reader),
             [

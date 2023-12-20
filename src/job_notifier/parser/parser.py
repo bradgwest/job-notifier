@@ -178,6 +178,28 @@ class DiscordParser(Parser):
         ]
 
 
+class ElasticParser(Parser):
+    @property
+    def org(self) -> str:
+        return "elastic"
+
+    @property
+    def url(self) -> str:
+        return "https://jobs.elastic.co/jobs/department/engineering"
+
+    def _parse(self, content: str) -> PageData:
+        soup = BeautifulSoup(content, "lxml")
+        return False, [
+            Job(
+                title=listing.a.text.strip(),
+                url="https://jobs.elastic.co" + listing.a["href"].strip(),
+            )
+            for table in soup.find_all("tbody")
+            for listing in table.find_all("tr")
+            if "Distributed, United States" in listing.span.text.strip()
+        ]
+
+
 class FigmaParser(Parser):
     @property
     def org(self) -> str:
