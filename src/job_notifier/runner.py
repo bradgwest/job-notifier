@@ -46,6 +46,7 @@ PARSERS = {
     "reddit": parser.RedditParser,
     "slack": parser.SlackParser,
     "square": parser.SquareParser,
+    "stitchfix": parser.StitchfixParser,
     "stripe": parser.StripeParser,
     "twilio": parser.TwilioParser,
     "upstart": parser.UpstartParser,

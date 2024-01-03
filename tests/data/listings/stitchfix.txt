@@ -1,0 +1,792 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5558475&gh_jid=5558475",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741871,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Laura.Xiao@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5558475,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000116",
+      "title": "Business Operations & Planning Manager, Styling "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5332788&gh_jid=5332788",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2663744,
+      "location": {
+        "name": "San Francisco, CA or New York, NY"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Susan.Britton@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5332788,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000035",
+      "title": "Client Insights Manager"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=4948238&gh_jid=4948238",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2508144,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Chelcie.Gabrielson@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 4948238,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5462",
+      "title": "Corporate Careers Talent Community"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5533179&gh_jid=5533179",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2732603,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "dbennett@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5533179,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000111",
+      "title": "Data Platform Engineer"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5505815&gh_jid=5505815",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2724513,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "hayden.blair@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5505815,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000110",
+      "title": "Investor Relations Manager"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5495357&gh_jid=5495357",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2720885,
+      "location": {
+        "name": "Lithia Springs, GA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Jesse.Butler@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5495357,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000105",
+      "title": "IT Operations Specialist"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5575547&gh_jid=5575547",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2746237,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Matt.Baer@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5575547,
+      "updated_at": "2024-01-02T13:10:23-05:00",
+      "requisition_id": "R0000120",
+      "title": "Lead Executive Assistant"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5550304&gh_jid=5550304",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2738446,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Peter.Wilson@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5550304,
+      "updated_at": "2023-12-31T14:47:49-05:00",
+      "requisition_id": "R0000113",
+      "title": "Lead Fullstack Engineer, Client Onboarding "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5550306&gh_jid=5550306",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2738447,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "christen.rittiger@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5550306,
+      "updated_at": "2023-12-28T14:43:58-05:00",
+      "requisition_id": "R0000112",
+      "title": "Lead Software Engineer - Discover"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5585901&gh_jid=5585901",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2750291,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Lee.Pulatie@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5585901,
+      "updated_at": "2023-12-28T12:04:56-05:00",
+      "requisition_id": "R0000122",
+      "title": "Lead Software Engineer \u2013 Shopping Experience"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5420228&gh_jid=5420228",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2693800,
+      "location": {
+        "name": "Remote, USA "
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Merve.Kovan@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5420228,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000077",
+      "title": "Machine Learning Data Scientist - Global Optimization "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5402943&gh_jid=5402943",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2689047,
+      "location": {
+        "name": "Lithia Springs, GA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "todd.turner@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5402943,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000066",
+      "title": "Manager, Industrial Engineering"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5495360&gh_jid=5495360",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2720886,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Jesse.Butler@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5495360,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000106",
+      "title": "MDM Endpoint Administrator"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5035734&gh_jid=5035734",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2540132,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Kimberly.Bostic@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5035734,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5503",
+      "title": " Mobile Platform Architect "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=4309731&gh_jid=4309731",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2282386,
+      "location": {
+        "name": "Phoenix, AZ; Atlanta, GA; Indianapolis, IN"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Chelcie.Gabrielson@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 4309731,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5270",
+      "title": "Operations Talent Community"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5487210&gh_jid=5487210",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2718388,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Charen.Buyce@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5487210,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000107",
+      "title": "Procurement Operations Lead"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5420224&gh_jid=5420224",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2693799,
+      "location": {
+        "name": "San Francisco, CA "
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Brian.Fischer@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5420224,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000081",
+      "title": "Senior Finance Manager - Product & Marketing "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5506562&gh_jid=5506562",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2724820,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "barry.kelly@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5506562,
+      "updated_at": "2023-12-25T05:16:11-05:00",
+      "requisition_id": "R0000108",
+      "title": "Senior Financial Analyst - Corporate Finance"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5414379&gh_jid=5414379",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2691983,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "sarah.toas@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": null,
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5414379,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "R0000070",
+      "title": "Senior Manager, Operations Finance "
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=4619926&gh_jid=4619926",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2384738,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Chelcie.Gabrielson@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [
+            "Women's",
+            "Men's"
+          ],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 4619926,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5378",
+      "title": "Styling Talent Community- Join Today!"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=4919100&gh_jid=4919100",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2497272,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "Chelcie.Gabrielson@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 4919100,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5453",
+      "title": "Technical Careers Talent Community"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5262086&gh_jid=5262086",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2638986,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "cherizza.lundy@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5262086,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5567",
+      "title": "Transformation Director"
+    },
+    {
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=5262011&gh_jid=5262011",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2638952,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 3839546,
+          "name": "Hiring Manager Email Address",
+          "value": "cherizza.lundy@stitchfix.com",
+          "value_type": "single_select"
+        },
+        {
+          "id": 169364,
+          "name": "Business Line",
+          "value": [],
+          "value_type": "multi_select"
+        }
+      ],
+      "id": 5262011,
+      "updated_at": "2023-12-21T15:50:50-05:00",
+      "requisition_id": "5564",
+      "title": "Transformation Lead"
+    }
+  ],
+  "meta": {
+    "total": 23
+  }
+}

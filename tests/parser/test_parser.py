@@ -336,6 +336,21 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
+        "stitchfix": Test(
+            parser.StitchfixParser(page_reader),
+            [
+                Job(
+                    "Data Platform Engineer",
+                    "https://www.stitchfix.com/careers/jobs?gh_jid=5533179&"
+                    "gh_jid=5533179",
+                ),
+                Job(
+                    "Lead Software Engineer - Discover",
+                    "https://www.stitchfix.com/careers/jobs?gh_jid=5550306&"
+                    "gh_jid=5550306",
+                ),
+            ],
+        ),
         "stripe": Test(
             parser.StripeParser(page_reader),
             [

@@ -454,6 +454,24 @@ class SquareParser(Parser):
         ]
 
 
+class StitchfixParser(Parser):
+    @property
+    def org(self) -> str:
+        return "stitchfix"
+
+    @property
+    def url(self) -> str:
+        return "https://api.greenhouse.io/v1/boards/stitchfix/jobs"
+
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if job["location"]["name"] == "Remote, USA"
+        ]
+
+
 class StripeParser(Parser):
     @property
     def org(self) -> str:
