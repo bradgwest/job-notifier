@@ -4,7 +4,7 @@ import argparse
 import io
 import os
 import zipfile
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 import requests
 
@@ -41,23 +41,31 @@ class Github:
     def _most_recent(self) -> Optional[Dict[str, Any]]:
         """Download the latest artifact for the branch"""
         list_endpoint = f"repos/{self.repo}/actions/artifacts"
-        r = self._request(
-            "GET", list_endpoint, params={"name": self.artifact_name, "per_page": 100}
-        )
-        data = r.json()
-        if len(data["artifacts"]) != data["total_count"]:
-            raise RuntimeError("You need to implement pagination")
+        page = 1
+        artifacts: List[Dict[str, Any]] = []
 
-        if not data["artifacts"]:
+        while True:
+            r = self._request(
+                "GET",
+                list_endpoint,
+                params={
+                    "name": self.artifact_name,
+                    "per_page": 100,
+                    "page": page,
+                },
+            )
+            data = r.json()
+            artifacts.extend(data["artifacts"])
+            if len(artifacts) == data["total_count"]:
+                break
+            page += 1
+
+        if not artifacts:
             print("No artifacts found")
             return
 
         return sorted(
-            [
-                a
-                for a in data["artifacts"]
-                if a["workflow_run"]["head_branch"] == self.branch
-            ],
+            [a for a in artifacts if a["workflow_run"]["head_branch"] == self.branch],
             key=lambda x: x["updated_at"],
             reverse=True,
         )[0]
