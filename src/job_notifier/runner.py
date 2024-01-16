@@ -5,8 +5,9 @@ import json
 import logging
 import os
 import re
+import sys
 from collections import defaultdict
-from typing import Mapping, Type
+from typing import List, Mapping, Tuple, Type
 
 from job_notifier.job import Job, JobMap
 from job_notifier.notifier.github import (
@@ -116,17 +117,24 @@ class Runner:
         self.parsers: ParserMap = parsers
         self.jobs: JobMap = defaultdict(list)
 
-    def _fetch(self) -> JobMap:
+    def _fetch(self) -> Tuple[JobMap, List[str]]:
         """Fetch current job listings from all parsers."""
         jobs: JobMap = {}
+        failures: List[str] = []
+
         for org, parser_type in self.parsers.items():
             _logger.info(f"Fetching jobs for {org}")
             p = parser_type(getattr(parser_type, "reader", parser.reader))
-            listings = p.parse()
+            try:
+                listings = p.parse()
+            except Exception as e:
+                _logger.error(f"Failed to parse jobs for {org}: {e}")
+                failures.append(org)
+                continue
             _logger.info(f"Found {len(listings)} jobs for {org}")
             _logger.debug(f"Jobs for {org}: {json.dumps(jobs)}")
             jobs[org] = listings
-        return jobs
+        return jobs, failures
 
     def _read_cache(self) -> JobMap:
         """Read cached job listings from storage."""
@@ -162,19 +170,21 @@ class Runner:
 
         return jobs
 
-    def run(self) -> None:
+    def run(self) -> int:
         """Run the job notifier.
 
         This will fetch current job listings, compare them to the cached listings,
         and notify of any new jobs.
         """
-        current = self._fetch()
+        current, failures = self._fetch()
         cached = self._read_cache()
         new = self.diff(current, cached)
         # Default to notifying first. On the off chance updating storage fails,
         # we'll get notified more than once. This is OK for now.
         self.notifier.notify(new)
+        current.update({org: cached[org] for org in failures})  # type: ignore
         self.update_storage(current)
+        return 0 if not failures else 1
 
 
 def add_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
@@ -222,4 +232,5 @@ def main():
     notifier = setup_notifier_backend(args)
 
     runner = Runner(storage, notifier, {c: PARSERS[c] for c in args.companies})
-    runner.run()
+    code = runner.run()
+    sys.exit(code)
