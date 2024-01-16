@@ -1,1 +1,3104 @@
-{"locations":[{"id":75876,"name":"Bangalore, India"},{"id":155,"name":"Barcelona, Spain"},{"id":1611,"name":"Beijing, China"},{"id":153,"name":"Berlin, Germany"},{"id":64270,"name":"China"},{"id":75875,"name":"Gurugram, India"},{"id":64272,"name":"India"},{"id":64282,"name":"Ireland"},{"id":64274,"name":"Japan"},{"id":151,"name":"London, United Kingdom"},{"id":63872,"name":"Mexico"},{"id":22291,"name":"Mexico City, Mexico"},{"id":178,"name":"Paris, France"},{"id":55,"name":"San Francisco, United States"},{"id":176,"name":"S\u00e3o Paulo, Brazil"},{"id":64275,"name":"South Korea"},{"id":64284,"name":"Spain"},{"id":149,"name":"Sydney, Australia"},{"id":64290,"name":"United Kingdom"},{"id":63868,"name":"United States"}],"departments":[{"id":73686,"name":"Administrative","jobCount":1},{"id":"Business Development","name":"Business Development","jobCount":4},{"id":249,"name":"Community Support","jobCount":4},{"id":85549,"name":"Data Science","jobCount":5},{"id":"Design","name":"Design","jobCount":1},{"id":"Employee Experience","name":"Employee Experience","jobCount":4},{"id":"Engineering","name":"Engineering","jobCount":51},{"id":"Finance","name":"Finance","jobCount":1},{"id":73694,"name":"Finance & Accounting","jobCount":1},{"id":252,"name":"Information Technology","jobCount":2},{"id":73688,"name":"Intern","jobCount":1},{"id":253,"name":"Legal","jobCount":2},{"id":47140,"name":"Luxury Retreats","jobCount":1},{"id":"Marketing","name":"Marketing","jobCount":2},{"id":1394,"name":"Operations","jobCount":2},{"id":"Product","name":"Product","jobCount":1},{"id":"Public Policy\/Communications","name":"Public Policy\/Communications","jobCount":4},{"id":73697,"name":"Strategy & Planning","jobCount":2},{"id":"Worldwide Sales Operations","name":"Worldwide Sales Operations","jobCount":4}],"jobs":[{"id":5373582,"internalId":2680353,"title":"Talent Enablement Partner, India  ","location":"Bangalore, India","locationId":75876,"locations":[{"locationName":"Bangalore, India","locationId":75876}],"deptId":"Employee Experience"},{"id":5391042,"internalId":2684821,"title":"Programs and Business Operations Lead Spain & Portugal","location":"Barcelona, Spain","locationId":155,"locations":[{"locationName":"Barcelona, Spain","locationId":155}],"deptId":73697},{"id":5455608,"internalId":2707306,"title":"Talent Enablement Advisor, China (HRBP)","location":"Beijing, China","locationId":1611,"locations":[{"locationName":"Beijing, China","locationId":1611}],"deptId":"Employee Experience"},{"id":5402767,"internalId":2688977,"title":"Programs and Business Operations Lead DACH CEE & CIS","location":"Berlin, Germany","locationId":153,"locations":[{"locationName":"Berlin, Germany","locationId":153}],"deptId":73697},{"id":5294772,"internalId":2651049,"title":"Senior Engineering Manager, Community Support Products","location":"China","locationId":64270,"locations":[{"locationName":"China","locationId":64270}],"deptId":"Engineering"},{"id":5300823,"internalId":2653197,"title":"Senior Staff Engineer, Community Support Products","location":"China","locationId":64270,"locations":[{"locationName":"China","locationId":64270}],"deptId":"Engineering"},{"id":5263028,"internalId":2639431,"title":"Manager, Claims","location":"Gurugram, India","locationId":75875,"locations":[{"locationName":"Gurugram, India","locationId":75875}],"deptId":249},{"id":5517730,"internalId":2728731,"title":"Product Manager","location":"Gurugram, India","locationId":75875,"locations":[{"locationName":"Gurugram, India","locationId":75875}],"deptId":"Product"},{"id":5465233,"internalId":2710008,"title":"Specialist, Accounts Payable","location":"India","locationId":64272,"locations":[{"locationName":"India","locationId":64272}],"deptId":"Finance"},{"id":5166601,"internalId":2582974,"title":"Payments, Partner Lead ","location":"India","locationId":64272,"locations":[{"locationName":"India","locationId":64272}],"deptId":249},{"id":5458703,"internalId":2707900,"title":"Head of Risk & Compliance, EMEA Insurance","location":"Ireland","locationId":64282,"locations":[{"locationName":"Ireland","locationId":64282}],"deptId":73694},{"id":5425343,"internalId":2695511,"title":"Senior Counsel Privacy (EMEA)","location":"Ireland","locationId":64282,"locations":[{"locationName":"Ireland","locationId":64282},{"locationName":"Spain","locationId":64284},{"locationName":"United Kingdom","locationId":64290}],"deptId":253},{"id":5300158,"internalId":2652996,"title":"Safety Specialist (Japanese speaking)","location":"Japan","locationId":64274,"locations":[{"locationName":"Japan","locationId":64274}],"deptId":249},{"id":5393667,"internalId":2685753,"title":"Senior Marketing Lead(Head of Marketing), Japan","location":"Japan","locationId":64274,"locations":[{"locationName":"Japan","locationId":64274}],"deptId":"Marketing"},{"id":5262550,"internalId":2639223,"title":"Market Manager, Northern Europe (CRM and Engagement)","location":"London, United Kingdom","locationId":151,"locations":[{"locationName":"London, United Kingdom","locationId":151}],"deptId":"Worldwide Sales Operations"},{"id":5394917,"internalId":2686197,"title":"LATAM Connections & Media Activations Lead (Mexico) ","location":"Mexico","locationId":63872,"locations":[{"locationName":"Mexico","locationId":63872},{"locationName":"United States","locationId":63868}],"deptId":"Marketing"},{"id":5063413,"internalId":2550414,"title":"Senior Market Manager, Mexico","location":"Mexico City, Mexico","locationId":22291,"locations":[{"locationName":"Mexico City, Mexico","locationId":22291}],"deptId":"Business Development"},{"id":5477506,"internalId":2550414,"title":"Senior Market Manager, Mexico (CRM and Engagement)","location":"Mexico City, Mexico","locationId":22291,"locations":[{"locationName":"Mexico City, Mexico","locationId":22291}],"deptId":"Business Development"},{"id":5333412,"internalId":2663912,"title":"Market Manager (12-month contract)","location":"Mexico City, Mexico","locationId":22291,"locations":[{"locationName":"Mexico City, Mexico","locationId":22291}],"deptId":"Worldwide Sales Operations"},{"id":5468022,"internalId":2710896,"title":"Executive Business Partner (Fixed-term contract)","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":73686},{"id":5459047,"internalId":2707988,"title":"Market Manager - CRM and Engagement, France (Fixed Term Contract)","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":"Business Development"},{"id":5368766,"internalId":2678763,"title":"Talent Enablement Advisor (HR Manager, HR Generalist, HRBP), Paris","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":"Employee Experience"},{"id":5452634,"internalId":2706588,"title":"Senior Guest Experience Manager, France (Contract)","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":47140},{"id":5191242,"internalId":2592997,"title":"Public Policy and Government Affairs Manager, France (contract)","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":"Public Policy\/Communications"},{"id":5359495,"internalId":2675421,"title":"Market Manager","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":"Worldwide Sales Operations"},{"id":5141000,"internalId":2575464,"title":"Staff Software Engineer, Hosting Services","location":"Paris, France","locationId":178,"locations":[{"locationName":"Paris, France","locationId":178}],"deptId":"Engineering"},{"id":5266140,"internalId":2640362,"title":"Staff Data Scientist - Algorithms, NLP Support Products","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":85549},{"id":5475221,"internalId":2713531,"title":"Workplace Experience Operations Manager","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":"Employee Experience"},{"id":5491458,"internalId":2719531,"title":"Senior Software Engineer, Trust Platform","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":"Engineering"},{"id":5115650,"internalId":2567516,"title":"Staff Frontend Engineer, Web Platform","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":"Engineering"},{"id":5506353,"internalId":2724723,"title":"Facilitator, Manager & Team Development - Tech ","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":"Engineering"},{"id":5506204,"internalId":2724681,"title":"Staff Program Manager, Offsites & Gathering - Tech","location":"San Francisco, United States","locationId":55,"locations":[{"locationName":"San Francisco, United States","locationId":55}],"deptId":"Engineering"},{"id":5498951,"internalId":2722137,"title":"Manager, Field Operations","location":"S\u00e3o Paulo, Brazil","locationId":176,"locations":[{"locationName":"S\u00e3o Paulo, Brazil","locationId":176}],"deptId":"Worldwide Sales Operations"},{"id":5512570,"internalId":2727115,"title":"Safety Specialist, South Korea","location":"South Korea","locationId":64275,"locations":[{"locationName":"South Korea","locationId":64275}],"deptId":249},{"id":5479402,"internalId":2715313,"title":"Legal Intern, Australia","location":"Sydney, Australia","locationId":149,"locations":[{"locationName":"Sydney, Australia","locationId":149}],"deptId":73688},{"id":5446736,"internalId":2704634,"title":"Corporate Communications Manager","location":"United Kingdom","locationId":64290,"locations":[{"locationName":"United Kingdom","locationId":64290}],"deptId":"Public Policy\/Communications"},{"id":5505094,"internalId":2724229,"title":"Senior Lead, Channel Communications","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Public Policy\/Communications"},{"id":5361877,"internalId":2676178,"title":"Senior Data Scientist, Causal Inference - Marketing Technology (12 - 18 Month Contract)","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":85549},{"id":5517166,"internalId":2728535,"title":"Senior Data Scientist, Pricing","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":85549},{"id":5412506,"internalId":2691355,"title":"Staff Data Scientist - Algorithms, Guest Merchandising","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":85549},{"id":5380793,"internalId":2682799,"title":"Staff Data Scientist - Inference, Marketplace","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":85549},{"id":5188712,"internalId":2591403,"title":"Senior Manager, Experience Design (Design System)","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Design"},{"id":5304422,"internalId":2654411,"title":"Senior Systems Engineer ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":252},{"id":5412497,"internalId":2691353,"title":"Senior Systems engineer, Content Management","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":252},{"id":5424574,"internalId":2695200,"title":"Senior Counsel, Payments","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":253},{"id":5382525,"internalId":2683414,"title":"Insider Risk Prevention Investigator","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":1394},{"id":5431287,"internalId":2697774,"title":"Senior Payments Risk & Compliance Officer","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":1394},{"id":5488124,"internalId":2718658,"title":"Community Growth & Experience Lead","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Business Development"},{"id":5482500,"internalId":2716468,"title":"Community Policy Manager","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Public Policy\/Communications"},{"id":5167734,"internalId":2583322,"title":"Engineering Manager, Fraud & Risk | Trust Platform","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5397887,"internalId":2687330,"title":"Engineering Manager, Storage Foundation","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5392869,"internalId":2685364,"title":"Engineering Manager, Trust Data Foundations","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4957764,"internalId":2512077,"title":"Senior Android Software Engineer, Media Foundation","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5265830,"internalId":2640224,"title":"Senior Android Software Engineer, Pricing Guidance ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5028212,"internalId":2537774,"title":"Senior Android UX Engineer, Client Products & Emerging Tech","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5194063,"internalId":2594147,"title":"Senior Engineering Manager, Central Data","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5500520,"internalId":2722661,"title":"Senior Engineering Manager - Users, Listings and Marketplace Intelligence","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5361279,"internalId":2675990,"title":"Senior Fullstack Engineer, Guest & Host","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4923530,"internalId":2499047,"title":"Senior iOS Software Engineer, Trust Platform","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5274266,"internalId":2643987,"title":"Senior Machine Learning Engineer, Relevance","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5143799,"internalId":2576433,"title":"Senior Software Engineer, Anti-Discrimination & Equity Intelligence","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4835072,"internalId":2464531,"title":"Senior Software Engineer, Cloud Infrastructure","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5464785,"internalId":2709822,"title":"Senior Software Engineer, Core Services","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5476694,"internalId":2714148,"title":"Senior Software Engineer, Distributed Storage","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4880087,"internalId":2482750,"title":"Senior Software Engineer, Identity Infrastructure","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5458895,"internalId":2707969,"title":"Senior Software Engineer, Payments ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5346764,"internalId":2670153,"title":"Senior Staff Engineer, Guest & Host - Booking Flow","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5061305,"internalId":2549640,"title":"Senior Staff Machine Learning Engineer, Trust","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5029934,"internalId":2538496,"title":"Senior Staff Software Engineer, Dataflow Foundation","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5503311,"internalId":2723894,"title":"Staff Android Engineer, Communication & Connectivity","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5114976,"internalId":2567281,"title":"Staff Application Engineer, Security","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4887734,"internalId":2486061,"title":"Staff Database Engineer","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5467238,"internalId":2710612,"title":"Staff Machine Learning Engineer, Anti-Bots","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5426814,"internalId":2695994,"title":"Staff Machine Learning Engineer, User Listing Marketplace Intelligence","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5398972,"internalId":2687731,"title":"Staff Software Engineer, Backend Build Infra","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5011395,"internalId":2531621,"title":"Staff Software Engineer, Booking & Pricing","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5442606,"internalId":2702489,"title":"Staff Software Engineer, CI\/CD ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5414734,"internalId":2692133,"title":"Staff Software Engineer, Cities","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4835002,"internalId":2464502,"title":"Staff Software Engineer, Cloud Infrastructure","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5427831,"internalId":2696473,"title":"Staff Software Engineer, Data Warehouse Compute","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5045840,"internalId":2543759,"title":"Staff Software Engineer, Distributed Storage","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5070515,"internalId":2552677,"title":"Staff Software Engineer, Event Logging","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5465082,"internalId":2709928,"title":"Staff Software Engineer, Marketing Technology ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4880205,"internalId":2482795,"title":"Staff Software Engineer, Network Infrastructure","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":4985479,"internalId":2522031,"title":"Staff Software Engineer, Reliability Engineering","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5473757,"internalId":2713045,"title":"Staff Software Engineer, Service Frameworks","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5434167,"internalId":2692133,"title":"Staff Software Engineer, Users","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5471946,"internalId":2712465,"title":"Staff Software Engineer, Workflow Orchestration ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5425147,"internalId":2695416,"title":"Senior Manager, Security Program Management","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5506244,"internalId":2724700,"title":"Senior Manager, Technical Education","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5411120,"internalId":2690807,"title":"Senior Staff Technical Program Manager, Data ","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5333552,"internalId":2490699,"title":"Staff Technical Program Manager, Cloud Infrastructure","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"},{"id":5416150,"internalId":2490699,"title":"Staff Technical Program Manager, Developer Platform","location":"United States","locationId":63868,"locations":[{"locationName":"United States","locationId":63868}],"deptId":"Engineering"}]}
+{
+  "jobs": [
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5486618",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2718199,
+      "location": {
+        "name": "Remote, United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5486618,
+      "updated_at": "2024-01-02T11:52:17-05:00",
+      "requisition_id": "ONE",
+      "title": "Accountant, Revenue Operations"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5570858",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744946,
+      "location": {
+        "name": "London, United Kingdom, Dublin, Ireland"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5570858,
+      "updated_at": "2023-12-20T01:27:27-05:00",
+      "requisition_id": "ONE",
+      "title": "Administrative Business Partner, EMEA Legal"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5483737",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2716921,
+      "location": {
+        "name": "Luxembourg, LU "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5483737,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Chief Compliance Officer, Luxembourg"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5518283",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2728887,
+      "location": {
+        "name": "Germany"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5518283,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Communications Lead, DACH & CEE (Contract)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5551290",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2738896,
+      "location": {
+        "name": "Milan"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5551290,
+      "updated_at": "2024-01-09T08:46:19-05:00",
+      "requisition_id": "ONE",
+      "title": "Communications Lead Italy and South East Europe"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5482500",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2716468,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5482500,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Community Policy Manager"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5607290",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2757169,
+      "location": {
+        "name": "Singapore"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5607290,
+      "updated_at": "2024-01-12T05:24:33-05:00",
+      "requisition_id": "ONE",
+      "title": "Counsel, Community Support & Litigation"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5578910",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2747683,
+      "location": {
+        "name": "India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5578910,
+      "updated_at": "2023-12-19T02:02:19-05:00",
+      "requisition_id": "ONE",
+      "title": "Counsel, Corporate, Commercial and Company Secretary"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5601260",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2754913,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5601260,
+      "updated_at": "2024-01-10T10:19:03-05:00",
+      "requisition_id": "TBD-UR",
+      "title": "Data Analytics Intern, Global Risk and Internal Audit (MBA/MS)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5509110",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2725879,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5509110,
+      "updated_at": "2023-12-01T11:38:42-05:00",
+      "requisition_id": "ONE",
+      "title": "Engineering Manager, Marketing Technology"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5397887",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2687330,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5397887,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Engineering Manager, Storage Foundation"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5468022",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2710896,
+      "location": {
+        "name": "Paris, France"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5468022,
+      "updated_at": "2024-01-16T13:59:57-05:00",
+      "requisition_id": "ONE",
+      "title": "Executive Administrative Business Partner"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5506506",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2724796,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5506506,
+      "updated_at": "2024-01-07T18:17:06-05:00",
+      "requisition_id": "ONE",
+      "title": "Fraud Service Design & Innovation Manager"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5458703",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2707900,
+      "location": {
+        "name": "Ireland"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5458703,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Head of Risk & Compliance, EMEA Insurance"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5570573",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744846,
+      "location": {
+        "name": "Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5570573,
+      "updated_at": "2023-12-18T03:59:52-05:00",
+      "requisition_id": "MULTI",
+      "title": "Lead Advanced Analyst, Digital Products"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5559734",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2742292,
+      "location": {
+        "name": "India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5559734,
+      "updated_at": "2024-01-02T03:21:03-05:00",
+      "requisition_id": "INT",
+      "title": "Lead Analyst, Advanced Analytics"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5572633",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2745425,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5572633,
+      "updated_at": "2024-01-12T10:22:53-05:00",
+      "requisition_id": "ONE",
+      "title": "Lead Program Manager, Design"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5579392",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2747887,
+      "location": {
+        "name": "San Francisco, United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5579392,
+      "updated_at": "2024-01-05T15:55:01-05:00",
+      "requisition_id": "ONE",
+      "title": "Manager, Community Powered Growth"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5498951",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2722137,
+      "location": {
+        "name": "S\u00e3o Paulo, Brazil"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5498951,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Manager, Field Operations"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5333412",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2663912,
+      "location": {
+        "name": "Mexico City, Mexico"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5333412,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Market Manager (12-month contract)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5524097",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2730539,
+      "location": {
+        "name": "Melbourne, Australia"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5524097,
+      "updated_at": "2023-12-07T22:31:36-05:00",
+      "requisition_id": "ONE",
+      "title": "Market Manager, Australia (Melbourne)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5524009",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2730490,
+      "location": {
+        "name": "Perth, Australia"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5524009,
+      "updated_at": "2023-12-07T22:30:40-05:00",
+      "requisition_id": "ONE",
+      "title": "Market Manager, Australia (Perth)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5572721",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2745467,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5572721,
+      "updated_at": "2024-01-10T11:32:37-05:00",
+      "requisition_id": "ONE",
+      "title": "Platform Product Manager, Trust & Safety"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5623125",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2762138,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5623125,
+      "updated_at": "2024-01-16T12:07:03-05:00",
+      "requisition_id": "ONE",
+      "title": "Program and Business Operations Lead"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5592531",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2752819,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5592531,
+      "updated_at": "2024-01-03T19:39:46-05:00",
+      "requisition_id": "ONE",
+      "title": "Programs and Business Operations Lead"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5191242",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2592997,
+      "location": {
+        "name": "Paris, France"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5191242,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Public Policy and Government Affairs Manager, France (contract)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5574266",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2745862,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5574266,
+      "updated_at": "2023-12-19T13:10:00-05:00",
+      "requisition_id": "ONE",
+      "title": "Revenue Operations Lead, Strategic Programs"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5300158",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2652996,
+      "location": {
+        "name": "Japan"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5300158,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Safety Specialist (Japanese speaking)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5512570",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2727115,
+      "location": {
+        "name": "South Korea"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5512570,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Safety Specialist, South Korea"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5529321",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2731956,
+      "location": {
+        "name": "South Korea"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5529321,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Safety Supervisor, South Korea"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5566584",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2743946,
+      "location": {
+        "name": "Australia"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5566584,
+      "updated_at": "2023-12-13T10:27:55-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Associate, Public Policy, ANZ"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5194063",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2594147,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5194063,
+      "updated_at": "2024-01-02T13:10:47-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Engineering Manager, Central Data"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5294772",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2651049,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5294772,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Engineering Manager, Community Support Products"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5567488",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2744191,
+      "location": {
+        "name": "Barcelona, Spain"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5567488,
+      "updated_at": "2023-12-14T06:15:55-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Enterprise Account Manager"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5613499",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2758593,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5613499,
+      "updated_at": "2024-01-11T10:10:45-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Global Benefits Analyst"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4957764",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2512077,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4957764,
+      "updated_at": "2023-12-14T17:04:27-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior iOS Software Engineer, Media Foundation"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4923530",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2499047,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4923530,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Senior iOS Software Engineer, Trust Platform"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5505094",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2724229,
+      "location": {
+        "name": "California, United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5505094,
+      "updated_at": "2024-01-09T16:16:21-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Lead, Channel Communications"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5274266",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2643987,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5274266,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Machine Learning Engineer, Relevance"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5425147",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2695416,
+      "location": {
+        "name": "USA - Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5425147,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "one",
+      "title": "Senior Manager, Security Program Management"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5393667",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2685753,
+      "location": {
+        "name": "Japan"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5393667,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Marketing Lead(Head of Marketing), Japan"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5622729",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2762070,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5622729,
+      "updated_at": "2024-01-16T11:06:21-05:00",
+      "requisition_id": "MULTI",
+      "title": "Senior Recruiter, Technical"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5143799",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2576433,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5143799,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Software Engineer, Anti-Discrimination & Equity Intelligence"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5615278",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2759243,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5615278,
+      "updated_at": "2024-01-12T01:34:36-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Software Engineer, China Search"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5476694",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2714148,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5476694,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Senior Software Engineer, Distributed Storage"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4880087",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2482750,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4880087,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Senior Software Engineer, Identity Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5491458",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2719531,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5491458,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Software Engineer, Trust Platform"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5300823",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2653197,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5300823,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Staff Engineer, Community Support Products"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5346764",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2670153,
+      "location": {
+        "name": "USA - Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5346764,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Staff Engineer, Guest & Host - Booking Flow"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5578799",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2747625,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5578799,
+      "updated_at": "2023-12-19T13:10:52-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Staff Engineer, Intelligent Support Platform and Products"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5547413",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2737094,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5547413,
+      "updated_at": "2024-01-09T15:47:39-05:00",
+      "requisition_id": "MULTI",
+      "title": "Senior Staff Mobile Software Engineer, Quality Engineering "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5412497",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2691353,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5412497,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Senior Systems engineer, Content Management"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5544984",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736199,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544984,
+      "updated_at": "2023-12-01T19:46:58-05:00",
+      "requisition_id": "ONE",
+      "title": "Social Lead, Channel Communications"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5615289",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2759251,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5615289,
+      "updated_at": "2024-01-12T01:35:34-05:00",
+      "requisition_id": "ONE",
+      "title": "Software Engineer, China Foundation"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5615194",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2759203,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5615194,
+      "updated_at": "2024-01-12T04:20:15-05:00",
+      "requisition_id": "MUL",
+      "title": "Software Engineer, China Search"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5503311",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2723894,
+      "location": {
+        "name": "Remote, USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5503311,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Android Engineer, Communication & Connectivity"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5114976",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2567281,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5114976,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Application Engineer, Security"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5544571",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2736038,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5544571,
+      "updated_at": "2023-12-05T11:57:31-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Backend Engineer, Media Foundation"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5412506",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2691355,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5412506,
+      "updated_at": "2023-12-03T16:42:23-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Data Scientist - Algorithms, Guest Merchandising"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5380793",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2682799,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5380793,
+      "updated_at": "2024-01-11T13:44:42-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Data Scientist, Guest & Host"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5558328",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2741855,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5558328,
+      "updated_at": "2024-01-10T12:15:39-05:00",
+      "requisition_id": "TEMP",
+      "title": "Staff Data Scientist - Policy & Economics"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5539975",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2734643,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5539975,
+      "updated_at": "2024-01-02T13:12:02-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Frontend Engineer, Data Management "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5467238",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2710612,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5467238,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Machine Learning Engineer, Anti-Bots"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5426814",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2695994,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5426814,
+      "updated_at": "2024-01-02T23:55:22-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Machine Learning Engineer, User Listing Marketplace Intelligence"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5609345",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2757725,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5609345,
+      "updated_at": "2024-01-10T17:45:27-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Mobile Software Engineer, Quality Engineering"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5398972",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2687731,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5398972,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Backend Build Infra"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5011395",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2531621,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5011395,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Booking & Pricing"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5442606",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2702489,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5442606,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, CI/CD "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5414734",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692133,
+      "location": {
+        "name": "Remote - USA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5414734,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Cities"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4835002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2464502,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4835002,
+      "updated_at": "2024-01-08T16:07:20-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Cloud Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4887734",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2486061,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4887734,
+      "updated_at": "2024-01-11T16:13:34-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Database Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5536753",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2733422,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5536753,
+      "updated_at": "2024-01-02T13:16:26-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Data Management "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5427831",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2696473,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5427831,
+      "updated_at": "2024-01-02T13:18:32-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Data Warehouse Compute"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5045840",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2543759,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5045840,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Distributed Storage"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5070515",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2552677,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5070515,
+      "updated_at": "2024-01-02T13:20:28-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Event Logging"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5141000",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2575464,
+      "location": {
+        "name": "France"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Hybrid",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5141000,
+      "updated_at": "2023-12-13T11:58:47-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Hosting Services"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5294558",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2650966,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5294558,
+      "updated_at": "2024-01-04T16:53:41-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5465082",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2709928,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5465082,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Marketing Technology "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4880205",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2482795,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4880205,
+      "updated_at": "2024-01-09T18:20:59-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Network Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=4985479",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2522031,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 4985479,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Reliability Engineering"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5519774",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2729309,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5519774,
+      "updated_at": "2023-12-11T17:01:38-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Search Infrastructure"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5473757",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2713045,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5473757,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Service Frameworks"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5434167",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2692133,
+      "location": {
+        "name": "USA - Remote"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5434167,
+      "updated_at": "2023-11-29T16:53:50-05:00",
+      "requisition_id": "MULTI",
+      "title": "Staff Software Engineer, Users"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5471946",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2712465,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5471946,
+      "updated_at": "2024-01-02T19:46:34-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Software Engineer, Workflow Orchestration "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5581434",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2748740,
+      "location": {
+        "name": "China"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5581434,
+      "updated_at": "2024-01-03T03:18:49-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Technical Program Manager, China Outbound "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5562354",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2742630,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5562354,
+      "updated_at": "2023-12-12T11:47:42-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Technical Program Manager, Guest & Host"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5603958",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2756059,
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5603958,
+      "updated_at": "2024-01-10T13:06:00-05:00",
+      "requisition_id": "ONE",
+      "title": "Staff Technical Program Manager, Guest & Host Search"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5574245",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "education": "education_required",
+      "internal_job_id": 2745852,
+      "location": {
+        "name": "United States "
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5574245,
+      "updated_at": "2023-12-19T17:47:03-05:00",
+      "requisition_id": "MULTI",
+      "title": "Strategic Finance & Analytics Intern (MBA)"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5368766",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2678763,
+      "location": {
+        "name": "Paris, France"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Onsite",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5368766,
+      "updated_at": "2024-01-10T06:59:05-05:00",
+      "requisition_id": "REQ",
+      "title": "Talent Enablement Advisor (HRBP), Paris"
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5373582",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2680353,
+      "location": {
+        "name": "Bangalore, India"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": true,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5373582,
+      "updated_at": "2023-12-11T06:24:18-05:00",
+      "requisition_id": "ONE",
+      "title": "Talent Enablement Partner, India  "
+    },
+    {
+      "absolute_url": "https://careers.airbnb.com/positions/?gh_jid=5537861",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 2733794,
+      "location": {
+        "name": "United States"
+      },
+      "metadata": [
+        {
+          "id": 9245691,
+          "name": "Is this job part of ACC?",
+          "value": false,
+          "value_type": "yes_no"
+        },
+        {
+          "id": 10216612,
+          "name": "Workplace Type",
+          "value": "Remote",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5537861,
+      "updated_at": "2023-12-04T15:06:06-05:00",
+      "requisition_id": "ONE",
+      "title": "Tech Lead Manager, Data Science - Algorithms"
+    }
+  ],
+  "meta": {
+    "total": 91
+  }
+}

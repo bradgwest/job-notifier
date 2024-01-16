@@ -79,20 +79,16 @@ class AirbnbParser(Parser):
 
     @property
     def url(self) -> str:
-        return (
-            "https://careers.airbnb.com/wp-admin/admin-ajax.php?"
-            "action=fetch_greenhouse_jobs&which-board=airbnb&strip-empty=true"
-        )
+        return "https://api.greenhouse.io/v1/boards/airbnb/jobs"
 
     def _parse(self, content: str) -> PageData:
         d = json.loads(content)
         return False, [
             Job(
                 title=job["title"].strip(),
-                url=f"https://careers.airbnb.com/positions/{job['id']}",
+                url=job["absolute_url"],
             )
             for job in d["jobs"]
-            if job["location"] == "United States"
         ]
 
 

@@ -114,12 +114,12 @@ def test_org_parsers(page_reader: parser.PageReader):
             parser.AirbnbParser(page_reader),
             [
                 Job(
-                    "Senior Lead, Channel Communications",
-                    "https://careers.airbnb.com/positions/5505094",
+                    "Senior Software Engineer, Identity Infrastructure",
+                    "https://careers.airbnb.com/positions/?gh_jid=4880087",
                 ),
                 Job(
-                    "Senior Systems Engineer",
-                    "https://careers.airbnb.com/positions/5304422",
+                    "Senior Software Engineer, Trust Platform",
+                    "https://careers.airbnb.com/positions/?gh_jid=5491458",
                 ),
             ],
         ),
