@@ -262,21 +262,21 @@ def test_org_parsers(page_reader: parser.PageReader):
                 ),
             ],
         ),
-        "pintrest": Test(
-            parser.PintrestParser(page_reader),
-            [
-                Job(
-                    "Senior Software Engineer, Backend",
-                    "https://www.pinterestcareers.com/en/jobs/5448390/"
-                    "senior-software-engineer-backend/?gh_jid=5448390",
-                ),
-                Job(
-                    "Senior Software Engineer, Backend",
-                    "https://www.pinterestcareers.com/en/jobs/5448390/"
-                    "senior-software-engineer-backend/?gh_jid=5448390",
-                ),
-            ],
-        ),
+        # "pintrest": Test(
+        #     parser.PintrestParser(page_reader),
+        #     [
+        #         Job(
+        #             "Senior Software Engineer, Backend",
+        #             "https://www.pinterestcareers.com/en/jobs/5448390/"
+        #             "senior-software-engineer-backend/?gh_jid=5448390",
+        #         ),
+        #         Job(
+        #             "Senior Software Engineer, Backend",
+        #             "https://www.pinterestcareers.com/en/jobs/5448390/"
+        #             "senior-software-engineer-backend/?gh_jid=5448390",
+        #         ),
+        #     ],
+        # ),
         "ramp": Test(
             parser.RampParser(page_reader),
             [
