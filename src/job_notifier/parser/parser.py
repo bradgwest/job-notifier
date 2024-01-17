@@ -65,6 +65,10 @@ class GreenhouseAPIParser(Parser):
             if self._match(job)
         ]
 
+    @property
+    def url(self) -> str:
+        return f"https://api.greenhouse.io/v1/boards/{self.org}/jobs"
+
     def _match(self, job: Dict[str, Any]) -> bool:
         return True
 
@@ -73,10 +77,6 @@ class AffirmParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "affirm"
-
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/affirm/jobs"
 
     def _match(self, job: Dict[str, Any]) -> bool:
         return "Remote US" in job["location"]["name"]
@@ -87,27 +87,14 @@ class AirbnbParser(GreenhouseAPIParser):
     def org(self) -> str:
         return "airbnb"
 
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/airbnb/jobs"
 
-
-class AirtableParser(Parser):
+class AirtableParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "airtable"
 
-    @property
-    def url(self) -> str:
-        return "https://boards.greenhouse.io/airtable"
-
-    def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
-        domain = "https://boards.greenhouse.io"
-        return False, [
-            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
-            for listing in soup.find_all("div", class_="opening")
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote" in job["location"]["name"]
 
 
 class ChanzuckerberginitiativeParser(GreenhouseAPIParser):
@@ -115,40 +102,17 @@ class ChanzuckerberginitiativeParser(GreenhouseAPIParser):
     def org(self) -> str:
         return "chanzuckerberginitiative"
 
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/chanzuckerberginitiative/jobs"
-
     def _match(self, job: Dict[str, Any]) -> bool:
         return "Remote" in job["location"]["name"]
 
 
-class CloudflareParser(Parser):
+class CloudflareParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "cloudflare"
 
-    @property
-    def url(self) -> str:
-        return "https://boards-api.greenhouse.io/v1/boards/cloudflare/offices/"
-
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        jobs: List[Job] = []
-        for office in d["offices"]:
-            if office["name"] != "Remote US":
-                continue
-            for department in office["departments"]:
-                jobs.extend(
-                    [
-                        Job(
-                            title=job["title"].strip(),
-                            url=job["absolute_url"],
-                        )
-                        for job in department["jobs"]
-                    ]
-                )
-        return False, jobs
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote US" in job["location"]["name"]
 
 
 class DiscordParser(GreenhouseAPIParser):
@@ -156,44 +120,23 @@ class DiscordParser(GreenhouseAPIParser):
     def org(self) -> str:
         return "discord"
 
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/discord/jobs"
-
     def _match(self, job: Dict[str, Any]) -> bool:
         return "Remote" in job["location"]["name"]
 
 
-class ElasticParser(Parser):
+class ElasticParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "elastic"
 
-    @property
-    def url(self) -> str:
-        return "https://jobs.elastic.co/jobs/department/engineering"
-
-    def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
-        return False, [
-            Job(
-                title=listing.a.text.strip(),
-                url="https://jobs.elastic.co" + listing.a["href"].strip(),
-            )
-            for table in soup.find_all("tbody")
-            for listing in table.find_all("tr")
-            if "Distributed, United States" in listing.span.text.strip()
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "United States" in job["location"]["name"]
 
 
 class FigmaParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "figma"
-
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/figma/jobs"
 
     def _match(self, job: Dict[str, Any]) -> bool:
         return "United States" in job["location"]["name"]
@@ -203,10 +146,6 @@ class LaceworkParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "lacework"
-
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/lacework/jobs"
 
     def _match(self, job: Dict[str, Any]) -> bool:
         return (
@@ -219,10 +158,6 @@ class MongodbParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "mongodb"
-
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/mongodb/jobs"
 
     def _match(self, job: Dict[str, Any]) -> bool:
         return "Remote North America" in job["location"]["name"]
@@ -558,23 +493,13 @@ class ZillowParser(Parser):
         ]
 
 
-class ZscalerParser(Parser):
+class ZscalerParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "zscaler"
 
-    @property
-    def url(self) -> str:
-        return "https://boards.greenhouse.io/zscaler"
-
-    def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
-        return False, [
-            Job(
-                title=listing.a.text.strip(),
-                url=f'https://boards.greenhouse.io{listing.a["href"]}',
-            )
-            for listing in soup.find_all("div", class_="opening")
-            if "Remote" in listing.span.text.strip()
-            or "AMS" in listing.span.text.strip()
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return (
+            "AMS" in job["location"]["name"]
+            or "United States" in job["location"]["name"]
+        )

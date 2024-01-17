@@ -127,12 +127,12 @@ def test_org_parsers(page_reader: parser.PageReader):
             parser.AirtableParser(page_reader),
             [
                 Job(
-                    "Software Engineer (Mobile, iOS)",
-                    "https://boards.greenhouse.io/airtable/jobs/7017498002",
+                    "Senior Software Engineer",
+                    "https://boards.greenhouse.io/airtable/jobs/7030001002",
                 ),
                 Job(
-                    "Product Manager, Data Scale",
-                    "https://boards.greenhouse.io/airtable/jobs/6142546002",
+                    "Data Engineer",
+                    "https://boards.greenhouse.io/airtable/jobs/7050364002",
                 ),
             ],
         ),
@@ -155,14 +155,14 @@ def test_org_parsers(page_reader: parser.PageReader):
             parser.CloudflareParser(page_reader),
             [
                 Job(
-                    "Global Commissions Lead",
-                    "https://boards.greenhouse.io/cloudflare/jobs/5479964?"
-                    "gh_jid=5479964",
+                    "Customer Solutions Engineer",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5549725"
+                    "?gh_jid=5549725",
                 ),
                 Job(
-                    "Senior Billing Systems Engineer",
-                    "https://boards.greenhouse.io/cloudflare/jobs/5383305?"
-                    "gh_jid=5383305",
+                    "Director of Product - Data Platform",
+                    "https://boards.greenhouse.io/cloudflare/jobs/5603527"
+                    "?gh_jid=5603527",
                 ),
             ],
         ),
@@ -183,15 +183,12 @@ def test_org_parsers(page_reader: parser.PageReader):
             parser.ElasticParser(page_reader),
             [
                 Job(
-                    "Senior Release Engineer - Golang, Kubernetes",
-                    "https://jobs.elastic.co/jobs/cross-team/united-states/"
-                    "senior-release-engineer-golang-kubernetes/5519070?&lang=en_us",
+                    "Commercial Select Account Executive - Bay Area",
+                    "https://jobs.elastic.co/jobs/?gh_jid=5567152",
                 ),
                 Job(
-                    "Elasticsearch - Senior Software Engineer - Lucene, Search, Java",
-                    "https://jobs.elastic.co/jobs/elasticsearch/united-states/"
-                    "elasticsearch-senior-software-engineer-lucene-search-java/"
-                    "5121947?&lang=en_us",
+                    "Director - Diversity, Equity & Inclusion",
+                    "https://jobs.elastic.co/jobs/?gh_jid=5569136",
                 ),
             ],
         ),
@@ -430,8 +427,8 @@ def test_org_parsers(page_reader: parser.PageReader):
                     "https://boards.greenhouse.io/zscaler/jobs/4090297007",
                 ),
                 Job(
-                    "Account Executive, Enterprise",
-                    "https://boards.greenhouse.io/zscaler/jobs/4089921007",
+                    "Data Engineer",
+                    "https://boards.greenhouse.io/zscaler/jobs/4101969007",
                 ),
             ],
         ),
