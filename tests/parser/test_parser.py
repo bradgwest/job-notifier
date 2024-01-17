@@ -101,12 +101,12 @@ def test_org_parsers(page_reader: parser.PageReader):
             parser.AffirmParser(page_reader),
             [
                 Job(
-                    "Senior Software Engineer (Infrastructure Platform)",
-                    "https://boards.greenhouse.io/affirm/jobs/5706497003",
+                    "Senior Machine Learning Engineer (ML Fraud)",
+                    "https://boards.greenhouse.io/affirm/jobs/5798895003",
                 ),
                 Job(
-                    "Senior Software Engineer, Backend (ML Data)",
-                    "https://boards.greenhouse.io/affirm/jobs/5761151003",
+                    "Senior Software Engineer, Backend (Fraud Decisioning)",
+                    "https://boards.greenhouse.io/affirm/jobs/5807963003",
                 ),
             ],
         ),

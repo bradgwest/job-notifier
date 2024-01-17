@@ -1,836 +1,3067 @@
-<!DOCTYPE html>
-<html lang="en">
-<head prefix="og: http://ogp.me/ns#">
-<script type="text/javascript">var _rollbarConfig = {"accessToken":"a9e544e2eb674f56b12d47e1d2ed4cd1","captureUncaught":true,"payload":{"environment":"production"},"hostBlockList":["linkedin.com","recruitics.com"],"checkIgnore":function(isUncaught, args, payload) {
-  try {
-    var isPhantomJS = window.navigator.userAgent.match(/phantomjs/i);
-    var isSplash= window.navigator.userAgent.match(/splash version/i);
-    var firefox = window.navigator.userAgent.match(/(firefox)\/(\w+)/i); // JSON, must escape slash
-    var chrome = window.navigator.userAgent.match(/(chrome)\/(\w+)/i); // JSON, must escape slash
-
-    var browserExtensionOrAutomationFile = function(frame) {
-      var regExPatterns = [/^chrome-extension/, /^safari-extension/, /^moz-extension/, /^pptr/];
-      return regExPatterns.some(function(regEx) {
-        return regEx.test(frame.filename);
-      });
+{
+  "jobs": [
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5814122003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4877484003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Risk",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5814122003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101281",
+      "title": "Analyst II, Credit Risk "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5814120003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4877484003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Risk",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5814120003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101281",
+      "title": "Analyst II, Credit Risk "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5814140003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4877493003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Growth Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5814140003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101316",
+      "title": "Analytics Lead, Growth Analytics (Consumer Servicing) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5803286003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4873520003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5803286003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101243",
+      "title": "Business Development Associate"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5754347003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4855074003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5754347003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101168",
+      "title": "Business Operations Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5723109003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4842352003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Revenue",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5723109003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101066",
+      "title": "Client Success Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5848392003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4870305003,
+      "location": {
+        "name": "San Francisco, California, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Marketing",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5848392003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101259",
+      "title": "Communications Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5794662003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4870305003,
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Marketing",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5794662003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101259",
+      "title": "Communications Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5849501003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4863622003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5849501003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101238",
+      "title": "Content Designer II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5777559003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4863622003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5777559003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101238",
+      "title": "Content Designer II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5839701003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4888241003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5839701003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101421",
+      "title": "Copywriting Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5839703003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4888241003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5839703003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101421",
+      "title": "Copywriting Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5771059003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4861241003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5771059003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101235",
+      "title": "Director, Accounting (Revenue & Loan)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5771057003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4861241003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5771057003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101235",
+      "title": "Director, Accounting (Revenue & Loan)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5790173003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4868610003,
+      "location": {
+        "name": "Remote London"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5790173003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101268",
+      "title": "Director, Compliance (UK)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833975003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886217003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833975003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101344",
+      "title": "Financial Partnerships Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833977003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886217003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833977003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101344",
+      "title": "Financial Partnerships Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833973003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886216003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833973003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101345",
+      "title": "Financial Partnerships Specialist II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833971003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886216003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833971003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101345",
+      "title": "Financial Partnerships Specialist II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5783082003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4863730003,
+      "location": {
+        "name": "Chicago, Illinois, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5783082003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101233",
+      "title": "Key Accounts Account Executive II, Retail"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5777841003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4863730003,
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5777841003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101233",
+      "title": "Key Accounts Account Executive II, Retail"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5847775003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4891695003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Sales",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5847775003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101442",
+      "title": "Key Accounts Account Executive II, Travel"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5818744003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4879426003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5818744003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101336",
+      "title": "Machine Learning Engineer I, ML (Anywhere ML)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5834904003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886596003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5834904003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101395",
+      "title": "Manager, Machine Learning Engineering"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5754337003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4855072003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5754337003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101186",
+      "title": "Manager, Software Engineering (Partner Interfaces)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5820586003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880205003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Revenue",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5820586003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101324",
+      "title": "Marketplace Account Management Lead"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5799046003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4872049003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "People",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5799046003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101283",
+      "title": "People Operations Specialist II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5826513003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4883100003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5826513003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101389",
+      "title": "Product Designer II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5826511003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4883100003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5826511003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101389",
+      "title": "Product Designer II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5849921003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4892547003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5849921003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101412",
+      "title": "Product Manager II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5839705003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4888242003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5839705003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101422",
+      "title": "Product Marketing Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5839707003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4888242003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5839707003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101422",
+      "title": "Product Marketing Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5821714003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880798003,
+      "location": {
+        "name": "San Francisco, California, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5821714003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101340",
+      "title": "Program Manager (Travel & Expenses)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5821716003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880798003,
+      "location": {
+        "name": "San Francisco, California, United States"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5821716003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101340",
+      "title": "Program Manager (Travel & Expenses)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5842247003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4889354003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Capital",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5842247003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101433",
+      "title": "Quantitative Analyst"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5842249003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4889354003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Capital",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5842249003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101433",
+      "title": "Quantitative Analyst "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5759897003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4857200003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Revenue",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5759897003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101172",
+      "title": "Senior Analyst, Revenue Intelligence "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5832316003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4885454003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5832316003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101328",
+      "title": "Senior Brand Designer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5821652003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880771003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5821652003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101353",
+      "title": "Senior Counsel, Privacy"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5755424003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4855431003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Growth Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5755424003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101169",
+      "title": "Senior Growth Analyst (Core Analytics)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5710513003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4837166003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Growth Analytics",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5710513003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR100994",
+      "title": "Senior Growth Analyst (Ops Analytics)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5827830003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4883715003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5827830003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101318",
+      "title": "Senior Legal Project Manager I"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5798895003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4871999003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5798895003,
+      "updated_at": "2024-01-17T10:03:31-05:00",
+      "requisition_id": "JR101270",
+      "title": "Senior Machine Learning Engineer (ML Fraud)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5853568003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4871999003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5853568003,
+      "updated_at": "2024-01-17T10:03:31-05:00",
+      "requisition_id": "JR101270",
+      "title": "Senior Machine Learning Engineer (ML Fraud)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5825352003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4882583003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5825352003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101249",
+      "title": "Senior Manager, Product Marketing"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5825350003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4882583003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5825350003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101249",
+      "title": "Senior Manager, Product Marketing"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833743003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886109003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833743003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101413",
+      "title": "Senior Product Manager, Consumer Payments"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5833741003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4886109003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5833741003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101413",
+      "title": "Senior Product Manager, Consumer Payments"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5816990003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4878707003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5816990003,
+      "updated_at": "2024-01-16T13:52:42-05:00",
+      "requisition_id": "JR101349",
+      "title": "Senior SFMC Solution Architect"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5855410003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4894912003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5855410003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101465",
+      "title": "Senior Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5818750003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4879428003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5818750003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101339",
+      "title": "Senior Software Engineer, Backend (Capital Orchestration)   "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5807963003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4875268003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5807963003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101317",
+      "title": "Senior Software Engineer, Backend (Fraud Decisioning)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5807965003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4875268003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5807965003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101317",
+      "title": "Senior Software Engineer, Backend (Fraud Decisioning)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5828238003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4883923003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5828238003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101396",
+      "title": "Senior Software Engineer, Backend (Pay Now & Card)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5857467003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4848215003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5857467003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101130",
+      "title": "Senior Software Engineer, Backend (Repayment UX)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5737034003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4848215003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5737034003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101130",
+      "title": "Senior Software Engineer, Backend (Repayment UX)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5850199003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4892677003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5850199003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101438",
+      "title": "Senior Software Engineer (Compute)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5762525003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4858252003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5762525003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101205",
+      "title": "Senior Software Engineer, Financial Platforms (Backend) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5762527003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4858252003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5762527003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101205",
+      "title": "Senior Software Engineer, Financial Platforms (Backend) "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5838911003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4887902003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5838911003,
+      "updated_at": "2024-01-16T13:56:17-05:00",
+      "requisition_id": "JR101426",
+      "title": "Senior Software Engineer, Fullstack (Consumer Pricing)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5855004003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4891384003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5855004003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101409",
+      "title": "Senior Software Engineer (Infrastructure platform)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5847096003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4891384003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5847096003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101409",
+      "title": "Senior Software Engineer (Infrastructure Platform)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5825409003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4882617003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5825409003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101375",
+      "title": "Senior Software Engineer (Streaming Infrastructure)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5840060003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4888378003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5840060003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101425",
+      "title": "Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5852399003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4893645003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5852399003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101458",
+      "title": "Software Engineer, Backend (Card & Pay Later)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5807967003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4875269003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5807967003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101308",
+      "title": "Software Engineer, Backend, Financial Platforms"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5821980003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880926003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5821980003,
+      "updated_at": "2024-01-17T09:48:33-05:00",
+      "requisition_id": "JR101141",
+      "title": "Software Engineer, Card Servicing"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5821974003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4880924003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5821974003,
+      "updated_at": "2024-01-17T09:40:06-05:00",
+      "requisition_id": "JR101142",
+      "title": "Software Engineer, Card Servicing"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5794751003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4870349003,
+      "location": {
+        "name": "Madrid, Madrid, Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5794751003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101301",
+      "title": "Software Engineer, Early Career"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5794759003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4870351003,
+      "location": {
+        "name": "Warszawa, Masovian Voivodeship, Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5794759003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101303",
+      "title": "Software Engineer, Early Career"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5855406003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4894911003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5855406003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101464",
+      "title": "Software Engineer II"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5848767003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4892080003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5848767003,
+      "updated_at": "2024-01-16T12:58:59-05:00",
+      "requisition_id": "JR101427",
+      "title": "Software Engineer II, Backend (Capital Orchestration)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5828240003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4883924003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5828240003,
+      "updated_at": "2024-01-16T12:54:04-05:00",
+      "requisition_id": "JR101338",
+      "title": "Software Engineer II, Backend (Checkout)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5842395003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4889436003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5842395003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101378",
+      "title": "Software Engineer I (Repayment UX)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5858684003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4889436003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5858684003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101378",
+      "title": "Software Engineer I (Repayment UX)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5754341003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4855073003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5754341003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101167",
+      "title": "Software Engineer (Loans Platform)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5853701003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4894226003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5853701003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101424",
+      "title": "Staff Software Engineer"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5750221003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4853622003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5750221003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101174",
+      "title": "Staff Software Engineer, Backend (Pay Now & Card)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5625343003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4801027003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5625343003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR100854",
+      "title": "Staff Software Engineer (Data and Storage Services)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5723939003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4801027003,
+      "location": {
+        "name": "Remote Spain"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering (Europe)",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": "Engineering",
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5723939003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR100854",
+      "title": "Staff Software Engineer (Data and Storage Services)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5693631003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4828197003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5693631003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR100904",
+      "title": "Staff Software Engineer, Infrastructure (Online Services)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5850203003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4892678003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5850203003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101436",
+      "title": "Staff Software Engineer (Online Services)"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5801132003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4872602003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5801132003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101319",
+      "title": "Staff Technical Account Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5801130003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4872602003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Engineering",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5801130003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101319",
+      "title": "Staff Technical Account Manager"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5783097003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4865763003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5783097003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101260",
+      "title": "Staff User Researcher"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5783099003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4865763003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Product",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5783099003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101260",
+      "title": "Staff User Researcher"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5777627003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4863651003,
+      "location": {
+        "name": "Remote Poland"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Finance",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5777627003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101201",
+      "title": "Strategic Finance Analyst "
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5806320003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4874571003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5806320003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101320",
+      "title": "Third Party Risk Management Specialist"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5806318003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4874571003,
+      "location": {
+        "name": "Remote US"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Legal",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5806318003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101320",
+      "title": "Third Party Risk Management Specialist"
+    },
+    {
+      "absolute_url": "https://boards.greenhouse.io/affirm/jobs/5772673003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "requires_processing_consent": false,
+          "requires_retention_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 4861883003,
+      "location": {
+        "name": "Remote Canada"
+      },
+      "metadata": [
+        {
+          "id": 4128552003,
+          "name": "External Department",
+          "value": "Capital",
+          "value_type": "single_select"
+        },
+        {
+          "id": 4138706003,
+          "name": "External Team Name (DO NOT USE)",
+          "value": null,
+          "value_type": "single_select"
+        }
+      ],
+      "id": 5772673003,
+      "updated_at": "2024-01-16T11:43:21-05:00",
+      "requisition_id": "JR101196",
+      "title": "Treasury Operations Analyst I"
     }
-
-    var isBrowserExtensionOrAutomation = payload.body.trace &&
-                                         payload.body.trace.frames &&
-                                         payload.body.trace.frames.some(browserExtensionOrAutomationFile);
-
-    var isFirefoxLessThan50;
-    if (firefox) {
-      var majorVersion = Number(firefox[2]);
-      isFirefoxLessThan50 = majorVersion < 50
-    }
-
-    var isChromeLessThan50;
-    if (chrome) {
-      var chromeVersion = Number(chrome[2]);
-      isChromeLessThan50 = chromeVersion < 50;
-    }
-
-    return Boolean(isPhantomJS) ||
-           Boolean(isSplash) ||
-           Boolean(isFirefoxLessThan50) ||
-           Boolean(isChromeLessThan50) ||
-           Boolean(isBrowserExtensionOrAutomation);
-  } catch (e) {
-    return true;
+  ],
+  "meta": {
+    "total": 90
   }
 }
-,"ignoredMessages":["BetterJsPop","vungle","Script error","awliwidget"]};</script>
-<script type="text/javascript">!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.22.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
-  <title>Jobs at Affirm</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0" />
-  <meta id="rendered-by" content="jben" />
-  <link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/application-37fb77937add45f47b8aa211c6e36baf590f4e1ddea883f7fa2967cb913854f4.css" />
-<link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css" />
-  
-  
-    <meta property="og:title" content="Affirm"></meta>
-    <meta property="og:description" content="At Affirm, we believe that the financial industry works better for everyone when it’s fair, honest, and inclusive. We help people pay over time for almost anything—with no late fees or surprises. Through advanced technology and analytics that look beyond FICO, we’re able to serve a much broader population than other lenders."></meta>
-    <meta property="og:url" content="https://boards.greenhouse.io/affirm"></meta>
-    <meta property="og:type" content="article"></meta>
-      <meta property="og:image" content="https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/119/500/original/Instagram_Profile.jpg?1621444255"></meta>
-
-</head>
-<body>
-  <div id="wrapper">
-    <div id="main" class="accessible">
-      
-<div id="flash_wrapper">
-</div>
-
-
-<div id="logo"><a target="_blank" href="https://www.affirm.com/careers"><img alt="Affirm Logo" src="https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/119/500/resized/Instagram_Profile.jpg?1621444255" width="75" height="75" /></a></div>
-
-  <h1>Affirm</h1>
-
-  <div id="content">
-    <p><span style="font-weight: 400;">At Affirm, we believe that the financial industry works better for everyone when it’s fair, honest, and inclusive. We help people pay over time for almost anything—with no late fees or surprises. Through advanced technology and analytics that look beyond FICO, we’re able to serve a much broader population than other lenders.</span></p>
-  </div>
-
-    <h2 id="board_title">Current Job Openings</h2>
-
-    <div class="filter-container">
-      <label class="filter-label" for="departments-select">Department</label>
-
-    <select name="departments-select" id="departments-select">
-      <option value="">All Departments</option>
-      
-
-<option value="4037983003">
-  Affirm
-</option>
-
-
-<option value="4005044003">
-  &#160;&#160;Engineering
-</option>
-
-
-<option value="4035726003">
-  &#160;&#160;&#160;&#160;Consumer
-</option>
-
-
-
-<option value="4057211003">
-  &#160;&#160;&#160;&#160;Decisions Foundations
-</option>
-
-
-
-<option value="4057212003">
-  &#160;&#160;&#160;&#160;Financial Platforms - Engineering
-</option>
-
-
-
-<option value="4041949003">
-  &#160;&#160;&#160;&#160;Infrastructure Platform Eng
-</option>
-
-
-
-<option value="4057213003">
-  &#160;&#160;&#160;&#160;Network Growth
-</option>
-
-
-
-<option value="4057215003">
-  &#160;&#160;&#160;&#160;Trust &amp; Safety
-</option>
-
-
-
-
-<option value="4005046003">
-  &#160;&#160;Finance
-</option>
-
-
-<option value="4005057003">
-  &#160;&#160;&#160;&#160;Accounting
-</option>
-
-
-
-<option value="4005059003">
-  &#160;&#160;&#160;&#160;Capital
-</option>
-
-
-
-<option value="4005061003">
-  &#160;&#160;&#160;&#160;Strategic Finance
-</option>
-
-
-
-
-<option value="4012099003">
-  &#160;&#160;Growth Analytics
-</option>
-
-
-<option value="4048252003">
-  &#160;&#160;&#160;&#160;GA Analytics
-</option>
-
-
-
-
-<option value="4057206003">
-  &#160;&#160;InfoSec &amp; IT
-</option>
-
-
-<option value="4035727003">
-  &#160;&#160;&#160;&#160;Information Security
-</option>
-
-
-
-
-<option value="4005047003">
-  &#160;&#160;Legal
-</option>
-
-
-<option value="4005039003">
-  &#160;&#160;&#160;&#160;Compliance
-</option>
-
-
-
-<option value="4005067003">
-  &#160;&#160;&#160;&#160;Legal Platform Services
-</option>
-
-
-
-
-<option value="4057336003">
-  &#160;&#160;Marketing
-</option>
-
-
-<option value="4005048003">
-  &#160;&#160;&#160;&#160;US Marketing
-</option>
-
-
-
-
-<option value="4005051003">
-  &#160;&#160;Product
-</option>
-
-
-<option value="4005081003">
-  &#160;&#160;&#160;&#160;Product Management
-</option>
-
-
-
-<option value="4005043003">
-  &#160;&#160;&#160;&#160;User Experience
-</option>
-
-
-
-
-<option value="4052104003">
-  &#160;&#160;Revenue
-</option>
-
-
-<option value="4005037003">
-  &#160;&#160;&#160;&#160;Client Success
-</option>
-
-
-
-<option value="4042785003">
-  &#160;&#160;&#160;&#160;Revenue Operations &amp; Analytics
-</option>
-
-
-
-<option value="4005056003">
-  &#160;&#160;&#160;&#160;Strategic Partnerships
-</option>
-
-
-
-<option value="4005053003">
-  &#160;&#160;&#160;&#160;US Sales
-</option>
-
-
-
-
-<option value="4057207003">
-  &#160;&#160;Tech Ops
-</option>
-
-
-<option value="4052306003">
-  &#160;&#160;&#160;&#160;Program Management
-</option>
-
-
-
-
-    </select>
-  </div>
-
-  <div class="filter-container">
-      <label class="filter-label" for="offices-select">Office</label>
-
-    <select name="offices-select" id="offices-select">
-      <option value="">All Offices</option>
-      
-
-<option value="4025301003">
-  Affirm
-</option>
-
-
-<option value="4022513003">
-  &#160;&#160;Remote Canada
-</option>
-
-
-
-<option value="4031888003">
-  &#160;&#160;Remote London
-</option>
-
-
-
-<option value="4027536003">
-  &#160;&#160;Remote Poland
-</option>
-
-
-
-<option value="4026530003">
-  &#160;&#160;Remote Spain
-</option>
-
-
-
-<option value="4013021003">
-  &#160;&#160;Remote US
-</option>
-
-
-
-    </select>
-  </div>
-
-
-
-<div id="filter-count"></div>
-
-  
-
-<section class="level-0">
-  <h3 id="4037983003">Affirm</h3>
-
-  
-  
-
-<section class="child level-1">
-  <h4 id="4005044003">Engineering</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4035726003">Consumer</h5>
-
-  <div class="opening" department_id="4005044003,4035726003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4035726003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5754347003">Business Operations Lead</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4035726003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4035726003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5754345003">Business Operations Lead</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4035726003,4037983003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4005044003="true" data-department-4035726003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5816990003">Senior Salesforce Solution Architect</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4035726003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4035726003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5723200003">Senior Software Engineer, Backend (Consumer) </a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4057211003">Decisions Foundations</h5>
-
-  <div class="opening" department_id="4005044003,4037983003,4057211003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057211003="true">
-  <a data-mapped="true" href="/affirm/jobs/5761151003">Senior Software Engineer, Backend (ML Data)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057211003" office_id="4025301003,4026530003,4025301003,4027536003" data-office-4025301003="true" data-office-4026530003="true" data-office-4027536003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057211003="true">
-  <a data-mapped="true" href="/affirm/jobs/5728787003">Software Engineer, Backend (Deal Reporting)</a>
-  <br/>
-  <span class="location">Remote Spain</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057211003" office_id="4025301003,4026530003,4025301003,4027536003" data-office-4025301003="true" data-office-4026530003="true" data-office-4027536003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057211003="true">
-  <a data-mapped="true" href="/affirm/jobs/5712475003">Software Engineer, Backend (Deal Reporting)</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4057212003">Financial Platforms - Engineering</h5>
-
-  <div class="opening" department_id="4005044003,4037983003,4057212003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057212003="true">
-  <a data-mapped="true" href="/affirm/jobs/5762525003">Senior Software Engineer, Financial Platforms (Backend) </a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057212003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057212003="true">
-  <a data-mapped="true" href="/affirm/jobs/5762527003">Senior Software Engineer, Financial Platforms (Backend) </a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4041949003">Infrastructure Platform Eng</h5>
-
-  <div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5716392003">Senior Manager, Software Engineering, Online Storage (Data and Storage Services)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5716394003">Senior Manager, Software Engineering, Online Storage (Data and Storage Services)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5706497003">Senior Software Engineer (Infrastructure Platform)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5706499003">Senior Software Engineer (Infrastructure Platform)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4026530003" data-office-4025301003="true" data-office-4026530003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5571950003">Senior Software Engineer, SRE (Service Infrastructure) </a>
-  <br/>
-  <span class="location">Remote Spain</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5723939003">Staff Software Engineer (Data and Storage Services)</a>
-  <br/>
-  <span class="location">Remote Spain</span>
-</div><div class="opening" department_id="4005044003,4037983003,4041949003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4041949003="true">
-  <a data-mapped="true" href="/affirm/jobs/5625343003">Staff Software Engineer (Data and Storage Services)</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4057213003">Network Growth</h5>
-
-  <div class="opening" department_id="4005044003,4037983003,4057213003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057213003="true">
-  <a data-mapped="true" href="/affirm/jobs/5772667003">Developer Support Engineer </a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057213003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057213003="true">
-  <a data-mapped="true" href="/affirm/jobs/5750459003">Senior Software Engineer, Backend (Partner Interfaces)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057213003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057213003="true">
-  <a data-mapped="true" href="/affirm/jobs/5722427003">Staff Technical Account Manager</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057213003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057213003="true">
-  <a data-mapped="true" href="/affirm/jobs/5801130003">Staff Technical Account Manager</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057213003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057213003="true">
-  <a data-mapped="true" href="/affirm/jobs/5801132003">Staff Technical Account Manager</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4057215003">Trust &amp; Safety</h5>
-
-  <div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5807963003">Senior Software Engineer, Backend (Fraud Decisioning)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5807965003">Senior Software Engineer, Backend (Fraud Decisioning)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5757184003">Senior Software Engineer, Backend (Trust &amp; Safety)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5699088003">Senior Software Engineer, Backend (Trust &amp; Safety)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5758375003">Staff Software Engineer, Backend (Fraud Decisioning)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005044003,4037983003,4057215003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005044003="true" data-department-4037983003="true" data-department-4057215003="true">
-  <a data-mapped="true" href="/affirm/jobs/5696607003">Staff Software Engineer, Backend (Fraud Decisioning)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4005046003">Finance</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4005057003">Accounting</h5>
-
-  <div class="opening" department_id="4005046003,4005057003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005046003="true" data-department-4005057003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5771059003">Director, Accounting (Revenue &amp; Loan)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005046003,4005057003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005046003="true" data-department-4005057003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5771057003">Director, Accounting (Revenue &amp; Loan)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005059003">Capital</h5>
-
-  <div class="opening" department_id="4005046003,4005059003,4037983003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4005046003="true" data-department-4005059003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5772673003">Treasury Operations Analyst I</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005061003">Strategic Finance</h5>
-
-  <div class="opening" department_id="4005046003,4005061003,4037983003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4005046003="true" data-department-4005061003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5777627003">Strategic Finance Analyst </a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div><div class="opening" department_id="4005046003,4005061003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005046003="true" data-department-4005061003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5771065003">Strategic Finance Lead</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005046003,4005061003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005046003="true" data-department-4005061003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5771063003">Strategic Finance Lead</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005046003,4005061003,4037983003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4005046003="true" data-department-4005061003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5755645003">Strategic Financial Analyst (Fin. Business Partner)</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4012099003">Growth Analytics</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4048252003">GA Analytics</h5>
-
-  <div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5765597003">Analyst I, Full Stack</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5710513003">Analyst II, Full Stack</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5814140003">Analytics Lead, Full Stack</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5775066003">Analytics Lead, Full Stack (Card &amp; Consumer Banking)</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5775068003">Analytics Lead, Full Stack (Card &amp; Consumer Banking) </a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4012099003,4037983003,4048252003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4012099003="true" data-department-4037983003="true" data-department-4048252003="true">
-  <a data-mapped="true" href="/affirm/jobs/5755424003">Sr Growth Analyst</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4057206003">InfoSec &amp; IT</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4035727003">Information Security</h5>
-
-  <div class="opening" department_id="4035727003,4037983003,4057206003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4035727003="true" data-department-4037983003="true" data-department-4057206003="true">
-  <a data-mapped="true" href="/affirm/jobs/5752731003">Senior Security Engineer</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div><div class="opening" department_id="4035727003,4037983003,4057206003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4035727003="true" data-department-4037983003="true" data-department-4057206003="true">
-  <a data-mapped="true" href="/affirm/jobs/5734084003">Senior Staff Security Engineer</a>
-  <br/>
-  <span class="location">Remote Spain</span>
-</div><div class="opening" department_id="4035727003,4037983003,4057206003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4035727003="true" data-department-4037983003="true" data-department-4057206003="true">
-  <a data-mapped="true" href="/affirm/jobs/5734086003">Senior Staff Security Engineer</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4005047003">Legal</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4005039003">Compliance</h5>
-
-  <div class="opening" department_id="4005039003,4005047003,4037983003" office_id="4025301003,4031888003" data-office-4025301003="true" data-office-4031888003="true" data-department-4005039003="true" data-department-4005047003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5790173003">Director, Compliance (UK)</a>
-  <br/>
-  <span class="location">Remote London</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005067003">Legal Platform Services</h5>
-
-  <div class="opening" department_id="4005047003,4005067003,4037983003" office_id="4025301003,4013021003,4025301003,4022513003" data-office-4025301003="true" data-office-4013021003="true" data-office-4022513003="true" data-department-4005047003="true" data-department-4005067003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5780498003">Contract Management Specialist II</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005047003,4005067003,4037983003" office_id="4025301003,4013021003,4025301003,4022513003" data-office-4025301003="true" data-office-4013021003="true" data-office-4022513003="true" data-department-4005047003="true" data-department-4005067003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5780496003">Contract Management Specialist II</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4057336003">Marketing</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4005048003">US Marketing</h5>
-
-  <div class="opening" department_id="4005048003,4037983003,4057336003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005048003="true" data-department-4037983003="true" data-department-4057336003="true">
-  <a data-mapped="true" href="/affirm/jobs/5818200003">Brand Creative Project Manager</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005048003,4037983003,4057336003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005048003="true" data-department-4037983003="true" data-department-4057336003="true">
-  <a data-mapped="true" href="/affirm/jobs/5818202003">Brand Creative Project Manager</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005048003,4037983003,4057336003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005048003="true" data-department-4037983003="true" data-department-4057336003="true">
-  <a data-mapped="true" href="/affirm/jobs/5794662003">Communications Manager</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4005051003">Product</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4005081003">Product Management</h5>
-
-  <div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5777329003">Senior Product Manager, Checkout Growth</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5777331003">Senior Product Manager, Checkout Growth</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5798811003">Senior Product Manager, Identity</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5798813003">Senior Product Manager, Identity</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5803484003">Senior Product Manager, Network Growth</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5803482003">Senior Product Manager, Network Growth </a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5737936003">Staff Product Manager, Network Growth</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005051003,4005081003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005051003="true" data-department-4005081003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5695324003">Staff Product Manager, Network Growth</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005043003">User Experience</h5>
-
-  <div class="opening" department_id="4005043003,4005051003,4037983003" office_id="4025301003,4022513003" data-office-4025301003="true" data-office-4022513003="true" data-department-4005043003="true" data-department-4005051003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5777559003">Content Designer II</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4005043003,4005051003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005043003="true" data-department-4005051003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5783097003">Staff User Researcher</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div><div class="opening" department_id="4005043003,4005051003,4037983003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005043003="true" data-department-4005051003="true" data-department-4037983003="true">
-  <a data-mapped="true" href="/affirm/jobs/5783099003">Staff User Researcher</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4052104003">Revenue</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4005037003">Client Success</h5>
-
-  <div class="opening" department_id="4005037003,4037983003,4052104003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005037003="true" data-department-4037983003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5723109003">Client Success Lead</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4042785003">Revenue Operations &amp; Analytics</h5>
-
-  <div class="opening" department_id="4037983003,4042785003,4052104003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4037983003="true" data-department-4042785003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5759903003">Salesforce Developer, Business Systems</a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div><div class="opening" department_id="4037983003,4042785003,4052104003" office_id="4025301003,4027536003" data-office-4025301003="true" data-office-4027536003="true" data-department-4037983003="true" data-department-4042785003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5759897003">Senior Analyst, Revenue Intelligence </a>
-  <br/>
-  <span class="location">Remote Poland</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005056003">Strategic Partnerships</h5>
-
-  <div class="opening" department_id="4005056003,4037983003,4052104003" office_id="4025301003,4022513003,4025301003,4013021003" data-office-4025301003="true" data-office-4022513003="true" data-office-4013021003="true" data-department-4005056003="true" data-department-4037983003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5729077003">Partner Sales Account Executive</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-
-<section class="child level-2">
-  <h5 id="4005053003">US Sales</h5>
-
-  <div class="opening" department_id="4005053003,4037983003,4052104003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005053003="true" data-department-4037983003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5777841003">Enterprise Account Executive II</a>
-  <br/>
-  <span class="location">New York, New York, United States</span>
-</div><div class="opening" department_id="4005053003,4037983003,4052104003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005053003="true" data-department-4037983003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5783082003">Enterprise Account Executive II</a>
-  <br/>
-  <span class="location">Chicago, Illinois, United States</span>
-</div><div class="opening" department_id="4005053003,4037983003,4052104003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4005053003="true" data-department-4037983003="true" data-department-4052104003="true">
-  <a data-mapped="true" href="/affirm/jobs/5803282003">SMB Account Executive I</a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-</section>
-
-<section class="child level-1">
-  <h4 id="4057207003">Tech Ops</h4>
-
-  
-  
-
-<section class="child level-2">
-  <h5 id="4052306003">Program Management</h5>
-
-  <div class="opening" department_id="4037983003,4052306003,4057207003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4037983003="true" data-department-4052306003="true" data-department-4057207003="true">
-  <a data-mapped="true" href="/affirm/jobs/5752180003">Senior Technical Program Manager (Capital)</a>
-  <br/>
-  <span class="location">Remote Canada</span>
-</div><div class="opening" department_id="4037983003,4052306003,4057207003" office_id="4025301003,4013021003" data-office-4025301003="true" data-office-4013021003="true" data-department-4037983003="true" data-department-4052306003="true" data-department-4057207003="true">
-  <a data-mapped="true" href="/affirm/jobs/5752178003">Senior Technical Program Manager (Capital) </a>
-  <br/>
-  <span class="location">Remote US</span>
-</div>
-  
-</section>
-</section>
-</section>
-  
-
-
-
-    </div>
-  </div>
-
-      <div id="footer">
-    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
-      <img border="0" alt="Greenhouse Logo" id="gh_logo" src="https://boards.cdn.greenhouse.io/assets/greenhouse-in-app-logo-green-236d994ee39682bb46e214901c264de0df582c97e949e7c854c3531b79f00240.svg" width="100" height="30" />
-</a>    <div class="privacy-policy">
-      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
-    </div>
-  </div>
-
-      <script src="https://boards.cdn.greenhouse.io/assets/application-117d8e9638784cef2f4c8e04346a031023417010284e5f30cb9346d58dcaac54.js"></script>
-
-  <script src="https://boards.cdn.greenhouse.io/assets/index_init-b257fc242bdcd2b7d88beddbb8bbb8b171d1e40ebf2de22fd9f149d3bcfd82c2.js"></script>  
-
-  </body>
-</html>

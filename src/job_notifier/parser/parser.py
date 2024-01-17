@@ -60,15 +60,14 @@ class AffirmParser(Parser):
 
     @property
     def url(self) -> str:
-        return "https://boards.greenhouse.io/affirm"
+        return "https://api.greenhouse.io/v1/boards/affirm/jobs"
 
     def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
-        domain = "https://boards.greenhouse.io"
+        d = json.loads(content)
         return False, [
-            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
-            for listing in soup.find_all("div", class_="opening")
-            if "Remote US" in listing.span.text.strip()
+            Job(title=job["title"].strip(), url=job["absolute_url"])
+            for job in d["jobs"]
+            if "Remote US" in job["location"]["name"]
         ]
 
 
