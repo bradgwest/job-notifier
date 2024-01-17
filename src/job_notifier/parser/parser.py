@@ -1,5 +1,5 @@
 import json
-from typing import Callable, List, Tuple
+from typing import Any, Callable, Dict, List, Tuple
 
 import requests
 from bs4 import BeautifulSoup
@@ -53,7 +53,23 @@ class Parser:
         raise NotImplementedError
 
 
-class AffirmParser(Parser):
+class GreenhouseAPIParser(Parser):
+    def _parse(self, content: str) -> PageData:
+        d = json.loads(content)
+        return False, [
+            Job(
+                title=job["title"].strip(),
+                url=job["absolute_url"],
+            )
+            for job in d["jobs"]
+            if self._match(job)
+        ]
+
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return True
+
+
+class AffirmParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "affirm"
@@ -62,13 +78,8 @@ class AffirmParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/affirm/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if "Remote US" in job["location"]["name"]
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote US" in job["location"]["name"]
 
 
 class AirbnbParser(Parser):
