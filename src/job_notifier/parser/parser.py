@@ -73,6 +73,11 @@ class GreenhouseAPIParser(Parser):
         return True
 
 
+# todo
+class WorkdayAPIParser(Parser):
+    pass
+
+
 class AffirmParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
@@ -357,10 +362,6 @@ class StitchfixParser(GreenhouseAPIParser):
     def org(self) -> str:
         return "stitchfix"
 
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/stitchfix/jobs"
-
     def _match(self, job: Dict[str, Any]) -> bool:
         return job["location"]["name"] == "Remote, USA"
 
@@ -390,10 +391,6 @@ class TwilioParser(GreenhouseAPIParser):
     def org(self) -> str:
         return "twilio"
 
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/twilio/jobs"
-
     def _match(self, job: Dict[str, Any]) -> bool:
         return job["location"]["name"] == "Remote - US"
 
@@ -402,10 +399,6 @@ class UpstartParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "upstart"
-
-    @property
-    def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/upstart/jobs"
 
     def _match(self, job: Dict[str, Any]) -> bool:
         return job["location"]["name"] == "United States | Remote"
