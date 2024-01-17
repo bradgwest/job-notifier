@@ -82,7 +82,7 @@ class AffirmParser(GreenhouseAPIParser):
         return "Remote US" in job["location"]["name"]
 
 
-class AirbnbParser(Parser):
+class AirbnbParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "airbnb"
@@ -90,16 +90,6 @@ class AirbnbParser(Parser):
     @property
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/airbnb/jobs"
-
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(
-                title=job["title"].strip(),
-                url=job["absolute_url"],
-            )
-            for job in d["jobs"]
-        ]
 
 
 class AirtableParser(Parser):
@@ -120,7 +110,7 @@ class AirtableParser(Parser):
         ]
 
 
-class ChanzuckerberginitiativeParser(Parser):
+class ChanzuckerberginitiativeParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "chanzuckerberginitiative"
@@ -129,13 +119,8 @@ class ChanzuckerberginitiativeParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/chanzuckerberginitiative/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if "Remote" in job["location"]["name"]
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote" in job["location"]["name"]
 
 
 class CloudflareParser(Parser):
@@ -166,7 +151,7 @@ class CloudflareParser(Parser):
         return False, jobs
 
 
-class DiscordParser(Parser):
+class DiscordParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "discord"
@@ -175,13 +160,8 @@ class DiscordParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/discord/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if "Remote" in job["location"]["name"]
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote" in job["location"]["name"]
 
 
 class ElasticParser(Parser):
@@ -206,7 +186,7 @@ class ElasticParser(Parser):
         ]
 
 
-class FigmaParser(Parser):
+class FigmaParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "figma"
@@ -215,16 +195,11 @@ class FigmaParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/figma/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if "United States" in job["location"]["name"]
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "United States" in job["location"]["name"]
 
 
-class LaceworkParser(Parser):
+class LaceworkParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "lacework"
@@ -233,32 +208,24 @@ class LaceworkParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/lacework/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if job["location"]["name"] == "Remote - US"
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return (
+            job["location"]["name"] == "Remote - US"
             or job["location"]["name"] == "United States"
-        ]
+        )
 
 
-class MongodbParser(Parser):
+class MongodbParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "mongodb"
 
     @property
     def url(self) -> str:
-        return "https://api.greenhouse.io/v1/boards/mongodb/jobs?content=true"
+        return "https://api.greenhouse.io/v1/boards/mongodb/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if "Remote North America" in job["location"]["name"]
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote North America" in job["location"]["name"]
 
 
 class NetflixParser(Parser):
@@ -460,7 +427,7 @@ class SquareParser(Parser):
         ]
 
 
-class StitchfixParser(Parser):
+class StitchfixParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "stitchfix"
@@ -469,13 +436,8 @@ class StitchfixParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/stitchfix/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if job["location"]["name"] == "Remote, USA"
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return job["location"]["name"] == "Remote, USA"
 
 
 class StripeParser(Parser):
@@ -498,7 +460,7 @@ class StripeParser(Parser):
         ]
 
 
-class TwilioParser(Parser):
+class TwilioParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "twilio"
@@ -507,16 +469,11 @@ class TwilioParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/twilio/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if job["location"]["name"] == "Remote - US"
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return job["location"]["name"] == "Remote - US"
 
 
-class UpstartParser(Parser):
+class UpstartParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "upstart"
@@ -525,13 +482,8 @@ class UpstartParser(Parser):
     def url(self) -> str:
         return "https://api.greenhouse.io/v1/boards/upstart/jobs"
 
-    def _parse(self, content: str) -> PageData:
-        d = json.loads(content)
-        return False, [
-            Job(title=job["title"].strip(), url=job["absolute_url"])
-            for job in d["jobs"]
-            if job["location"]["name"] == "United States | Remote"
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return job["location"]["name"] == "United States | Remote"
 
 
 class VectaraParser(Parser):
