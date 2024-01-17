@@ -259,23 +259,13 @@ class RampParser(Parser):
         ]
 
 
-class RedditParser(Parser):
+class RedditParser(GreenhouseAPIParser):
     @property
     def org(self) -> str:
         return "reddit"
 
-    @property
-    def url(self) -> str:
-        return "https://boards.greenhouse.io/reddit"
-
-    def _parse(self, content: str) -> PageData:
-        soup = BeautifulSoup(content, "lxml")
-        domain = "https://boards.greenhouse.io"
-        return False, [
-            Job(title=listing.a.text.strip(), url=f'{domain}{listing.a["href"]}')
-            for listing in soup.find_all("div", class_="opening")
-            if "Remote - United States" in listing.span.text.strip()
-        ]
+    def _match(self, job: Dict[str, Any]) -> bool:
+        return "Remote - United States" == job["location"]["name"]
 
 
 class PintrestParser(Parser):
