@@ -42,7 +42,7 @@ PARSERS = {
     "mongodb": parser.MongodbParser,
     "netflix": parser.NetflixParser,
     "nvidia": parser.NvidiaParser,
-    # "pintrest": parser.PintrestParser,
+    "pintrest": parser.PintrestParser,
     "ramp": parser.RampParser,
     "reddit": parser.RedditParser,
     "slack": parser.SlackParser,

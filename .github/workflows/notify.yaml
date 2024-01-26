@@ -4,7 +4,15 @@ name: notify
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 14,19,23 * * 1-5" # 7:15am, 12:15am, 4:15pm MT on every day-of-week from Monday through Friday.
+    - cron: "15 23 * * 1-5" # 4:15pm MT on every day-of-week from Monday through Friday.
+
+env:
+  COMPANIES: >-
+    airbnb
+    airtable
+    chanzuckerberginitiative
+    discord
+    netflix
 
 jobs:
   notify:
@@ -33,6 +41,7 @@ jobs:
             --local-storage-path ${{ env.LOCAL_STORAGE_PATH }}
             --notifier-backend GithubStepSummaryNotifier
             --github-user ${{ github.event_name == 'workflow_dispatch' && github.actor || github.repository_owner }}
+            --companies ${{ env.COMPANIES }}
         timeout-minutes: 10
 
       - name: Upload Artifacts
